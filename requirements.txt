@@ -1,0 +1,8 @@
+jupyterlab
+notebook
+pandas
+plotly
+streamlit
+numpy
+scikit-learn
+requests 

@@ -1,0 +1,3085 @@
+year_month,vulnerability_type,report_count,bounty_count,organization_count,bounty_percentage
+2011-07,,1,0,1,0.0
+2011-12,,1,0,1,0.0
+2013-10,,1,0,1,0.0
+2013-11,,7,5,3,71.43
+2013-11,Uncontrolled Resource Consumption,2,2,1,100.0
+2013-11,Violation of Secure Design Principles,2,1,1,50.0
+2013-11,Code Injection,1,1,1,100.0
+2013-11,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2013-11,Information Disclosure,1,0,1,0.0
+2013-12,,4,4,2,100.0
+2014-01,Cross-Site Request Forgery (CSRF),4,4,2,100.0
+2014-01,Improper Authentication - Generic,2,2,2,100.0
+2014-01,Violation of Secure Design Principles,2,1,1,50.0
+2014-01,,1,1,1,100.0
+2014-01,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2014-02,Cross-site Scripting (XSS) - Generic,10,6,3,60.0
+2014-02,Information Disclosure,7,3,4,42.86
+2014-02,,5,2,3,40.0
+2014-02,Violation of Secure Design Principles,4,3,3,75.0
+2014-02,Cryptographic Issues - Generic,3,1,2,33.33
+2014-02,Improper Authentication - Generic,3,2,2,66.67
+2014-02,Open Redirect,3,0,2,0.0
+2014-02,Cross-Site Request Forgery (CSRF),2,1,2,50.0
+2014-02,UI Redressing (Clickjacking),2,0,1,0.0
+2014-02,Code Injection,1,0,1,0.0
+2014-02,Command Injection - Generic,1,1,1,100.0
+2014-02,Memory Corruption - Generic,1,1,1,100.0
+2014-02,SQL Injection,1,1,1,100.0
+2014-03,Cross-site Scripting (XSS) - Generic,15,5,7,33.33
+2014-03,Violation of Secure Design Principles,9,3,4,33.33
+2014-03,,8,6,4,75.0
+2014-03,Information Disclosure,7,3,5,42.86
+2014-03,Improper Authentication - Generic,6,1,4,16.67
+2014-03,Open Redirect,6,3,4,50.0
+2014-03,Cross-Site Request Forgery (CSRF),5,2,2,40.0
+2014-03,Cryptographic Issues - Generic,3,2,3,66.67
+2014-03,UI Redressing (Clickjacking),2,0,1,0.0
+2014-03,Code Injection,1,1,1,100.0
+2014-03,Command Injection - Generic,1,1,1,100.0
+2014-03,SQL Injection,1,1,1,100.0
+2014-04,Cross-site Scripting (XSS) - Generic,33,8,11,24.24
+2014-04,Information Disclosure,30,2,9,6.67
+2014-04,Cross-Site Request Forgery (CSRF),26,7,8,26.92
+2014-04,Violation of Secure Design Principles,25,11,11,44.0
+2014-04,,12,5,10,41.67
+2014-04,Improper Authentication - Generic,8,3,4,37.5
+2014-04,Cryptographic Issues - Generic,5,1,4,20.0
+2014-04,Open Redirect,4,1,3,25.0
+2014-04,SQL Injection,4,4,1,100.0
+2014-04,UI Redressing (Clickjacking),4,1,3,25.0
+2014-04,Uncontrolled Resource Consumption,4,1,3,25.0
+2014-04,Memory Corruption - Generic,2,0,1,0.0
+2014-04,Code Injection,1,1,1,100.0
+2014-04,Command Injection - Generic,1,0,1,0.0
+2014-04,Privilege Escalation,1,0,1,0.0
+2014-05,Cross-site Scripting (XSS) - Generic,20,5,8,25.0
+2014-05,Violation of Secure Design Principles,14,1,10,7.14
+2014-05,Information Disclosure,7,1,6,14.29
+2014-05,Improper Authentication - Generic,6,2,4,33.33
+2014-05,,5,3,3,60.0
+2014-05,Cross-Site Request Forgery (CSRF),4,1,4,25.0
+2014-05,Cryptographic Issues - Generic,4,0,4,0.0
+2014-05,Open Redirect,3,0,2,0.0
+2014-05,Code Injection,2,0,2,0.0
+2014-05,Command Injection - Generic,2,2,2,100.0
+2014-05,UI Redressing (Clickjacking),2,0,2,0.0
+2014-05,Uncontrolled Resource Consumption,2,1,2,50.0
+2014-05,Memory Corruption - Generic,1,0,1,0.0
+2014-05,Privilege Escalation,1,1,1,100.0
+2014-06,,13,3,8,23.08
+2014-06,Violation of Secure Design Principles,10,4,7,40.0
+2014-06,Information Disclosure,8,2,7,25.0
+2014-06,Cross-site Scripting (XSS) - Generic,7,1,5,14.29
+2014-06,Improper Authentication - Generic,7,3,5,42.86
+2014-06,Cross-Site Request Forgery (CSRF),6,2,4,33.33
+2014-06,Command Injection - Generic,2,0,2,0.0
+2014-06,Open Redirect,2,1,2,50.0
+2014-06,Privilege Escalation,2,2,1,100.0
+2014-06,SQL Injection,2,1,2,50.0
+2014-06,UI Redressing (Clickjacking),2,1,2,50.0
+2014-06,Cryptographic Issues - Generic,1,0,1,0.0
+2014-06,Memory Corruption - Generic,1,1,1,100.0
+2014-07,Cross-site Scripting (XSS) - Generic,8,3,7,37.5
+2014-07,,6,3,4,50.0
+2014-07,Cryptographic Issues - Generic,5,1,4,20.0
+2014-07,Information Disclosure,5,1,4,20.0
+2014-07,Memory Corruption - Generic,3,2,3,66.67
+2014-07,Cross-Site Request Forgery (CSRF),2,2,2,100.0
+2014-07,Improper Authentication - Generic,2,0,1,0.0
+2014-07,Violation of Secure Design Principles,2,1,2,50.0
+2014-07,SQL Injection,1,0,1,0.0
+2014-07,UI Redressing (Clickjacking),1,1,1,100.0
+2014-07,Uncontrolled Resource Consumption,1,0,1,0.0
+2014-08,Improper Authentication - Generic,5,1,4,20.0
+2014-08,Information Disclosure,4,0,4,0.0
+2014-08,,2,0,2,0.0
+2014-08,Cross-site Scripting (XSS) - Generic,2,0,2,0.0
+2014-08,Open Redirect,2,1,2,50.0
+2014-08,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2014-08,Cryptographic Issues - Generic,1,0,1,0.0
+2014-08,Privilege Escalation,1,1,1,100.0
+2014-08,SQL Injection,1,0,1,0.0
+2014-08,Violation of Secure Design Principles,1,1,1,100.0
+2014-09,Cross-site Scripting (XSS) - Generic,6,6,2,100.0
+2014-09,Information Disclosure,4,3,3,75.0
+2014-09,,3,3,1,100.0
+2014-09,Improper Authentication - Generic,3,1,3,33.33
+2014-09,Violation of Secure Design Principles,2,1,2,50.0
+2014-09,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2014-09,Cryptographic Issues - Generic,1,0,1,0.0
+2014-09,Memory Corruption - Generic,1,0,1,0.0
+2014-09,Open Redirect,1,1,1,100.0
+2014-10,,5,1,3,20.0
+2014-10,Cross-site Scripting (XSS) - Generic,5,4,3,80.0
+2014-10,Cryptographic Issues - Generic,5,2,3,40.0
+2014-10,Violation of Secure Design Principles,5,1,3,20.0
+2014-10,Information Disclosure,3,1,3,33.33
+2014-10,Improper Authentication - Generic,2,1,2,50.0
+2014-10,Memory Corruption - Generic,2,2,1,100.0
+2014-10,Privilege Escalation,1,0,1,0.0
+2014-10,SQL Injection,1,1,1,100.0
+2014-11,Cross-site Scripting (XSS) - Generic,7,5,4,71.43
+2014-11,Violation of Secure Design Principles,7,2,5,28.57
+2014-11,,4,2,3,50.0
+2014-11,Information Disclosure,4,1,4,25.0
+2014-11,Cryptographic Issues - Generic,2,2,2,100.0
+2014-11,Improper Authentication - Generic,2,1,1,50.0
+2014-11,Command Injection - Generic,1,0,1,0.0
+2014-11,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2014-11,Memory Corruption - Generic,1,1,1,100.0
+2014-11,Open Redirect,1,1,1,100.0
+2014-11,UI Redressing (Clickjacking),1,1,1,100.0
+2014-11,Uncontrolled Resource Consumption,1,1,1,100.0
+2014-12,Cross-site Scripting (XSS) - Generic,8,4,6,50.0
+2014-12,,7,7,3,100.0
+2014-12,Violation of Secure Design Principles,4,2,3,50.0
+2014-12,Information Disclosure,2,1,2,50.0
+2014-12,Open Redirect,2,1,2,50.0
+2014-12,Code Injection,1,1,1,100.0
+2014-12,Cryptographic Issues - Generic,1,1,1,100.0
+2014-12,SQL Injection,1,0,1,0.0
+2014-12,Uncontrolled Resource Consumption,1,1,1,100.0
+2015-01,Cross-site Scripting (XSS) - Generic,10,7,6,70.0
+2015-01,,7,6,2,85.71
+2015-01,Violation of Secure Design Principles,7,2,3,28.57
+2015-01,Information Disclosure,5,2,4,40.0
+2015-01,Cryptographic Issues - Generic,4,2,3,50.0
+2015-01,Improper Authentication - Generic,4,2,2,50.0
+2015-01,Privilege Escalation,4,3,2,75.0
+2015-01,Code Injection,2,1,2,50.0
+2015-01,Cross-Site Request Forgery (CSRF),2,0,2,0.0
+2015-01,Open Redirect,2,0,2,0.0
+2015-01,Command Injection - Generic,1,1,1,100.0
+2015-01,Uncontrolled Resource Consumption,1,1,1,100.0
+2015-02,Cross-site Scripting (XSS) - Generic,12,7,8,58.33
+2015-02,,10,6,5,60.0
+2015-02,Cross-Site Request Forgery (CSRF),6,4,6,66.67
+2015-02,Improper Authentication - Generic,6,3,5,50.0
+2015-02,Information Disclosure,6,3,4,50.0
+2015-02,Memory Corruption - Generic,6,6,1,100.0
+2015-02,Privilege Escalation,4,4,2,100.0
+2015-02,Violation of Secure Design Principles,4,3,3,75.0
+2015-02,Command Injection - Generic,1,1,1,100.0
+2015-02,Cryptographic Issues - Generic,1,0,1,0.0
+2015-02,Open Redirect,1,1,1,100.0
+2015-03,Cross-site Scripting (XSS) - Generic,21,3,5,14.29
+2015-03,,10,10,2,100.0
+2015-03,Privilege Escalation,8,8,2,100.0
+2015-03,Improper Authentication - Generic,4,4,2,100.0
+2015-03,Open Redirect,4,3,2,75.0
+2015-03,Cross-Site Request Forgery (CSRF),3,3,2,100.0
+2015-03,Information Disclosure,3,2,2,66.67
+2015-03,Violation of Secure Design Principles,3,2,3,66.67
+2015-03,Cryptographic Issues - Generic,2,2,2,100.0
+2015-03,Code Injection,1,0,1,0.0
+2015-03,Command Injection - Generic,1,0,1,0.0
+2015-03,UI Redressing (Clickjacking),1,0,1,0.0
+2015-04,Cross-site Scripting (XSS) - Generic,8,5,3,62.5
+2015-04,Improper Authentication - Generic,8,5,5,62.5
+2015-04,Violation of Secure Design Principles,7,6,6,85.71
+2015-04,,6,5,3,83.33
+2015-04,Information Disclosure,4,3,4,75.0
+2015-04,Code Injection,2,2,2,100.0
+2015-04,Command Injection - Generic,2,2,2,100.0
+2015-04,Cross-Site Request Forgery (CSRF),2,2,2,100.0
+2015-04,Cryptographic Issues - Generic,2,0,2,0.0
+2015-04,Memory Corruption - Generic,2,2,2,100.0
+2015-04,Privilege Escalation,2,2,2,100.0
+2015-04,Uncontrolled Resource Consumption,2,2,2,100.0
+2015-04,Open Redirect,1,1,1,100.0
+2015-05,,15,14,6,93.33
+2015-05,Cross-site Scripting (XSS) - Generic,11,8,6,72.73
+2015-05,Violation of Secure Design Principles,6,4,4,66.67
+2015-05,Improper Authentication - Generic,5,3,4,60.0
+2015-05,Code Injection,2,2,2,100.0
+2015-05,Information Disclosure,2,2,2,100.0
+2015-05,Privilege Escalation,2,2,1,100.0
+2015-05,SQL Injection,2,1,2,50.0
+2015-05,Uncontrolled Resource Consumption,2,2,1,100.0
+2015-05,Command Injection - Generic,1,0,1,0.0
+2015-05,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2015-05,Open Redirect,1,0,1,0.0
+2015-05,UI Redressing (Clickjacking),1,1,1,100.0
+2015-06,Cross-site Scripting (XSS) - Generic,11,6,6,54.55
+2015-06,,8,6,4,75.0
+2015-06,Improper Authentication - Generic,7,6,5,85.71
+2015-06,Violation of Secure Design Principles,4,3,3,75.0
+2015-06,Cross-Site Request Forgery (CSRF),3,3,2,100.0
+2015-06,Code Injection,2,2,2,100.0
+2015-06,Command Injection - Generic,2,2,2,100.0
+2015-06,Information Disclosure,2,2,2,100.0
+2015-06,Memory Corruption - Generic,2,1,2,50.0
+2015-07,,12,10,4,83.33
+2015-07,Cross-site Scripting (XSS) - Generic,7,7,5,100.0
+2015-07,Violation of Secure Design Principles,6,5,5,83.33
+2015-07,Improper Authentication - Generic,5,5,5,100.0
+2015-07,Information Disclosure,5,4,4,80.0
+2015-07,Cryptographic Issues - Generic,3,1,3,33.33
+2015-07,Memory Corruption - Generic,3,3,1,100.0
+2015-07,Command Injection - Generic,2,2,2,100.0
+2015-07,Cross-Site Request Forgery (CSRF),2,1,2,50.0
+2015-07,Open Redirect,2,2,2,100.0
+2015-07,Privilege Escalation,2,2,1,100.0
+2015-07,Code Injection,1,0,1,0.0
+2015-07,SQL Injection,1,1,1,100.0
+2015-08,Cross-site Scripting (XSS) - Generic,21,11,11,52.38
+2015-08,,10,10,1,100.0
+2015-08,Information Disclosure,5,2,2,40.0
+2015-08,Violation of Secure Design Principles,5,2,4,40.0
+2015-08,Improper Authentication - Generic,4,1,3,25.0
+2015-08,Cross-Site Request Forgery (CSRF),3,0,1,0.0
+2015-08,Privilege Escalation,3,1,2,33.33
+2015-08,Uncontrolled Resource Consumption,2,0,2,0.0
+2015-08,Code Injection,1,0,1,0.0
+2015-08,Command Injection - Generic,1,0,1,0.0
+2015-08,Cryptographic Issues - Generic,1,0,1,0.0
+2015-08,Memory Corruption - Generic,1,0,1,0.0
+2015-08,Phishing,1,0,1,0.0
+2015-08,UI Redressing (Clickjacking),1,1,1,100.0
+2015-09,Cross-site Scripting (XSS) - Generic,15,9,7,60.0
+2015-09,,9,9,2,100.0
+2015-09,Information Disclosure,7,3,6,42.86
+2015-09,Violation of Secure Design Principles,6,1,4,16.67
+2015-09,Improper Authentication - Generic,5,4,4,80.0
+2015-09,Uncontrolled Resource Consumption,3,2,3,66.67
+2015-09,Cross-Site Request Forgery (CSRF),2,2,2,100.0
+2015-09,Open Redirect,2,1,2,50.0
+2015-09,Command Injection - Generic,1,0,1,0.0
+2015-09,Cryptographic Issues - Generic,1,0,1,0.0
+2015-09,Privilege Escalation,1,1,1,100.0
+2015-09,SQL Injection,1,1,1,100.0
+2015-10,Improper Authentication - Generic,15,13,5,86.67
+2015-10,Cross-site Scripting (XSS) - Generic,10,5,8,50.0
+2015-10,,8,5,8,62.5
+2015-10,Cross-Site Request Forgery (CSRF),5,4,4,80.0
+2015-10,Cryptographic Issues - Generic,5,1,4,20.0
+2015-10,Privilege Escalation,5,5,2,100.0
+2015-10,Information Disclosure,4,2,3,50.0
+2015-10,Violation of Secure Design Principles,4,2,4,50.0
+2015-10,Open Redirect,2,2,2,100.0
+2015-10,Uncontrolled Resource Consumption,2,1,2,50.0
+2015-10,Cross-site Scripting (XSS) - Reflected,1,0,1,0.0
+2015-11,Cross-site Scripting (XSS) - Reflected,11,0,1,0.0
+2015-11,Improper Authentication - Generic,11,9,9,81.82
+2015-11,Cross-site Scripting (XSS) - Generic,10,9,9,90.0
+2015-11,Cross-Site Request Forgery (CSRF),8,8,6,100.0
+2015-11,,7,7,4,100.0
+2015-11,Information Disclosure,7,2,4,28.57
+2015-11,Open Redirect,4,4,4,100.0
+2015-11,Violation of Secure Design Principles,4,2,4,50.0
+2015-11,Code Injection,3,2,3,66.67
+2015-11,Privilege Escalation,3,3,2,100.0
+2015-11,Command Injection - Generic,2,1,2,50.0
+2015-11,Cryptographic Issues - Generic,2,2,1,100.0
+2015-11,Memory Corruption - Generic,1,0,1,0.0
+2015-11,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2015-11,UI Redressing (Clickjacking),1,1,1,100.0
+2015-12,Cross-site Scripting (XSS) - Generic,15,13,10,86.67
+2015-12,,6,3,3,50.0
+2015-12,Command Injection - Generic,5,2,2,40.0
+2015-12,Open Redirect,4,3,4,75.0
+2015-12,Violation of Secure Design Principles,4,3,3,75.0
+2015-12,Cross-Site Request Forgery (CSRF),3,3,2,100.0
+2015-12,Uncontrolled Resource Consumption,3,0,1,0.0
+2015-12,Code Injection,2,1,2,50.0
+2015-12,Improper Authentication - Generic,2,2,2,100.0
+2015-12,Information Disclosure,2,1,2,50.0
+2015-12,Privilege Escalation,2,2,2,100.0
+2015-12,Cryptographic Issues - Generic,1,0,1,0.0
+2015-12,Improper Access Control - Generic,1,1,1,100.0
+2015-12,Memory Corruption - Generic,1,1,1,100.0
+2015-12,UI Redressing (Clickjacking),1,0,1,0.0
+2016-01,Cross-site Scripting (XSS) - Generic,14,4,9,28.57
+2016-01,Memory Corruption - Generic,13,13,2,100.0
+2016-01,,9,8,7,88.89
+2016-01,Violation of Secure Design Principles,9,5,5,55.56
+2016-01,Information Disclosure,5,3,5,60.0
+2016-01,Improper Authentication - Generic,4,3,3,75.0
+2016-01,Open Redirect,4,3,4,75.0
+2016-01,SQL Injection,4,3,2,75.0
+2016-01,Uncontrolled Resource Consumption,4,2,4,50.0
+2016-01,Cross-Site Request Forgery (CSRF),3,2,3,66.67
+2016-01,Cryptographic Issues - Generic,3,3,3,100.0
+2016-01,Phishing,3,0,1,0.0
+2016-01,Code Injection,2,2,1,100.0
+2016-01,Command Injection - Generic,1,1,1,100.0
+2016-01,Privilege Escalation,1,1,1,100.0
+2016-02,Violation of Secure Design Principles,24,9,8,37.5
+2016-02,Cross-site Scripting (XSS) - Generic,21,8,12,38.1
+2016-02,Improper Authentication - Generic,19,13,11,68.42
+2016-02,Information Disclosure,17,9,9,52.94
+2016-02,,10,7,8,70.0
+2016-02,Code Injection,6,5,3,83.33
+2016-02,Memory Corruption - Generic,6,5,2,83.33
+2016-02,Cross-Site Request Forgery (CSRF),5,2,5,40.0
+2016-02,SQL Injection,4,3,3,75.0
+2016-02,Command Injection - Generic,3,3,3,100.0
+2016-02,Uncontrolled Resource Consumption,3,2,2,66.67
+2016-02,Cryptographic Issues - Generic,2,1,2,50.0
+2016-02,Open Redirect,2,2,2,100.0
+2016-02,Privilege Escalation,2,1,1,50.0
+2016-03,Cross-site Scripting (XSS) - Generic,27,14,13,51.85
+2016-03,Improper Authentication - Generic,21,8,10,38.1
+2016-03,Information Disclosure,17,10,6,58.82
+2016-03,Privilege Escalation,11,1,3,9.09
+2016-03,Violation of Secure Design Principles,11,6,5,54.55
+2016-03,,9,6,5,66.67
+2016-03,Memory Corruption - Generic,6,5,2,83.33
+2016-03,Uncontrolled Resource Consumption,6,2,4,33.33
+2016-03,Code Injection,5,5,4,100.0
+2016-03,Cross-Site Request Forgery (CSRF),4,2,4,50.0
+2016-03,Cryptographic Issues - Generic,3,1,3,33.33
+2016-03,Command Injection - Generic,2,2,2,100.0
+2016-03,Open Redirect,2,1,2,50.0
+2016-03,SQL Injection,2,2,1,100.0
+2016-03,UI Redressing (Clickjacking),2,0,2,0.0
+2016-03,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2016-04,Cross-site Scripting (XSS) - Generic,22,12,11,54.55
+2016-04,Violation of Secure Design Principles,18,8,9,44.44
+2016-04,Improper Authentication - Generic,15,9,10,60.0
+2016-04,Information Disclosure,11,0,6,0.0
+2016-04,,7,2,7,28.57
+2016-04,Memory Corruption - Generic,6,4,3,66.67
+2016-04,Cross-Site Request Forgery (CSRF),5,4,4,80.0
+2016-04,Cryptographic Issues - Generic,4,1,4,25.0
+2016-04,Privilege Escalation,4,1,3,25.0
+2016-04,Open Redirect,3,3,3,100.0
+2016-04,Uncontrolled Resource Consumption,3,2,3,66.67
+2016-04,Code Injection,2,2,2,100.0
+2016-04,Command Injection - Generic,2,2,2,100.0
+2016-04,Cross-site Scripting (XSS) - Reflected,1,1,1,100.0
+2016-04,SQL Injection,1,1,1,100.0
+2016-04,UI Redressing (Clickjacking),1,0,1,0.0
+2016-05,Cross-site Scripting (XSS) - Generic,28,12,18,42.86
+2016-05,Information Disclosure,13,8,13,61.54
+2016-05,Improper Authentication - Generic,11,9,7,81.82
+2016-05,Memory Corruption - Generic,11,11,3,100.0
+2016-05,,7,2,6,28.57
+2016-05,Violation of Secure Design Principles,7,2,6,28.57
+2016-05,Cross-Site Request Forgery (CSRF),6,4,4,66.67
+2016-05,Cryptographic Issues - Generic,4,3,2,75.0
+2016-05,Code Injection,3,2,2,66.67
+2016-05,Privilege Escalation,3,2,3,66.67
+2016-05,SQL Injection,2,2,1,100.0
+2016-05,Command Injection - Generic,1,1,1,100.0
+2016-05,Open Redirect,1,1,1,100.0
+2016-05,UI Redressing (Clickjacking),1,1,1,100.0
+2016-05,Uncontrolled Resource Consumption,1,1,1,100.0
+2016-06,Improper Authentication - Generic,24,8,9,33.33
+2016-06,Cross-site Scripting (XSS) - Generic,18,11,12,61.11
+2016-06,Information Disclosure,18,10,11,55.56
+2016-06,Violation of Secure Design Principles,17,4,8,23.53
+2016-06,,16,8,10,50.0
+2016-06,Memory Corruption - Generic,15,13,3,86.67
+2016-06,Command Injection - Generic,6,0,4,0.0
+2016-06,Uncontrolled Resource Consumption,5,3,3,60.0
+2016-06,Cryptographic Issues - Generic,4,2,4,50.0
+2016-06,Privilege Escalation,4,4,3,100.0
+2016-06,Code Injection,3,3,1,100.0
+2016-06,Cross-Site Request Forgery (CSRF),3,0,3,0.0
+2016-06,SQL Injection,3,2,2,66.67
+2016-06,Open Redirect,2,0,2,0.0
+2016-06,UI Redressing (Clickjacking),1,0,1,0.0
+2016-07,Cross-site Scripting (XSS) - Generic,42,19,18,45.24
+2016-07,Information Disclosure,25,9,13,36.0
+2016-07,Memory Corruption - Generic,16,14,2,87.5
+2016-07,Violation of Secure Design Principles,16,4,8,25.0
+2016-07,Improper Authentication - Generic,10,6,7,60.0
+2016-07,Cross-Site Request Forgery (CSRF),7,3,7,42.86
+2016-07,Code Injection,6,4,4,66.67
+2016-07,,5,2,5,40.0
+2016-07,Privilege Escalation,5,4,4,80.0
+2016-07,Command Injection - Generic,4,2,4,50.0
+2016-07,Cryptographic Issues - Generic,4,1,4,25.0
+2016-07,Open Redirect,3,2,1,66.67
+2016-07,Uncontrolled Resource Consumption,2,1,2,50.0
+2016-07,SQL Injection,1,1,1,100.0
+2016-07,UI Redressing (Clickjacking),1,1,1,100.0
+2016-08,Violation of Secure Design Principles,27,13,11,48.15
+2016-08,Cross-site Scripting (XSS) - Generic,26,16,17,61.54
+2016-08,Improper Authentication - Generic,21,13,15,61.9
+2016-08,Information Disclosure,21,9,14,42.86
+2016-08,,16,12,8,75.0
+2016-08,Memory Corruption - Generic,11,11,1,100.0
+2016-08,Cross-Site Request Forgery (CSRF),10,6,8,60.0
+2016-08,Privilege Escalation,10,5,7,50.0
+2016-08,Command Injection - Generic,7,3,6,42.86
+2016-08,Open Redirect,6,4,4,66.67
+2016-08,Code Injection,5,5,3,100.0
+2016-08,UI Redressing (Clickjacking),3,0,1,0.0
+2016-08,Uncontrolled Resource Consumption,3,2,2,66.67
+2016-08,Cryptographic Issues - Generic,2,1,2,50.0
+2016-08,SQL Injection,2,2,2,100.0
+2016-08,Business Logic Errors,1,1,1,100.0
+2016-08,Cross-site Scripting (XSS) - Stored,1,0,1,0.0
+2016-09,Memory Corruption - Generic,27,23,2,85.19
+2016-09,Cross-site Scripting (XSS) - Generic,21,9,17,42.86
+2016-09,Information Disclosure,19,7,13,36.84
+2016-09,Violation of Secure Design Principles,16,10,14,62.5
+2016-09,Improper Authentication - Generic,10,6,8,60.0
+2016-09,,9,4,9,44.44
+2016-09,Privilege Escalation,5,3,3,60.0
+2016-09,Cross-Site Request Forgery (CSRF),4,3,4,75.0
+2016-09,Open Redirect,4,2,4,50.0
+2016-09,Code Injection,2,1,1,50.0
+2016-09,Command Injection - Generic,2,0,2,0.0
+2016-09,Cryptographic Issues - Generic,2,2,1,100.0
+2016-09,SQL Injection,2,2,2,100.0
+2016-09,UI Redressing (Clickjacking),1,0,1,0.0
+2016-09,Uncontrolled Resource Consumption,1,1,1,100.0
+2016-10,Cross-site Scripting (XSS) - Generic,17,6,13,35.29
+2016-10,Information Disclosure,16,12,15,75.0
+2016-10,,12,6,9,50.0
+2016-10,Memory Corruption - Generic,12,11,1,91.67
+2016-10,Violation of Secure Design Principles,10,4,5,40.0
+2016-10,Cross-Site Request Forgery (CSRF),7,3,6,42.86
+2016-10,Improper Authentication - Generic,6,4,6,66.67
+2016-10,Privilege Escalation,5,3,5,60.0
+2016-10,Code Injection,4,3,2,75.0
+2016-10,Open Redirect,3,2,3,66.67
+2016-10,Uncontrolled Resource Consumption,3,3,2,100.0
+2016-10,HTTP Response Splitting,2,1,1,50.0
+2016-10,SQL Injection,2,0,1,0.0
+2016-10,Cross-site Scripting (XSS) - Reflected,1,0,1,0.0
+2016-10,Cryptographic Issues - Generic,1,0,1,0.0
+2016-11,Memory Corruption - Generic,28,27,3,96.43
+2016-11,Cross-site Scripting (XSS) - Generic,27,8,11,29.63
+2016-11,Uncontrolled Resource Consumption,26,21,3,80.77
+2016-11,Information Disclosure,16,5,9,31.25
+2016-11,,15,11,11,73.33
+2016-11,Code Injection,8,7,4,87.5
+2016-11,Improper Authentication - Generic,8,3,6,37.5
+2016-11,Violation of Secure Design Principles,7,4,5,57.14
+2016-11,Privilege Escalation,5,2,4,40.0
+2016-11,Command Injection - Generic,4,1,4,25.0
+2016-11,Open Redirect,3,0,3,0.0
+2016-11,Cross-Site Request Forgery (CSRF),2,0,2,0.0
+2016-11,Cryptographic Issues - Generic,2,1,2,50.0
+2016-11,SQL Injection,2,2,1,100.0
+2016-11,Server-Side Request Forgery (SSRF),2,2,2,100.0
+2016-11,HTTP Response Splitting,1,0,1,0.0
+2016-11,UI Redressing (Clickjacking),1,0,1,0.0
+2016-11,Use After Free,1,1,1,100.0
+2016-11,XML External Entities (XXE),1,0,1,0.0
+2016-12,Cross-site Scripting (XSS) - Generic,40,15,14,37.5
+2016-12,Uncontrolled Resource Consumption,17,15,3,88.24
+2016-12,Information Disclosure,14,4,9,28.57
+2016-12,Memory Corruption - Generic,13,13,3,100.0
+2016-12,Improper Authentication - Generic,9,3,6,33.33
+2016-12,SQL Injection,9,2,2,22.22
+2016-12,,6,1,3,16.67
+2016-12,Open Redirect,6,4,5,66.67
+2016-12,Privilege Escalation,5,5,5,100.0
+2016-12,Violation of Secure Design Principles,5,1,3,20.0
+2016-12,Command Injection - Generic,4,2,2,50.0
+2016-12,Cross-Site Request Forgery (CSRF),4,1,3,25.0
+2016-12,Code Injection,3,0,3,0.0
+2016-12,Server-Side Request Forgery (SSRF),3,1,3,33.33
+2016-12,Cryptographic Issues - Generic,2,1,2,50.0
+2016-12,Cross-site Scripting (XSS) - Reflected,1,1,1,100.0
+2016-12,Cross-site Scripting (XSS) - Stored,1,1,1,100.0
+2016-12,File and Directory Information Exposure,1,0,1,0.0
+2016-12,HTTP Response Splitting,1,0,1,0.0
+2016-12,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2016-12,Unrestricted Upload of File with Dangerous Type,1,0,1,0.0
+2017-01,Cross-site Scripting (XSS) - Generic,26,14,18,53.85
+2017-01,Information Disclosure,19,3,12,15.79
+2017-01,Uncontrolled Resource Consumption,13,12,2,92.31
+2017-01,Improper Authentication - Generic,12,6,10,50.0
+2017-01,Violation of Secure Design Principles,11,4,9,36.36
+2017-01,SQL Injection,10,4,3,40.0
+2017-01,Memory Corruption - Generic,6,5,2,83.33
+2017-01,,5,1,3,20.0
+2017-01,Privilege Escalation,5,2,4,40.0
+2017-01,Cryptographic Issues - Generic,4,0,4,0.0
+2017-01,Code Injection,2,2,1,100.0
+2017-01,Cross-Site Request Forgery (CSRF),2,2,1,100.0
+2017-01,Server-Side Request Forgery (SSRF),2,2,2,100.0
+2017-01,UI Redressing (Clickjacking),2,0,2,0.0
+2017-01,Command Injection - Generic,1,1,1,100.0
+2017-01,HTTP Response Splitting,1,1,1,100.0
+2017-01,NULL Pointer Dereference,1,1,1,100.0
+2017-01,Out-of-bounds Read,1,1,1,100.0
+2017-01,Use After Free,1,1,1,100.0
+2017-02,Improper Authentication - Generic,18,12,10,66.67
+2017-02,Violation of Secure Design Principles,18,4,13,22.22
+2017-02,Cross-site Scripting (XSS) - Generic,17,6,12,35.29
+2017-02,Information Disclosure,11,4,11,36.36
+2017-02,Memory Corruption - Generic,11,11,2,100.0
+2017-02,Uncontrolled Resource Consumption,10,9,2,90.0
+2017-02,Cross-Site Request Forgery (CSRF),6,6,6,100.0
+2017-02,Privilege Escalation,5,4,5,80.0
+2017-02,,3,2,3,66.67
+2017-02,Code Injection,2,1,2,50.0
+2017-02,Cryptographic Issues - Generic,2,0,2,0.0
+2017-02,SQL Injection,2,2,2,100.0
+2017-02,Server-Side Request Forgery (SSRF),2,1,2,50.0
+2017-02,HTTP Response Splitting,1,0,1,0.0
+2017-02,Heap Overflow,1,1,1,100.0
+2017-02,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2017-02,Open Redirect,1,0,1,0.0
+2017-03,Uncontrolled Resource Consumption,17,16,5,94.12
+2017-03,Information Disclosure,12,8,10,66.67
+2017-03,Violation of Secure Design Principles,10,5,7,50.0
+2017-03,,9,4,5,44.44
+2017-03,Memory Corruption - Generic,9,8,3,88.89
+2017-03,Code Injection,7,2,2,28.57
+2017-03,Cross-site Scripting (XSS) - Generic,7,5,7,71.43
+2017-03,Cross-Site Request Forgery (CSRF),5,4,5,80.0
+2017-03,NULL Pointer Dereference,5,5,1,100.0
+2017-03,Open Redirect,5,0,4,0.0
+2017-03,Cross-site Scripting (XSS) - Reflected,4,2,4,50.0
+2017-03,Improper Authentication - Generic,4,3,3,75.0
+2017-03,Cryptographic Issues - Generic,3,1,3,33.33
+2017-03,SQL Injection,3,0,2,0.0
+2017-03,Server-Side Request Forgery (SSRF),3,1,3,33.33
+2017-03,Command Injection - Generic,2,1,2,50.0
+2017-03,Cross-site Scripting (XSS) - Stored,2,1,2,50.0
+2017-03,Insecure Direct Object Reference (IDOR),2,1,2,50.0
+2017-03,Privilege Escalation,2,2,2,100.0
+2017-03,UI Redressing (Clickjacking),2,0,1,0.0
+2017-03,Business Logic Errors,1,0,1,0.0
+2017-03,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2017-03,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2017-03,Double Free,1,1,1,100.0
+2017-03,Failure to Sanitize Special Elements into a Different Plane (Special Element Injection),1,1,1,100.0
+2017-03,Heap Overflow,1,0,1,0.0
+2017-03,Information Exposure Through Debug Information,1,0,1,0.0
+2017-03,Information Exposure Through an Error Message,1,1,1,100.0
+2017-03,Insufficient Session Expiration,1,0,1,0.0
+2017-03,Path Traversal,1,0,1,0.0
+2017-03,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,1,0,1,0.0
+2017-03,Resource Injection,1,1,1,100.0
+2017-04,,22,7,11,31.82
+2017-04,Violation of Secure Design Principles,18,1,8,5.56
+2017-04,Information Disclosure,13,4,8,30.77
+2017-04,Uncontrolled Resource Consumption,11,3,5,27.27
+2017-04,Cross-site Scripting (XSS) - Reflected,8,5,5,62.5
+2017-04,Improper Authentication - Generic,8,3,4,37.5
+2017-04,Cross-site Scripting (XSS) - Generic,7,2,5,28.57
+2017-04,Cross-Site Request Forgery (CSRF),6,0,3,0.0
+2017-04,Cross-site Scripting (XSS) - Stored,6,3,5,50.0
+2017-04,Improper Access Control - Generic,6,0,5,0.0
+2017-04,Open Redirect,6,2,4,33.33
+2017-04,Information Exposure Through an Error Message,5,2,5,40.0
+2017-04,Memory Corruption - Generic,5,4,2,80.0
+2017-04,Business Logic Errors,4,2,4,50.0
+2017-04,Cryptographic Issues - Generic,4,0,3,0.0
+2017-04,Heap Overflow,4,3,3,75.0
+2017-04,Privilege Escalation,4,4,3,100.0
+2017-04,Code Injection,3,2,3,66.67
+2017-04,Command Injection - Generic,3,1,2,33.33
+2017-04,Server-Side Request Forgery (SSRF),3,2,3,66.67
+2017-04,NULL Pointer Dereference,2,1,2,50.0
+2017-04,Out-of-bounds Read,2,2,1,100.0
+2017-04,Privacy Violation,2,2,1,100.0
+2017-04,UI Redressing (Clickjacking),2,0,2,0.0
+2017-04,Cleartext Transmission of Sensitive Information,1,0,1,0.0
+2017-04,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2017-04,Deserialization of Untrusted Data,1,0,1,0.0
+2017-04,Inadequate Encryption Strength,1,0,1,0.0
+2017-04,Information Exposure Through Directory Listing,1,0,1,0.0
+2017-04,Insufficient Session Expiration,1,0,1,0.0
+2017-04,Man-in-the-Middle,1,0,1,0.0
+2017-04,OS Command Injection,1,0,1,0.0
+2017-04,Remote File Inclusion,1,0,1,0.0
+2017-04,Stack Overflow,1,0,1,0.0
+2017-04,Use After Free,1,0,1,0.0
+2017-04,Use of a Key Past its Expiration Date,1,1,1,100.0
+2017-04,Weak Cryptography for Passwords,1,0,1,0.0
+2017-05,,24,4,12,16.67
+2017-05,Cross-Site Request Forgery (CSRF),12,2,7,16.67
+2017-05,Information Disclosure,12,6,9,50.0
+2017-05,Cross-site Scripting (XSS) - Stored,10,7,7,70.0
+2017-05,Violation of Secure Design Principles,8,1,4,12.5
+2017-05,Code Injection,7,3,4,42.86
+2017-05,Insecure Direct Object Reference (IDOR),6,1,3,16.67
+2017-05,Cross-site Scripting (XSS) - Reflected,5,4,5,80.0
+2017-05,UI Redressing (Clickjacking),5,0,5,0.0
+2017-05,Cross-site Scripting (XSS) - DOM,4,4,4,100.0
+2017-05,Cross-site Scripting (XSS) - Generic,4,2,4,50.0
+2017-05,Improper Access Control - Generic,4,0,3,0.0
+2017-05,Improper Authentication - Generic,4,1,4,25.0
+2017-05,Privacy Violation,4,1,4,25.0
+2017-05,CRLF Injection,3,0,3,0.0
+2017-05,Privilege Escalation,3,0,2,0.0
+2017-05,SQL Injection,3,0,1,0.0
+2017-05,Business Logic Errors,2,1,2,50.0
+2017-05,Improper Restriction of Authentication Attempts,2,1,2,50.0
+2017-05,Open Redirect,2,0,2,0.0
+2017-05,XML External Entities (XXE),2,0,1,0.0
+2017-05,Cryptographic Issues - Generic,1,0,1,0.0
+2017-05,HTTP Request Smuggling,1,0,1,0.0
+2017-05,Heap Overflow,1,1,1,100.0
+2017-05,Improper Certificate Validation,1,0,1,0.0
+2017-05,Information Exposure Through Directory Listing,1,0,1,0.0
+2017-05,Information Exposure Through an Error Message,1,1,1,100.0
+2017-05,Insufficiently Protected Credentials,1,0,1,0.0
+2017-05,Integer Overflow,1,0,1,0.0
+2017-05,Memory Corruption - Generic,1,0,1,0.0
+2017-05,Path Traversal,1,0,1,0.0
+2017-05,Server-Side Request Forgery (SSRF),1,0,1,0.0
+2017-05,Use of a Broken or Risky Cryptographic Algorithm,1,0,1,0.0
+2017-06,,23,9,11,39.13
+2017-06,Violation of Secure Design Principles,13,1,7,7.69
+2017-06,Information Disclosure,8,2,6,25.0
+2017-06,Cross-site Scripting (XSS) - Stored,7,2,4,28.57
+2017-06,Open Redirect,7,4,5,57.14
+2017-06,Business Logic Errors,6,1,3,16.67
+2017-06,Improper Authentication - Generic,5,1,4,20.0
+2017-06,Privilege Escalation,5,3,4,60.0
+2017-06,Cross-Site Request Forgery (CSRF),4,2,4,50.0
+2017-06,Cross-site Scripting (XSS) - Reflected,3,2,3,66.67
+2017-06,Insufficiently Protected Credentials,3,1,2,33.33
+2017-06,Server-Side Request Forgery (SSRF),3,0,3,0.0
+2017-06,CRLF Injection,2,2,2,100.0
+2017-06,Code Injection,2,0,2,0.0
+2017-06,Command Injection - Generic,2,1,2,50.0
+2017-06,Cryptographic Issues - Generic,2,0,2,0.0
+2017-06,Man-in-the-Middle,2,0,2,0.0
+2017-06,Memory Corruption - Generic,2,0,2,0.0
+2017-06,UI Redressing (Clickjacking),2,0,2,0.0
+2017-06,Buffer Over-read,1,1,1,100.0
+2017-06,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2017-06,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2017-06,HTTP Request Smuggling,1,1,1,100.0
+2017-06,Heap Overflow,1,0,1,0.0
+2017-06,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2017-06,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2017-06,Misconfiguration,1,1,1,100.0
+2017-06,NULL Pointer Dereference,1,1,1,100.0
+2017-06,Path Traversal,1,1,1,100.0
+2017-06,Plaintext Storage of a Password,1,0,1,0.0
+2017-06,Resource Injection,1,1,1,100.0
+2017-06,SQL Injection,1,0,1,0.0
+2017-06,Uncontrolled Resource Consumption,1,0,1,0.0
+2017-06,Use After Free,1,1,1,100.0
+2017-06,Weak Password Recovery Mechanism for Forgotten Password,1,0,1,0.0
+2017-07,,21,13,8,61.9
+2017-07,Violation of Secure Design Principles,10,3,5,30.0
+2017-07,Information Disclosure,9,6,7,66.67
+2017-07,Business Logic Errors,7,4,3,57.14
+2017-07,Cross-site Scripting (XSS) - Stored,7,5,5,71.43
+2017-07,Improper Authentication - Generic,7,4,6,57.14
+2017-07,Cross-Site Request Forgery (CSRF),5,3,5,60.0
+2017-07,Cross-site Scripting (XSS) - DOM,3,2,2,66.67
+2017-07,Cross-site Scripting (XSS) - Reflected,3,3,3,100.0
+2017-07,Improper Access Control - Generic,3,1,2,33.33
+2017-07,Insecure Direct Object Reference (IDOR),3,3,3,100.0
+2017-07,Buffer Over-read,2,1,1,50.0
+2017-07,Code Injection,2,0,2,0.0
+2017-07,Heap Overflow,2,2,2,100.0
+2017-07,NULL Pointer Dereference,2,0,2,0.0
+2017-07,Use After Free,2,1,1,50.0
+2017-07,CRLF Injection,1,0,1,0.0
+2017-07,Classic Buffer Overflow,1,1,1,100.0
+2017-07,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2017-07,Cryptographic Issues - Generic,1,0,1,0.0
+2017-07,Forced Browsing,1,0,1,0.0
+2017-07,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2017-07,Insufficient Session Expiration,1,1,1,100.0
+2017-07,Memory Corruption - Generic,1,0,1,0.0
+2017-07,Open Redirect,1,1,1,100.0
+2017-07,Path Traversal,1,1,1,100.0
+2017-07,Privilege Escalation,1,0,1,0.0
+2017-07,SQL Injection,1,0,1,0.0
+2017-07,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2017-07,Session Fixation,1,1,1,100.0
+2017-07,UI Redressing (Clickjacking),1,0,1,0.0
+2017-07,Uncontrolled Resource Consumption,1,0,1,0.0
+2017-07,Use of Hard-coded Credentials,1,1,1,100.0
+2017-07,XML External Entities (XXE),1,1,1,100.0
+2017-08,,27,11,12,40.74
+2017-08,Violation of Secure Design Principles,11,1,8,9.09
+2017-08,Improper Access Control - Generic,7,5,6,71.43
+2017-08,Information Disclosure,7,6,7,85.71
+2017-08,Business Logic Errors,6,5,2,83.33
+2017-08,Cross-site Scripting (XSS) - Reflected,5,3,4,60.0
+2017-08,Cross-site Scripting (XSS) - Stored,5,4,5,80.0
+2017-08,Privacy Violation,5,3,4,60.0
+2017-08,Cross-Site Request Forgery (CSRF),4,1,3,25.0
+2017-08,Cross-site Scripting (XSS) - DOM,4,3,2,75.0
+2017-08,Improper Authentication - Generic,4,1,3,25.0
+2017-08,Buffer Over-read,3,2,2,66.67
+2017-08,Insecure Direct Object Reference (IDOR),3,2,3,66.67
+2017-08,Open Redirect,3,1,3,33.33
+2017-08,UI Redressing (Clickjacking),3,0,2,0.0
+2017-08,Cross-site Scripting (XSS) - Generic,2,2,2,100.0
+2017-08,Cryptographic Issues - Generic,2,0,2,0.0
+2017-08,Privilege Escalation,2,1,2,50.0
+2017-08,Server-Side Request Forgery (SSRF),2,2,2,100.0
+2017-08,Use After Free,2,2,1,100.0
+2017-08,Weak Cryptography for Passwords,2,0,2,0.0
+2017-08,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2017-08,Code Injection,1,0,1,0.0
+2017-08,Command Injection - Generic,1,1,1,100.0
+2017-08,Forced Browsing,1,0,1,0.0
+2017-08,Heap Overflow,1,0,1,0.0
+2017-08,Incorrect Calculation of Buffer Size,1,1,1,100.0
+2017-08,Information Exposure Through Directory Listing,1,0,1,0.0
+2017-08,Information Exposure Through an Error Message,1,0,1,0.0
+2017-08,Memory Corruption - Generic,1,0,1,0.0
+2017-08,NULL Pointer Dereference,1,0,1,0.0
+2017-08,OS Command Injection,1,1,1,100.0
+2017-08,Path Traversal,1,1,1,100.0
+2017-08,Plaintext Storage of a Password,1,0,1,0.0
+2017-08,Remote File Inclusion,1,1,1,100.0
+2017-08,Resource Injection,1,1,1,100.0
+2017-08,SQL Injection,1,1,1,100.0
+2017-08,Stack Overflow,1,0,1,0.0
+2017-08,Use of Inherently Dangerous Function,1,1,1,100.0
+2017-09,,17,4,10,23.53
+2017-09,Information Disclosure,16,8,14,50.0
+2017-09,Violation of Secure Design Principles,13,2,8,15.38
+2017-09,Cross-site Scripting (XSS) - Stored,9,8,6,88.89
+2017-09,Buffer Over-read,5,5,1,100.0
+2017-09,Business Logic Errors,4,0,4,0.0
+2017-09,Cross-Site Request Forgery (CSRF),4,1,3,25.0
+2017-09,UI Redressing (Clickjacking),4,0,4,0.0
+2017-09,Improper Access Control - Generic,3,2,3,66.67
+2017-09,Insecure Direct Object Reference (IDOR),3,2,2,66.67
+2017-09,Cross-site Scripting (XSS) - DOM,2,2,1,100.0
+2017-09,Cross-site Scripting (XSS) - Reflected,2,1,2,50.0
+2017-09,Improper Authentication - Generic,2,1,2,50.0
+2017-09,Improper Restriction of Authentication Attempts,2,2,2,100.0
+2017-09,Man-in-the-Middle,2,0,2,0.0
+2017-09,Memory Corruption - Generic,2,1,2,50.0
+2017-09,OS Command Injection,2,1,2,50.0
+2017-09,Path Traversal,2,1,2,50.0
+2017-09,SQL Injection,2,1,2,50.0
+2017-09,Server-Side Request Forgery (SSRF),2,2,2,100.0
+2017-09,Array Index Underflow,1,0,1,0.0
+2017-09,Authentication Bypass,1,1,1,100.0
+2017-09,CRLF Injection,1,0,1,0.0
+2017-09,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2017-09,Code Injection,1,1,1,100.0
+2017-09,Command Injection - Generic,1,1,1,100.0
+2017-09,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2017-09,Deserialization of Untrusted Data,1,0,1,0.0
+2017-09,Forced Browsing,1,0,1,0.0
+2017-09,Improper Authorization,1,1,1,100.0
+2017-09,Insufficient Session Expiration,1,1,1,100.0
+2017-09,Integer Underflow,1,0,1,0.0
+2017-09,Privilege Escalation,1,1,1,100.0
+2017-09,Uncontrolled Resource Consumption,1,0,1,0.0
+2017-09,Use After Free,1,1,1,100.0
+2017-09,Weak Cryptography for Passwords,1,0,1,0.0
+2017-10,,28,3,16,10.71
+2017-10,Cross-site Scripting (XSS) - Stored,19,7,7,36.84
+2017-10,Violation of Secure Design Principles,13,2,7,15.38
+2017-10,Information Disclosure,12,3,8,25.0
+2017-10,Improper Access Control - Generic,6,4,5,66.67
+2017-10,Improper Authentication - Generic,5,2,4,40.0
+2017-10,Business Logic Errors,4,0,3,0.0
+2017-10,Cross-Site Request Forgery (CSRF),4,1,3,25.0
+2017-10,Cross-site Scripting (XSS) - Reflected,4,2,4,50.0
+2017-10,Open Redirect,4,2,4,50.0
+2017-10,Buffer Over-read,3,2,2,66.67
+2017-10,Privacy Violation,3,1,2,33.33
+2017-10,Command Injection - Generic,2,1,2,50.0
+2017-10,Cryptographic Issues - Generic,2,2,2,100.0
+2017-10,SQL Injection,2,1,2,50.0
+2017-10,XML External Entities (XXE),2,2,1,100.0
+2017-10,Array Index Underflow,1,0,1,0.0
+2017-10,CRLF Injection,1,0,1,0.0
+2017-10,Classic Buffer Overflow,1,0,1,0.0
+2017-10,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2017-10,Code Injection,1,0,1,0.0
+2017-10,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2017-10,HTTP Response Splitting,1,0,1,0.0
+2017-10,Information Exposure Through Directory Listing,1,0,1,0.0
+2017-10,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2017-10,Insecure Storage of Sensitive Information,1,1,1,100.0
+2017-10,Insufficient Session Expiration,1,0,1,0.0
+2017-10,Memory Corruption - Generic,1,0,1,0.0
+2017-10,OS Command Injection,1,0,1,0.0
+2017-10,Path Traversal,1,1,1,100.0
+2017-10,Phishing,1,0,1,0.0
+2017-10,Privilege Escalation,1,1,1,100.0
+2017-10,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,1,0,1,0.0
+2017-10,Server-Side Request Forgery (SSRF),1,0,1,0.0
+2017-10,UI Redressing (Clickjacking),1,0,1,0.0
+2017-10,Uncontrolled Resource Consumption,1,1,1,100.0
+2017-10,Weak Password Recovery Mechanism for Forgotten Password,1,0,1,0.0
+2017-11,,8,2,7,25.0
+2017-11,Information Disclosure,8,3,5,37.5
+2017-11,Violation of Secure Design Principles,7,0,7,0.0
+2017-11,Cross-site Scripting (XSS) - Stored,6,1,4,16.67
+2017-11,Cross-site Scripting (XSS) - Reflected,5,4,5,80.0
+2017-11,UI Redressing (Clickjacking),4,3,3,75.0
+2017-11,Server-Side Request Forgery (SSRF),3,1,3,33.33
+2017-11,Classic Buffer Overflow,2,0,1,0.0
+2017-11,Cross-Site Request Forgery (CSRF),2,2,1,100.0
+2017-11,Improper Certificate Validation,2,0,2,0.0
+2017-11,Improper Restriction of Authentication Attempts,2,1,2,50.0
+2017-11,Insecure Direct Object Reference (IDOR),2,1,2,50.0
+2017-11,Business Logic Errors,1,1,1,100.0
+2017-11,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2017-11,Cryptographic Issues - Generic,1,1,1,100.0
+2017-11,Improper Access Control - Generic,1,1,1,100.0
+2017-11,Improper Authentication - Generic,1,0,1,0.0
+2017-11,Man-in-the-Middle,1,1,1,100.0
+2017-11,Open Redirect,1,1,1,100.0
+2017-11,Password in Configuration File,1,1,1,100.0
+2017-11,Path Traversal,1,1,1,100.0
+2017-11,Privacy Violation,1,1,1,100.0
+2017-11,Privilege Escalation,1,0,1,0.0
+2017-11,"Reusing a Nonce, Key Pair in Encryption",1,1,1,100.0
+2017-11,SQL Injection,1,1,1,100.0
+2017-11,Uncontrolled Resource Consumption,1,1,1,100.0
+2017-11,Use of Hard-coded Credentials,1,0,1,0.0
+2017-12,Cross-site Scripting (XSS) - Reflected,10,2,6,20.0
+2017-12,Cross-site Scripting (XSS) - Stored,9,7,6,77.78
+2017-12,,7,5,7,71.43
+2017-12,Information Disclosure,6,3,5,50.0
+2017-12,Business Logic Errors,4,3,4,75.0
+2017-12,Open Redirect,4,3,3,75.0
+2017-12,Path Traversal,4,1,2,25.0
+2017-12,Privilege Escalation,4,3,3,75.0
+2017-12,Code Injection,3,1,3,33.33
+2017-12,SQL Injection,3,3,2,100.0
+2017-12,Uncontrolled Resource Consumption,3,2,3,66.67
+2017-12,Violation of Secure Design Principles,3,3,3,100.0
+2017-12,Command Injection - Generic,2,2,2,100.0
+2017-12,Improper Access Control - Generic,2,2,2,100.0
+2017-12,Improper Authentication - Generic,2,0,1,0.0
+2017-12,Server-Side Request Forgery (SSRF),2,1,2,50.0
+2017-12,Use After Free,2,1,2,50.0
+2017-12,Buffer Under-read,1,1,1,100.0
+2017-12,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2017-12,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2017-12,Cryptographic Issues - Generic,1,1,1,100.0
+2017-12,Heap Overflow,1,1,1,100.0
+2017-12,Improper Certificate Validation,1,0,1,0.0
+2017-12,Improper Neutralization of HTTP Headers for Scripting Syntax,1,0,1,0.0
+2017-12,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2017-12,Memory Corruption - Generic,1,1,1,100.0
+2017-12,Phishing,1,0,1,0.0
+2017-12,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2017-12,UI Redressing (Clickjacking),1,1,1,100.0
+2017-12,User Interface (UI) Misrepresentation of Critical Information,1,0,1,0.0
+2017-12,XML External Entities (XXE),1,1,1,100.0
+2018-01,,11,7,9,63.64
+2018-01,Information Disclosure,11,8,6,72.73
+2018-01,Cross-site Scripting (XSS) - Stored,10,5,5,50.0
+2018-01,Path Traversal,9,1,2,11.11
+2018-01,Cross-site Scripting (XSS) - Reflected,7,5,5,71.43
+2018-01,Violation of Secure Design Principles,7,2,6,28.57
+2018-01,Improper Access Control - Generic,6,5,3,83.33
+2018-01,Uncontrolled Resource Consumption,6,1,1,16.67
+2018-01,Business Logic Errors,3,3,3,100.0
+2018-01,Cross-Site Request Forgery (CSRF),3,2,3,66.67
+2018-01,Privilege Escalation,3,1,3,33.33
+2018-01,Improper Authentication - Generic,2,1,2,50.0
+2018-01,SQL Injection,2,1,2,50.0
+2018-01,Server-Side Request Forgery (SSRF),2,1,2,50.0
+2018-01,Code Injection,1,1,1,100.0
+2018-01,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2018-01,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2018-01,Information Exposure Through Directory Listing,1,1,1,100.0
+2018-01,Information Exposure Through an Error Message,1,1,1,100.0
+2018-01,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2018-01,Integer Underflow,1,0,1,0.0
+2018-01,NULL Pointer Dereference,1,1,1,100.0
+2018-01,OS Command Injection,1,1,1,100.0
+2018-01,Open Redirect,1,1,1,100.0
+2018-01,Privacy Violation,1,0,1,0.0
+2018-01,UI Redressing (Clickjacking),1,1,1,100.0
+2018-02,Information Disclosure,13,7,10,53.85
+2018-02,Cross-site Scripting (XSS) - Reflected,8,7,6,87.5
+2018-02,Uncontrolled Resource Consumption,8,2,3,25.0
+2018-02,Path Traversal,7,2,3,28.57
+2018-02,,6,3,4,50.0
+2018-02,SQL Injection,6,0,3,0.0
+2018-02,Command Injection - Generic,5,1,2,20.0
+2018-02,Cross-Site Request Forgery (CSRF),5,5,2,100.0
+2018-02,Improper Authentication - Generic,5,3,4,60.0
+2018-02,Cross-site Scripting (XSS) - Stored,3,1,3,33.33
+2018-02,Improper Access Control - Generic,3,2,3,66.67
+2018-02,Insecure Direct Object Reference (IDOR),3,2,3,66.67
+2018-02,Open Redirect,3,2,3,66.67
+2018-02,Violation of Secure Design Principles,3,1,3,33.33
+2018-02,Business Logic Errors,2,1,2,50.0
+2018-02,Information Exposure Through Debug Information,2,2,2,100.0
+2018-02,Out-of-bounds Read,2,0,1,0.0
+2018-02,UI Redressing (Clickjacking),2,1,2,50.0
+2018-02,Array Index Underflow,1,1,1,100.0
+2018-02,Classic Buffer Overflow,1,0,1,0.0
+2018-02,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2018-02,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2018-02,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2018-02,Information Exposure Through Sent Data,1,1,1,100.0
+2018-02,OS Command Injection,1,1,1,100.0
+2018-02,Off-by-one Error,1,1,1,100.0
+2018-02,Resource Injection,1,1,1,100.0
+2018-02,Use of Externally-Controlled Format String,1,1,1,100.0
+2018-02,Use of a Broken or Risky Cryptographic Algorithm,1,1,1,100.0
+2018-02,Write-what-where Condition,1,1,1,100.0
+2018-02,XML External Entities (XXE),1,1,1,100.0
+2018-03,,14,7,12,50.0
+2018-03,Information Disclosure,13,8,7,61.54
+2018-03,Out-of-bounds Read,9,0,2,0.0
+2018-03,Cross-site Scripting (XSS) - Stored,7,5,4,71.43
+2018-03,Business Logic Errors,6,4,6,66.67
+2018-03,Cross-site Scripting (XSS) - Reflected,6,6,6,100.0
+2018-03,Deserialization of Untrusted Data,5,0,2,0.0
+2018-03,Cross-Site Request Forgery (CSRF),4,4,3,100.0
+2018-03,Path Traversal,4,2,2,50.0
+2018-03,Uncontrolled Resource Consumption,4,3,4,75.0
+2018-03,Command Injection - Generic,3,2,3,66.67
+2018-03,Improper Authentication - Generic,3,3,2,100.0
+2018-03,Cross-site Scripting (XSS) - Generic,2,0,1,0.0
+2018-03,Cryptographic Issues - Generic,2,1,2,50.0
+2018-03,Improper Access Control - Generic,2,2,2,100.0
+2018-03,Information Exposure Through Directory Listing,2,0,1,0.0
+2018-03,Phishing,2,0,1,0.0
+2018-03,Privilege Escalation,2,2,2,100.0
+2018-03,Server-Side Request Forgery (SSRF),2,1,2,50.0
+2018-03,Code Injection,1,0,1,0.0
+2018-03,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2018-03,Improper Authorization,1,1,1,100.0
+2018-03,Information Exposure Through an Error Message,1,0,1,0.0
+2018-03,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2018-03,Insufficiently Protected Credentials,1,1,1,100.0
+2018-03,OS Command Injection,1,0,1,0.0
+2018-03,Off-by-one Error,1,1,1,100.0
+2018-03,Privacy Violation,1,1,1,100.0
+2018-03,Violation of Secure Design Principles,1,1,1,100.0
+2018-04,,13,3,9,23.08
+2018-04,Information Disclosure,13,10,8,76.92
+2018-04,Cross-site Scripting (XSS) - Stored,5,3,2,60.0
+2018-04,Command Injection - Generic,3,0,2,0.0
+2018-04,Cross-site Scripting (XSS) - DOM,3,2,3,66.67
+2018-04,Cross-site Scripting (XSS) - Reflected,3,3,3,100.0
+2018-04,Insecure Direct Object Reference (IDOR),3,2,3,66.67
+2018-04,Violation of Secure Design Principles,3,1,3,33.33
+2018-04,Business Logic Errors,2,2,2,100.0
+2018-04,Cross-Site Request Forgery (CSRF),2,2,2,100.0
+2018-04,Cross-site Scripting (XSS) - Generic,2,1,2,50.0
+2018-04,Heap Overflow,2,1,2,50.0
+2018-04,Improper Access Control - Generic,2,1,2,50.0
+2018-04,Path Traversal,2,0,1,0.0
+2018-04,UI Redressing (Clickjacking),2,0,1,0.0
+2018-04,Buffer Over-read,1,1,1,100.0
+2018-04,CRLF Injection,1,0,1,0.0
+2018-04,Cleartext Storage of Sensitive Information,1,1,1,100.0
+2018-04,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2018-04,Code Injection,1,0,1,0.0
+2018-04,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,1,1,100.0
+2018-04,Improper Authentication - Generic,1,1,1,100.0
+2018-04,Improper Null Termination,1,1,1,100.0
+2018-04,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2018-04,Information Exposure Through an Error Message,1,1,1,100.0
+2018-04,Man-in-the-Middle,1,0,1,0.0
+2018-04,Memory Corruption - Generic,1,0,1,0.0
+2018-04,NULL Pointer Dereference,1,0,1,0.0
+2018-04,OS Command Injection,1,0,1,0.0
+2018-04,Open Redirect,1,0,1,0.0
+2018-04,Phishing,1,0,1,0.0
+2018-04,Privilege Escalation,1,0,1,0.0
+2018-04,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2018-04,Uncontrolled Resource Consumption,1,0,1,0.0
+2018-04,Use After Free,1,0,1,0.0
+2018-04,Use of a Key Past its Expiration Date,1,1,1,100.0
+2018-04,Weak Password Recovery Mechanism for Forgotten Password,1,1,1,100.0
+2018-05,Information Disclosure,15,6,6,40.0
+2018-05,Cross-site Scripting (XSS) - Stored,9,4,5,44.44
+2018-05,Improper Access Control - Generic,6,6,6,100.0
+2018-05,,5,3,4,60.0
+2018-05,Code Injection,5,1,3,20.0
+2018-05,Path Traversal,4,0,1,0.0
+2018-05,SQL Injection,4,2,4,50.0
+2018-05,Server-Side Request Forgery (SSRF),4,2,4,50.0
+2018-05,Classic Buffer Overflow,3,3,1,100.0
+2018-05,Cross-site Scripting (XSS) - Reflected,3,2,3,66.67
+2018-05,Improper Authentication - Generic,3,3,2,100.0
+2018-05,Cross-site Scripting (XSS) - DOM,2,2,2,100.0
+2018-05,Open Redirect,2,1,2,50.0
+2018-05,Privacy Violation,2,2,2,100.0
+2018-05,UI Redressing (Clickjacking),2,0,2,0.0
+2018-05,Uncontrolled Resource Consumption,2,2,2,100.0
+2018-05,Array Index Underflow,1,1,1,100.0
+2018-05,Business Logic Errors,1,1,1,100.0
+2018-05,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2018-05,Cryptographic Issues - Generic,1,0,1,0.0
+2018-05,Double Free,1,1,1,100.0
+2018-05,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2018-05,Insecure Temporary File,1,0,1,0.0
+2018-05,LDAP Injection,1,0,1,0.0
+2018-05,Privilege Escalation,1,0,1,0.0
+2018-06,,12,7,8,58.33
+2018-06,Information Disclosure,9,6,8,66.67
+2018-06,Business Logic Errors,8,1,4,12.5
+2018-06,Cross-Site Request Forgery (CSRF),6,1,2,16.67
+2018-06,Cross-site Scripting (XSS) - Reflected,5,1,4,20.0
+2018-06,Violation of Secure Design Principles,5,1,4,20.0
+2018-06,Cross-site Scripting (XSS) - DOM,4,3,3,75.0
+2018-06,Cross-site Scripting (XSS) - Stored,4,3,3,75.0
+2018-06,Improper Access Control - Generic,4,1,4,25.0
+2018-06,SQL Injection,4,2,3,50.0
+2018-06,Path Traversal,3,1,2,33.33
+2018-06,Code Injection,2,1,2,50.0
+2018-06,Improper Authentication - Generic,2,0,1,0.0
+2018-06,Insecure Direct Object Reference (IDOR),2,2,2,100.0
+2018-06,Open Redirect,2,0,2,0.0
+2018-06,Server-Side Request Forgery (SSRF),2,2,2,100.0
+2018-06,UI Redressing (Clickjacking),2,0,2,0.0
+2018-06,Array Index Underflow,1,0,1,0.0
+2018-06,Classic Buffer Overflow,1,0,1,0.0
+2018-06,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2018-06,Cleartext Transmission of Sensitive Information,1,0,1,0.0
+2018-06,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2018-06,Improper Input Validation,1,0,1,0.0
+2018-06,Missing Required Cryptographic Step,1,0,1,0.0
+2018-06,Phishing,1,1,1,100.0
+2018-06,Privilege Escalation,1,1,1,100.0
+2018-06,Uncontrolled Resource Consumption,1,0,1,0.0
+2018-06,Use After Free,1,1,1,100.0
+2018-07,,17,11,11,64.71
+2018-07,Information Disclosure,14,9,11,64.29
+2018-07,Cross-site Scripting (XSS) - Reflected,10,7,6,70.0
+2018-07,Cross-site Scripting (XSS) - Stored,7,4,6,57.14
+2018-07,Uncontrolled Resource Consumption,5,2,3,40.0
+2018-07,Business Logic Errors,4,2,4,50.0
+2018-07,Cross-site Scripting (XSS) - DOM,4,3,3,75.0
+2018-07,Cross-site Scripting (XSS) - Generic,4,1,3,25.0
+2018-07,Improper Authentication - Generic,4,1,4,25.0
+2018-07,Privilege Escalation,4,3,3,75.0
+2018-07,SQL Injection,4,1,2,25.0
+2018-07,Open Redirect,3,2,3,66.67
+2018-07,Path Traversal,3,1,2,33.33
+2018-07,Violation of Secure Design Principles,3,2,3,66.67
+2018-07,Command Injection - Generic,2,0,2,0.0
+2018-07,Cross-Site Request Forgery (CSRF),2,2,2,100.0
+2018-07,Improper Access Control - Generic,2,2,2,100.0
+2018-07,Privacy Violation,2,2,2,100.0
+2018-07,Server-Side Request Forgery (SSRF),2,1,2,50.0
+2018-07,UI Redressing (Clickjacking),2,1,2,50.0
+2018-07,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2018-07,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2018-07,Cryptographic Issues - Generic,1,1,1,100.0
+2018-07,Externally Controlled Reference to a Resource in Another Sphere,1,1,1,100.0
+2018-07,Improper Certificate Validation,1,1,1,100.0
+2018-07,Improper Export of Android Application Components,1,1,1,100.0
+2018-07,Improper Input Validation,1,1,1,100.0
+2018-07,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2018-07,Information Exposure Through Debug Information,1,1,1,100.0
+2018-07,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2018-07,Integer Overflow,1,1,1,100.0
+2018-07,Memory Corruption - Generic,1,1,1,100.0
+2018-07,OS Command Injection,1,1,1,100.0
+2018-07,Phishing,1,1,1,100.0
+2018-07,Session Fixation,1,0,1,0.0
+2018-08,,14,10,11,71.43
+2018-08,Information Disclosure,9,6,7,66.67
+2018-08,Command Injection - Generic,6,1,3,16.67
+2018-08,Cross-site Scripting (XSS) - Stored,6,5,5,83.33
+2018-08,Cross-site Scripting (XSS) - Reflected,5,3,5,60.0
+2018-08,Cross-Site Request Forgery (CSRF),4,3,2,75.0
+2018-08,SQL Injection,4,2,4,50.0
+2018-08,Code Injection,3,2,3,66.67
+2018-08,Insecure Direct Object Reference (IDOR),3,1,2,33.33
+2018-08,Open Redirect,3,2,3,66.67
+2018-08,Cross-site Scripting (XSS) - DOM,2,2,2,100.0
+2018-08,Deserialization of Untrusted Data,2,2,2,100.0
+2018-08,Improper Access Control - Generic,2,2,2,100.0
+2018-08,Privacy Violation,2,1,2,50.0
+2018-08,Privilege Escalation,2,1,2,50.0
+2018-08,Business Logic Errors,1,0,1,0.0
+2018-08,Classic Buffer Overflow,1,1,1,100.0
+2018-08,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2018-08,Cryptographic Issues - Generic,1,0,1,0.0
+2018-08,Improper Authentication - Generic,1,1,1,100.0
+2018-08,Improper Authorization,1,1,1,100.0
+2018-08,Insufficient Session Expiration,1,1,1,100.0
+2018-08,Path Traversal,1,1,1,100.0
+2018-08,Uncontrolled Resource Consumption,1,0,1,0.0
+2018-08,Use of a Broken or Risky Cryptographic Algorithm,1,0,1,0.0
+2018-08,Violation of Secure Design Principles,1,1,1,100.0
+2018-09,,10,3,8,30.0
+2018-09,Information Disclosure,10,4,8,40.0
+2018-09,Cross-site Scripting (XSS) - Stored,9,5,9,55.56
+2018-09,Business Logic Errors,7,6,7,85.71
+2018-09,Code Injection,6,4,4,66.67
+2018-09,Deserialization of Untrusted Data,6,4,3,66.67
+2018-09,Path Traversal,6,2,3,33.33
+2018-09,Violation of Secure Design Principles,6,2,4,33.33
+2018-09,Cross-site Scripting (XSS) - Reflected,5,3,4,60.0
+2018-09,Improper Restriction of Authentication Attempts,5,5,4,100.0
+2018-09,Cross-Site Request Forgery (CSRF),4,1,4,25.0
+2018-09,Server-Side Request Forgery (SSRF),4,3,4,75.0
+2018-09,Improper Access Control - Generic,3,1,3,33.33
+2018-09,Improper Authentication - Generic,3,2,2,66.67
+2018-09,Improper Authorization,3,3,2,100.0
+2018-09,Open Redirect,3,2,2,66.67
+2018-09,Uncontrolled Resource Consumption,3,1,3,33.33
+2018-09,CRLF Injection,2,1,2,50.0
+2018-09,Command Injection - Generic,2,0,2,0.0
+2018-09,Insecure Direct Object Reference (IDOR),2,2,2,100.0
+2018-09,OS Command Injection,2,0,2,0.0
+2018-09,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2018-09,Cryptographic Issues - Generic,1,0,1,0.0
+2018-09,HTTP Response Splitting,1,0,1,0.0
+2018-09,Improper Input Validation,1,1,1,100.0
+2018-09,Information Exposure Through Directory Listing,1,0,1,0.0
+2018-09,Information Exposure Through Sent Data,1,0,1,0.0
+2018-09,Insufficiently Protected Credentials,1,1,1,100.0
+2018-09,Privilege Escalation,1,0,1,0.0
+2018-09,Resource Injection,1,0,1,0.0
+2018-09,UI Redressing (Clickjacking),1,1,1,100.0
+2018-09,Use of a Broken or Risky Cryptographic Algorithm,1,0,1,0.0
+2018-10,Improper Access Control - Generic,11,7,7,63.64
+2018-10,Business Logic Errors,10,8,7,80.0
+2018-10,,7,5,7,71.43
+2018-10,Cross-site Scripting (XSS) - Stored,7,4,6,57.14
+2018-10,Cross-Site Request Forgery (CSRF),6,5,6,83.33
+2018-10,Information Disclosure,6,5,3,83.33
+2018-10,Server-Side Request Forgery (SSRF),4,4,3,100.0
+2018-10,Cross-site Scripting (XSS) - DOM,3,2,2,66.67
+2018-10,Cross-site Scripting (XSS) - Generic,3,2,3,66.67
+2018-10,Cross-site Scripting (XSS) - Reflected,3,2,3,66.67
+2018-10,Code Injection,2,1,2,50.0
+2018-10,Cryptographic Issues - Generic,2,0,1,0.0
+2018-10,Improper Authorization,2,2,2,100.0
+2018-10,Authentication Bypass Using an Alternate Path or Channel,1,0,1,0.0
+2018-10,CRLF Injection,1,0,1,0.0
+2018-10,Command Injection - Generic,1,1,1,100.0
+2018-10,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,1,1,100.0
+2018-10,Externally Controlled Reference to a Resource in Another Sphere,1,0,1,0.0
+2018-10,Improper Authentication - Generic,1,1,1,100.0
+2018-10,Improper Input Validation,1,1,1,100.0
+2018-10,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2018-10,NULL Pointer Dereference,1,1,1,100.0
+2018-10,Open Redirect,1,1,1,100.0
+2018-10,Privilege Escalation,1,1,1,100.0
+2018-10,Reliance on Untrusted Inputs in a Security Decision,1,1,1,100.0
+2018-10,Session Fixation,1,1,1,100.0
+2018-10,Uncontrolled Resource Consumption,1,0,1,0.0
+2018-10,Violation of Secure Design Principles,1,0,1,0.0
+2018-11,,15,7,12,46.67
+2018-11,Information Disclosure,8,4,4,50.0
+2018-11,Improper Access Control - Generic,6,4,5,66.67
+2018-11,Cross-site Scripting (XSS) - Reflected,5,2,5,40.0
+2018-11,SQL Injection,4,1,4,25.0
+2018-11,Cross-site Scripting (XSS) - Stored,3,2,3,66.67
+2018-11,Insecure Direct Object Reference (IDOR),3,1,3,33.33
+2018-11,Open Redirect,3,0,3,0.0
+2018-11,Path Traversal,3,3,3,100.0
+2018-11,Uncontrolled Resource Consumption,3,0,3,0.0
+2018-11,Business Logic Errors,2,0,1,0.0
+2018-11,Cleartext Storage of Sensitive Information,2,1,2,50.0
+2018-11,Cross-Site Request Forgery (CSRF),2,2,2,100.0
+2018-11,Improper Restriction of Authentication Attempts,2,0,1,0.0
+2018-11,Incorrect Authorization,2,2,1,100.0
+2018-11,Information Exposure Through Directory Listing,2,0,2,0.0
+2018-11,Privacy Violation,2,2,2,100.0
+2018-11,Server-Side Request Forgery (SSRF),2,2,2,100.0
+2018-11,XML External Entities (XXE),2,2,2,100.0
+2018-11,Classic Buffer Overflow,1,1,1,100.0
+2018-11,Command Injection - Generic,1,1,1,100.0
+2018-11,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2018-11,Cryptographic Issues - Generic,1,1,1,100.0
+2018-11,Embedded Malicious Code,1,0,1,0.0
+2018-11,Inadequate Encryption Strength,1,0,1,0.0
+2018-11,Information Exposure Through an Error Message,1,0,1,0.0
+2018-11,Man-in-the-Middle,1,1,1,100.0
+2018-11,Password in Configuration File,1,1,1,100.0
+2018-11,Privilege Escalation,1,0,1,0.0
+2018-12,Improper Access Control - Generic,12,3,9,25.0
+2018-12,Information Disclosure,8,2,4,25.0
+2018-12,,6,1,6,16.67
+2018-12,Cross-site Scripting (XSS) - Reflected,5,3,5,60.0
+2018-12,Command Injection - Generic,4,4,1,100.0
+2018-12,Cross-site Scripting (XSS) - Generic,4,2,3,50.0
+2018-12,Cross-site Scripting (XSS) - Stored,4,3,3,75.0
+2018-12,Open Redirect,4,3,4,75.0
+2018-12,Business Logic Errors,3,2,2,66.67
+2018-12,Classic Buffer Overflow,3,3,1,100.0
+2018-12,Privilege Escalation,3,3,1,100.0
+2018-12,Cleartext Storage of Sensitive Information,2,0,2,0.0
+2018-12,Deserialization of Untrusted Data,2,2,2,100.0
+2018-12,Information Exposure Through Directory Listing,2,0,2,0.0
+2018-12,Uncontrolled Resource Consumption,2,1,2,50.0
+2018-12,Violation of Secure Design Principles,2,0,2,0.0
+2018-12,Code Injection,1,0,1,0.0
+2018-12,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2018-12,HTTP Request Smuggling,1,0,1,0.0
+2018-12,Information Exposure Through Debug Information,1,1,1,100.0
+2018-12,Information Exposure Through an Error Message,1,1,1,100.0
+2018-12,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2018-12,Modification of Assumed-Immutable Data (MAID),1,0,1,0.0
+2018-12,OS Command Injection,1,1,1,100.0
+2018-12,Out-of-bounds Read,1,1,1,100.0
+2018-12,Phishing,1,0,1,0.0
+2018-12,Privacy Violation,1,1,1,100.0
+2018-12,Resource Injection,1,0,1,0.0
+2018-12,Server-Side Request Forgery (SSRF),1,0,1,0.0
+2018-12,Session Fixation,1,1,1,100.0
+2018-12,UI Redressing (Clickjacking),1,0,1,0.0
+2019-01,,7,2,7,28.57
+2019-01,Cross-Site Request Forgery (CSRF),7,2,3,28.57
+2019-01,Cross-site Scripting (XSS) - Stored,6,6,6,100.0
+2019-01,Information Disclosure,6,3,5,50.0
+2019-01,Cross-site Scripting (XSS) - DOM,5,5,3,100.0
+2019-01,Violation of Secure Design Principles,5,1,5,20.0
+2019-01,Improper Access Control - Generic,4,2,4,50.0
+2019-01,Buffer Over-read,3,3,1,100.0
+2019-01,Business Logic Errors,3,2,3,66.67
+2019-01,Cross-site Scripting (XSS) - Reflected,3,0,2,0.0
+2019-01,Heap Overflow,3,3,2,100.0
+2019-01,Privilege Escalation,3,2,3,66.67
+2019-01,SQL Injection,3,1,2,33.33
+2019-01,Stack Overflow,3,3,3,100.0
+2019-01,CRLF Injection,2,0,1,0.0
+2019-01,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),2,1,2,50.0
+2019-01,Insecure Storage of Sensitive Information,2,2,2,100.0
+2019-01,Memory Corruption - Generic,2,2,2,100.0
+2019-01,Phishing,2,2,2,100.0
+2019-01,Time-of-check Time-of-use (TOCTOU) Race Condition,2,2,2,100.0
+2019-01,Use After Free,2,2,2,100.0
+2019-01,XML External Entities (XXE),2,0,1,0.0
+2019-01,Buffer Underflow,1,1,1,100.0
+2019-01,Command Injection - Generic,1,1,1,100.0
+2019-01,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2019-01,HTTP Request Smuggling,1,1,1,100.0
+2019-01,Inadequate Encryption Strength,1,0,1,0.0
+2019-01,Information Exposure Through Directory Listing,1,0,1,0.0
+2019-01,Information Exposure Through an Error Message,1,0,1,0.0
+2019-01,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2019-01,Man-in-the-Middle,1,1,1,100.0
+2019-01,Path Traversal,1,0,1,0.0
+2019-01,Server-Side Request Forgery (SSRF),1,0,1,0.0
+2019-01,Session Fixation,1,1,1,100.0
+2019-02,Information Disclosure,10,8,7,80.0
+2019-02,,8,4,5,50.0
+2019-02,Cross-site Scripting (XSS) - Reflected,6,5,5,83.33
+2019-02,Cross-site Scripting (XSS) - Stored,6,4,6,66.67
+2019-02,Privilege Escalation,5,4,4,80.0
+2019-02,Improper Access Control - Generic,4,3,3,75.0
+2019-02,Command Injection - Generic,3,3,1,100.0
+2019-02,Cross-Site Request Forgery (CSRF),3,0,2,0.0
+2019-02,Violation of Secure Design Principles,3,0,3,0.0
+2019-02,Cryptographic Issues - Generic,2,0,1,0.0
+2019-02,Improper Authentication - Generic,2,1,2,50.0
+2019-02,Memory Corruption - Generic,2,2,1,100.0
+2019-02,Path Traversal,2,1,2,50.0
+2019-02,SQL Injection,2,0,1,0.0
+2019-02,Uncontrolled Resource Consumption,2,2,2,100.0
+2019-02,Business Logic Errors,1,0,1,0.0
+2019-02,CRLF Injection,1,0,1,0.0
+2019-02,Code Injection,1,1,1,100.0
+2019-02,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2019-02,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2019-02,Improper Input Validation,1,0,1,0.0
+2019-02,Incorrect Authorization,1,1,1,100.0
+2019-02,Information Exposure Through Directory Listing,1,0,1,0.0
+2019-02,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2019-02,Insufficient Session Expiration,1,1,1,100.0
+2019-02,Open Redirect,1,1,1,100.0
+2019-02,Phishing,1,1,1,100.0
+2019-02,Privacy Violation,1,0,1,0.0
+2019-02,Resource Injection,1,0,1,0.0
+2019-02,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2019-02,Stack Overflow,1,1,1,100.0
+2019-02,XML External Entities (XXE),1,1,1,100.0
+2019-03,Information Disclosure,8,6,6,75.0
+2019-03,Uncontrolled Resource Consumption,8,5,6,62.5
+2019-03,,6,5,4,83.33
+2019-03,Cross-site Scripting (XSS) - DOM,5,4,4,80.0
+2019-03,SQL Injection,5,2,2,40.0
+2019-03,Cross-site Scripting (XSS) - Reflected,4,2,4,50.0
+2019-03,Cross-site Scripting (XSS) - Stored,4,2,3,50.0
+2019-03,Business Logic Errors,3,2,2,66.67
+2019-03,Insecure Direct Object Reference (IDOR),3,1,2,33.33
+2019-03,Man-in-the-Middle,3,1,3,33.33
+2019-03,Open Redirect,3,1,2,33.33
+2019-03,Privilege Escalation,3,2,3,66.67
+2019-03,Cross-Site Request Forgery (CSRF),2,0,2,0.0
+2019-03,Cross-site Scripting (XSS) - Generic,2,1,2,50.0
+2019-03,Cryptographic Issues - Generic,2,1,2,50.0
+2019-03,Heap Overflow,2,1,2,50.0
+2019-03,Improper Access Control - Generic,2,2,2,100.0
+2019-03,Improper Authentication - Generic,2,2,2,100.0
+2019-03,Improper Restriction of Authentication Attempts,2,0,2,0.0
+2019-03,OS Command Injection,2,1,2,50.0
+2019-03,Path Traversal,2,2,2,100.0
+2019-03,Stack Overflow,2,2,1,100.0
+2019-03,Violation of Secure Design Principles,2,1,2,50.0
+2019-03,XML Entity Expansion,2,0,1,0.0
+2019-03,Array Index Underflow,1,1,1,100.0
+2019-03,Classic Buffer Overflow,1,1,1,100.0
+2019-03,Code Injection,1,1,1,100.0
+2019-03,Command Injection - Generic,1,1,1,100.0
+2019-03,Deserialization of Untrusted Data,1,0,1,0.0
+2019-03,HTTP Request Smuggling,1,1,1,100.0
+2019-03,Insufficient Session Expiration,1,0,1,0.0
+2019-03,Malware,1,1,1,100.0
+2019-03,Memory Corruption - Generic,1,1,1,100.0
+2019-03,Missing Encryption of Sensitive Data,1,1,1,100.0
+2019-03,Out-of-bounds Read,1,1,1,100.0
+2019-03,Phishing,1,1,1,100.0
+2019-03,Privacy Violation,1,1,1,100.0
+2019-03,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),1,0,1,0.0
+2019-04,Improper Access Control - Generic,11,9,9,81.82
+2019-04,Information Disclosure,8,5,4,62.5
+2019-04,,7,4,6,57.14
+2019-04,Cross-site Scripting (XSS) - Stored,5,4,5,80.0
+2019-04,Privilege Escalation,5,4,4,80.0
+2019-04,Cross-site Scripting (XSS) - Reflected,4,3,2,75.0
+2019-04,Insecure Direct Object Reference (IDOR),4,3,4,75.0
+2019-04,Command Injection - Generic,3,2,3,66.67
+2019-04,Cross-Site Request Forgery (CSRF),2,1,2,50.0
+2019-04,OS Command Injection,2,1,2,50.0
+2019-04,Open Redirect,2,1,2,50.0
+2019-04,Privacy Violation,2,1,2,50.0
+2019-04,SQL Injection,2,2,1,100.0
+2019-04,Server-Side Request Forgery (SSRF),2,2,2,100.0
+2019-04,Uncontrolled Resource Consumption,2,1,2,50.0
+2019-04,Business Logic Errors,1,1,1,100.0
+2019-04,Classic Buffer Overflow,1,1,1,100.0
+2019-04,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2019-04,Code Injection,1,1,1,100.0
+2019-04,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2019-04,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2019-04,Deserialization of Untrusted Data,1,0,1,0.0
+2019-04,HTTP Request Smuggling,1,0,1,0.0
+2019-04,Improper Null Termination,1,0,1,0.0
+2019-04,Inadequate Encryption Strength,1,1,1,100.0
+2019-04,Incorrect Calculation of Buffer Size,1,1,1,100.0
+2019-04,Information Exposure Through Debug Information,1,0,1,0.0
+2019-04,Insecure Storage of Sensitive Information,1,1,1,100.0
+2019-04,Path Traversal,1,1,1,100.0
+2019-04,Reliance on Untrusted Inputs in a Security Decision,1,1,1,100.0
+2019-04,Stack Overflow,1,1,1,100.0
+2019-04,Use After Free,1,1,1,100.0
+2019-04,Use of Hard-coded Cryptographic Key,1,1,1,100.0
+2019-04,Violation of Secure Design Principles,1,0,1,0.0
+2019-05,Information Disclosure,6,6,5,100.0
+2019-05,,5,0,4,0.0
+2019-05,Cross-site Scripting (XSS) - Stored,5,3,5,60.0
+2019-05,Path Traversal,5,1,2,20.0
+2019-05,Business Logic Errors,4,4,3,100.0
+2019-05,Improper Access Control - Generic,4,4,3,100.0
+2019-05,Improper Authentication - Generic,3,1,3,33.33
+2019-05,Violation of Secure Design Principles,3,3,3,100.0
+2019-05,Cross-Site Request Forgery (CSRF),2,2,1,100.0
+2019-05,Cross-site Scripting (XSS) - DOM,2,1,2,50.0
+2019-05,Privilege Escalation,2,1,2,50.0
+2019-05,SQL Injection,2,1,2,50.0
+2019-05,Uncontrolled Resource Consumption,2,1,2,50.0
+2019-05,Buffer Over-read,1,1,1,100.0
+2019-05,CRLF Injection,1,1,1,100.0
+2019-05,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2019-05,Code Injection,1,0,1,0.0
+2019-05,Command Injection - Generic,1,1,1,100.0
+2019-05,Cross-site Scripting (XSS) - Reflected,1,1,1,100.0
+2019-05,Deserialization of Untrusted Data,1,0,1,0.0
+2019-05,Externally Controlled Reference to a Resource in Another Sphere,1,1,1,100.0
+2019-05,Forced Browsing,1,1,1,100.0
+2019-05,Information Exposure Through an Error Message,1,0,1,0.0
+2019-05,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2019-05,Insecure Storage of Sensitive Information,1,1,1,100.0
+2019-05,Integer Overflow,1,0,1,0.0
+2019-05,NULL Pointer Dereference,1,0,1,0.0
+2019-05,OS Command Injection,1,1,1,100.0
+2019-05,Open Redirect,1,0,1,0.0
+2019-05,Out-of-bounds Read,1,1,1,100.0
+2019-05,Privacy Violation,1,0,1,0.0
+2019-05,Reliance on Untrusted Inputs in a Security Decision,1,1,1,100.0
+2019-05,Remote File Inclusion,1,0,1,0.0
+2019-05,Resource Injection,1,0,1,0.0
+2019-05,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2019-06,Information Disclosure,11,6,10,54.55
+2019-06,Cross-site Scripting (XSS) - Stored,7,2,6,28.57
+2019-06,Code Injection,6,3,5,50.0
+2019-06,Cross-Site Request Forgery (CSRF),5,3,5,60.0
+2019-06,Privilege Escalation,5,3,5,60.0
+2019-06,Improper Access Control - Generic,3,2,3,66.67
+2019-06,Open Redirect,3,1,3,33.33
+2019-06,Violation of Secure Design Principles,3,2,3,66.67
+2019-06,Business Logic Errors,2,2,2,100.0
+2019-06,Cross-site Scripting (XSS) - Reflected,2,0,2,0.0
+2019-06,Improper Authentication - Generic,2,1,2,50.0
+2019-06,Path Traversal,2,0,2,0.0
+2019-06,Plaintext Storage of a Password,2,1,2,50.0
+2019-06,Uncontrolled Resource Consumption,2,1,2,50.0
+2019-06,Cleartext Storage of Sensitive Information,1,1,1,100.0
+2019-06,Command Injection - Generic,1,0,1,0.0
+2019-06,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2019-06,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2019-06,File and Directory Information Exposure,1,0,1,0.0
+2019-06,Heap Overflow,1,1,1,100.0
+2019-06,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2019-06,Integer Overflow,1,0,1,0.0
+2019-06,Man-in-the-Middle,1,0,1,0.0
+2019-06,NULL Pointer Dereference,1,1,1,100.0
+2019-06,Resource Injection,1,0,1,0.0
+2019-06,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2019-06,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2019-07,Information Disclosure,13,8,9,61.54
+2019-07,Cross-site Scripting (XSS) - Reflected,8,1,5,12.5
+2019-07,,7,2,5,28.57
+2019-07,Cross-site Scripting (XSS) - Stored,6,6,5,100.0
+2019-07,Violation of Secure Design Principles,6,3,6,50.0
+2019-07,Command Injection - Generic,5,3,3,60.0
+2019-07,Server-Side Request Forgery (SSRF),4,4,3,100.0
+2019-07,Business Logic Errors,3,2,3,66.67
+2019-07,OS Command Injection,3,1,3,33.33
+2019-07,UI Redressing (Clickjacking),3,1,2,33.33
+2019-07,Code Injection,2,2,2,100.0
+2019-07,Cross-Site Request Forgery (CSRF),2,1,2,50.0
+2019-07,Cross-site Scripting (XSS) - DOM,2,2,2,100.0
+2019-07,Improper Access Control - Generic,2,1,2,50.0
+2019-07,Improper Authentication - Generic,2,2,2,100.0
+2019-07,Insecure Storage of Sensitive Information,2,0,1,0.0
+2019-07,Insufficient Session Expiration,2,1,2,50.0
+2019-07,Integer Overflow,2,0,1,0.0
+2019-07,Open Redirect,2,1,2,50.0
+2019-07,Privilege Escalation,2,1,2,50.0
+2019-07,SQL Injection,2,0,2,0.0
+2019-07,Cleartext Storage of Sensitive Information,1,1,1,100.0
+2019-07,Cryptographic Issues - Generic,1,0,1,0.0
+2019-07,Forced Browsing,1,0,1,0.0
+2019-07,HTTP Request Smuggling,1,0,1,0.0
+2019-07,Heap Overflow,1,1,1,100.0
+2019-07,Information Exposure Through Directory Listing,1,1,1,100.0
+2019-07,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2019-07,Missing Encryption of Sensitive Data,1,0,1,0.0
+2019-07,Out-of-bounds Read,1,1,1,100.0
+2019-07,Path Traversal,1,0,1,0.0
+2019-07,Phishing,1,0,1,0.0
+2019-07,Remote File Inclusion,1,0,1,0.0
+2019-07,Uncontrolled Resource Consumption,1,1,1,100.0
+2019-07,Use of Hard-coded Credentials,1,0,1,0.0
+2019-07,User Interface (UI) Misrepresentation of Critical Information,1,1,1,100.0
+2019-07,Weak Password Recovery Mechanism for Forgotten Password,1,0,1,0.0
+2019-08,Improper Access Control - Generic,11,8,9,72.73
+2019-08,Information Disclosure,11,6,10,54.55
+2019-08,,9,5,9,55.56
+2019-08,Business Logic Errors,6,4,5,66.67
+2019-08,Violation of Secure Design Principles,5,2,5,40.0
+2019-08,Cross-site Scripting (XSS) - Stored,4,2,4,50.0
+2019-08,Path Traversal,4,2,4,50.0
+2019-08,Uncontrolled Resource Consumption,4,2,4,50.0
+2019-08,Code Injection,3,1,3,33.33
+2019-08,Improper Authentication - Generic,3,2,3,66.67
+2019-08,Improper Input Validation,3,3,2,100.0
+2019-08,OS Command Injection,3,0,2,0.0
+2019-08,Command Injection - Generic,2,2,2,100.0
+2019-08,Improper Restriction of Authentication Attempts,2,1,2,50.0
+2019-08,Insecure Storage of Sensitive Information,2,0,1,0.0
+2019-08,Open Redirect,2,2,2,100.0
+2019-08,UI Redressing (Clickjacking),2,0,1,0.0
+2019-08,Use After Free,2,2,1,100.0
+2019-08,Buffer Over-read,1,1,1,100.0
+2019-08,Classic Buffer Overflow,1,1,1,100.0
+2019-08,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2019-08,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2019-08,Cryptographic Issues - Generic,1,0,1,0.0
+2019-08,Heap Overflow,1,1,1,100.0
+2019-08,Memory Corruption - Generic,1,0,1,0.0
+2019-08,Out-of-bounds Read,1,1,1,100.0
+2019-08,Privilege Escalation,1,1,1,100.0
+2019-08,SQL Injection,1,0,1,0.0
+2019-08,Stack Overflow,1,1,1,100.0
+2019-08,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),1,0,1,0.0
+2019-08,Write-what-where Condition,1,1,1,100.0
+2019-09,Information Disclosure,9,3,6,33.33
+2019-09,,8,5,7,62.5
+2019-09,Improper Access Control - Generic,4,3,3,75.0
+2019-09,Privilege Escalation,4,3,3,75.0
+2019-09,Code Injection,3,0,1,0.0
+2019-09,Cross-site Scripting (XSS) - Reflected,3,1,2,33.33
+2019-09,Cross-site Scripting (XSS) - Stored,3,1,2,33.33
+2019-09,Insecure Direct Object Reference (IDOR),3,3,3,100.0
+2019-09,Path Traversal,3,0,2,0.0
+2019-09,Command Injection - Generic,2,1,2,50.0
+2019-09,Cross-site Scripting (XSS) - DOM,2,1,2,50.0
+2019-09,Double Free,2,1,1,50.0
+2019-09,Open Redirect,2,0,2,0.0
+2019-09,SQL Injection,2,0,2,0.0
+2019-09,Uncontrolled Resource Consumption,2,1,2,50.0
+2019-09,Business Logic Errors,1,1,1,100.0
+2019-09,Classic Buffer Overflow,1,0,1,0.0
+2019-09,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2019-09,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2019-09,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2019-09,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2019-09,File and Directory Information Exposure,1,1,1,100.0
+2019-09,Heap Overflow,1,1,1,100.0
+2019-09,Improper Authentication - Generic,1,0,1,0.0
+2019-09,Improper Handling of URL Encoding (Hex Encoding),1,0,1,0.0
+2019-09,Information Exposure Through Debug Information,1,1,1,100.0
+2019-09,Information Exposure Through Directory Listing,1,0,1,0.0
+2019-09,Insecure Storage of Sensitive Information,1,0,1,0.0
+2019-09,Insecure Temporary File,1,0,1,0.0
+2019-09,Malware,1,0,1,0.0
+2019-09,Memory Corruption - Generic,1,0,1,0.0
+2019-09,OS Command Injection,1,0,1,0.0
+2019-09,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2019-09,Violation of Secure Design Principles,1,0,1,0.0
+2019-09,Weak Password Recovery Mechanism for Forgotten Password,1,1,1,100.0
+2019-09,XML External Entities (XXE),1,1,1,100.0
+2019-10,Information Disclosure,9,3,4,33.33
+2019-10,Cross-site Scripting (XSS) - Reflected,8,4,7,50.0
+2019-10,,6,3,6,50.0
+2019-10,Improper Access Control - Generic,5,4,3,80.0
+2019-10,Code Injection,4,3,4,75.0
+2019-10,Cross-site Scripting (XSS) - Stored,4,3,4,75.0
+2019-10,Insecure Direct Object Reference (IDOR),4,2,4,50.0
+2019-10,Privilege Escalation,4,2,4,50.0
+2019-10,Business Logic Errors,3,3,3,100.0
+2019-10,HTTP Request Smuggling,3,2,2,66.67
+2019-10,SQL Injection,3,1,3,33.33
+2019-10,Server-Side Request Forgery (SSRF),3,1,3,33.33
+2019-10,Uncontrolled Resource Consumption,3,2,3,66.67
+2019-10,Buffer Underflow,2,2,1,100.0
+2019-10,Cross-Site Request Forgery (CSRF),2,0,2,0.0
+2019-10,Improper Authentication - Generic,2,0,2,0.0
+2019-10,Improper Certificate Validation,2,0,1,0.0
+2019-10,Improper Restriction of Authentication Attempts,2,2,2,100.0
+2019-10,Open Redirect,2,1,2,50.0
+2019-10,UI Redressing (Clickjacking),2,0,2,0.0
+2019-10,Use After Free,2,0,1,0.0
+2019-10,Allocation of Resources Without Limits or Throttling,1,1,1,100.0
+2019-10,Authentication Bypass Using an Alternate Path or Channel,1,0,1,0.0
+2019-10,CRLF Injection,1,1,1,100.0
+2019-10,Classic Buffer Overflow,1,0,1,0.0
+2019-10,Command Injection - Generic,1,0,1,0.0
+2019-10,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2019-10,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2019-10,HTTP Response Splitting,1,0,1,0.0
+2019-10,Improper Input Validation,1,1,1,100.0
+2019-10,Improper Null Termination,1,0,1,0.0
+2019-10,Modification of Assumed-Immutable Data (MAID),1,0,1,0.0
+2019-10,OS Command Injection,1,0,1,0.0
+2019-10,Out-of-bounds Read,1,1,1,100.0
+2019-10,Remote File Inclusion,1,1,1,100.0
+2019-10,Unrestricted Upload of File with Dangerous Type,1,0,1,0.0
+2019-10,Unverified Password Change,1,0,1,0.0
+2019-10,Violation of Secure Design Principles,1,1,1,100.0
+2019-11,,13,7,7,53.85
+2019-11,Cross-site Scripting (XSS) - Reflected,10,8,3,80.0
+2019-11,Cross-site Scripting (XSS) - Stored,7,5,6,71.43
+2019-11,Improper Authentication - Generic,6,3,5,50.0
+2019-11,Server-Side Request Forgery (SSRF),6,5,4,83.33
+2019-11,Improper Access Control - Generic,5,1,5,20.0
+2019-11,Information Disclosure,5,4,5,80.0
+2019-11,Insecure Direct Object Reference (IDOR),5,4,4,80.0
+2019-11,Violation of Secure Design Principles,4,3,4,75.0
+2019-11,Business Logic Errors,3,2,3,66.67
+2019-11,Cross-Site Request Forgery (CSRF),3,2,3,66.67
+2019-11,Cryptographic Issues - Generic,3,1,3,33.33
+2019-11,HTTP Request Smuggling,3,3,3,100.0
+2019-11,Improper Restriction of Authentication Attempts,3,3,2,100.0
+2019-11,Open Redirect,3,1,2,33.33
+2019-11,Path Traversal,3,1,2,33.33
+2019-11,Privilege Escalation,3,2,3,66.67
+2019-11,CRLF Injection,2,2,1,100.0
+2019-11,Code Injection,2,0,1,0.0
+2019-11,Cross-site Scripting (XSS) - DOM,2,1,2,50.0
+2019-11,Improper Input Validation,2,2,2,100.0
+2019-11,SQL Injection,2,2,1,100.0
+2019-11,Session Fixation,2,1,2,50.0
+2019-11,UI Redressing (Clickjacking),2,0,2,0.0
+2019-11,Uncontrolled Resource Consumption,2,1,2,50.0
+2019-11,Authentication Bypass Using an Alternate Path or Channel,1,1,1,100.0
+2019-11,Buffer Over-read,1,1,1,100.0
+2019-11,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2019-11,Command Injection - Generic,1,1,1,100.0
+2019-11,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2019-11,Improper Authorization,1,0,1,0.0
+2019-11,Improper Certificate Validation,1,1,1,100.0
+2019-11,"Improper Neutralization of Escape, Meta, or Control Sequences",1,1,1,100.0
+2019-11,Insufficiently Protected Credentials,1,0,1,0.0
+2019-11,Misconfiguration,1,1,1,100.0
+2019-11,Missing Authentication for Critical Function,1,1,1,100.0
+2019-11,Privacy Violation,1,1,1,100.0
+2019-11,Remote File Inclusion,1,1,1,100.0
+2019-12,Cross-site Scripting (XSS) - Reflected,10,3,7,30.0
+2019-12,Cross-site Scripting (XSS) - Stored,9,5,6,55.56
+2019-12,,8,8,4,100.0
+2019-12,Improper Access Control - Generic,7,3,5,42.86
+2019-12,Improper Authentication - Generic,6,2,6,33.33
+2019-12,Insecure Direct Object Reference (IDOR),6,3,4,50.0
+2019-12,Information Disclosure,5,2,3,40.0
+2019-12,Violation of Secure Design Principles,5,3,4,60.0
+2019-12,Open Redirect,3,1,2,33.33
+2019-12,Privilege Escalation,3,2,3,66.67
+2019-12,Business Logic Errors,2,2,2,100.0
+2019-12,Cross-site Scripting (XSS) - DOM,2,0,2,0.0
+2019-12,Information Exposure Through Directory Listing,2,0,1,0.0
+2019-12,Man-in-the-Middle,2,1,2,50.0
+2019-12,SQL Injection,2,0,2,0.0
+2019-12,Server-Side Request Forgery (SSRF),2,1,2,50.0
+2019-12,Uncontrolled Resource Consumption,2,2,2,100.0
+2019-12,XML External Entities (XXE),2,2,2,100.0
+2019-12,Classic Buffer Overflow,1,1,1,100.0
+2019-12,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2019-12,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2019-12,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2019-12,HTTP Request Smuggling,1,1,1,100.0
+2019-12,Heap Overflow,1,0,1,0.0
+2019-12,Improper Authorization,1,0,1,0.0
+2019-12,Improper Input Validation,1,1,1,100.0
+2019-12,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2019-12,Incorrect Authorization,1,0,1,0.0
+2019-12,Information Exposure Through Debug Information,1,1,1,100.0
+2019-12,Insecure Storage of Sensitive Information,1,0,1,0.0
+2019-12,Password in Configuration File,1,0,1,0.0
+2019-12,Path Traversal,1,0,1,0.0
+2019-12,Privacy Violation,1,1,1,100.0
+2019-12,Reliance on Untrusted Inputs in a Security Decision,1,0,1,0.0
+2019-12,UI Redressing (Clickjacking),1,1,1,100.0
+2019-12,Use of Hard-coded Credentials,1,0,1,0.0
+2020-01,,14,4,12,28.57
+2020-01,Cross-site Scripting (XSS) - Reflected,13,7,10,53.85
+2020-01,Server-Side Request Forgery (SSRF),11,3,7,27.27
+2020-01,Information Disclosure,10,4,9,40.0
+2020-01,Improper Access Control - Generic,8,3,6,37.5
+2020-01,Code Injection,6,1,6,16.67
+2020-01,Improper Authentication - Generic,6,1,5,16.67
+2020-01,Uncontrolled Resource Consumption,6,5,4,83.33
+2020-01,Business Logic Errors,4,2,4,50.0
+2020-01,Privilege Escalation,4,2,4,50.0
+2020-01,Cross-site Scripting (XSS) - Stored,3,1,3,33.33
+2020-01,Improper Input Validation,3,1,3,33.33
+2020-01,Insecure Direct Object Reference (IDOR),3,2,3,66.67
+2020-01,Open Redirect,3,3,2,100.0
+2020-01,Violation of Secure Design Principles,3,1,3,33.33
+2020-01,Classic Buffer Overflow,2,2,2,100.0
+2020-01,Cross-Site Request Forgery (CSRF),2,2,1,100.0
+2020-01,Cross-site Scripting (XSS) - DOM,2,2,1,100.0
+2020-01,Information Exposure Through an Error Message,2,0,2,0.0
+2020-01,Path Traversal,2,1,2,50.0
+2020-01,SQL Injection,2,1,2,50.0
+2020-01,Authentication Bypass Using an Alternate Path or Channel,1,1,1,100.0
+2020-01,Buffer Over-read,1,1,1,100.0
+2020-01,CRLF Injection,1,0,1,0.0
+2020-01,Exposed Dangerous Method or Function,1,0,1,0.0
+2020-01,HTTP Request Smuggling,1,1,1,100.0
+2020-01,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2020-01,Information Exposure Through Directory Listing,1,0,1,0.0
+2020-01,Insecure Storage of Sensitive Information,1,1,1,100.0
+2020-01,Insufficient Session Expiration,1,1,1,100.0
+2020-01,Insufficiently Protected Credentials,1,0,1,0.0
+2020-01,Memory Corruption - Generic,1,1,1,100.0
+2020-01,Missing Authentication for Critical Function,1,1,1,100.0
+2020-01,Out-of-bounds Read,1,1,1,100.0
+2020-01,Phishing,1,1,1,100.0
+2020-01,Privacy Violation,1,1,1,100.0
+2020-01,Resource Injection,1,1,1,100.0
+2020-01,Security Through Obscurity,1,0,1,0.0
+2020-01,UI Redressing (Clickjacking),1,0,1,0.0
+2020-02,Cross-site Scripting (XSS) - Reflected,14,7,5,50.0
+2020-02,Cross-Site Request Forgery (CSRF),9,4,7,44.44
+2020-02,Information Disclosure,9,3,7,33.33
+2020-02,,7,6,4,85.71
+2020-02,Cross-site Scripting (XSS) - Stored,7,4,6,57.14
+2020-02,Improper Access Control - Generic,6,3,4,50.0
+2020-02,Improper Authentication - Generic,4,2,3,50.0
+2020-02,Uncontrolled Resource Consumption,4,2,4,50.0
+2020-02,Violation of Secure Design Principles,4,3,4,75.0
+2020-02,Buffer Over-read,3,3,1,100.0
+2020-02,Classic Buffer Overflow,3,3,2,100.0
+2020-02,Information Exposure Through Directory Listing,3,0,3,0.0
+2020-02,Modification of Assumed-Immutable Data (MAID),3,1,2,33.33
+2020-02,Open Redirect,3,2,3,66.67
+2020-02,Privacy Violation,3,2,1,66.67
+2020-02,Server-Side Request Forgery (SSRF),3,1,3,33.33
+2020-02,Code Injection,2,1,2,50.0
+2020-02,Cross-site Scripting (XSS) - DOM,2,2,1,100.0
+2020-02,Improper Authorization,2,2,2,100.0
+2020-02,Improper Null Termination,2,2,1,100.0
+2020-02,Insecure Direct Object Reference (IDOR),2,1,2,50.0
+2020-02,Insufficiently Protected Credentials,2,0,1,0.0
+2020-02,Misconfiguration,2,0,2,0.0
+2020-02,Path Traversal,2,1,2,50.0
+2020-02,Phishing,2,0,2,0.0
+2020-02,SQL Injection,2,2,1,100.0
+2020-02,Array Index Underflow,1,0,1,0.0
+2020-02,Business Logic Errors,1,1,1,100.0
+2020-02,CRLF Injection,1,1,1,100.0
+2020-02,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2020-02,Command Injection - Generic,1,1,1,100.0
+2020-02,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2020-02,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2020-02,Information Exposure Through Debug Information,1,1,1,100.0
+2020-02,Information Exposure Through an Error Message,1,0,1,0.0
+2020-02,NULL Pointer Dereference,1,1,1,100.0
+2020-02,Out-of-bounds Read,1,1,1,100.0
+2020-02,Plaintext Storage of a Password,1,0,1,0.0
+2020-02,Privilege Escalation,1,1,1,100.0
+2020-02,Resource Injection,1,1,1,100.0
+2020-02,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2020-02,Use of Hard-coded Credentials,1,0,1,0.0
+2020-02,Weak Password Recovery Mechanism for Forgotten Password,1,0,1,0.0
+2020-03,Improper Access Control - Generic,11,6,9,54.55
+2020-03,Code Injection,8,4,5,50.0
+2020-03,Server-Side Request Forgery (SSRF),7,6,7,85.71
+2020-03,,6,4,5,66.67
+2020-03,Violation of Secure Design Principles,6,2,5,33.33
+2020-03,Business Logic Errors,5,1,3,20.0
+2020-03,Information Disclosure,5,3,5,60.0
+2020-03,Cross-Site Request Forgery (CSRF),4,3,4,75.0
+2020-03,Cross-site Scripting (XSS) - Stored,4,2,3,50.0
+2020-03,Improper Authentication - Generic,4,1,3,25.0
+2020-03,Uncontrolled Resource Consumption,4,2,4,50.0
+2020-03,Improper Restriction of Authentication Attempts,3,1,3,33.33
+2020-03,Path Traversal,3,2,2,66.67
+2020-03,Privilege Escalation,3,3,3,100.0
+2020-03,Buffer Over-read,2,2,1,100.0
+2020-03,Classic Buffer Overflow,2,1,2,50.0
+2020-03,Cleartext Storage of Sensitive Information,2,0,2,0.0
+2020-03,Command Injection - Generic,2,1,2,50.0
+2020-03,Cross-site Scripting (XSS) - DOM,2,2,2,100.0
+2020-03,Cross-site Scripting (XSS) - Generic,2,1,1,50.0
+2020-03,Cross-site Scripting (XSS) - Reflected,2,0,2,0.0
+2020-03,Insecure Direct Object Reference (IDOR),2,1,2,50.0
+2020-03,Man-in-the-Middle,2,2,2,100.0
+2020-03,Privacy Violation,2,1,2,50.0
+2020-03,Unrestricted Upload of File with Dangerous Type,2,1,2,50.0
+2020-03,Authentication Bypass Using an Alternate Path or Channel,1,1,1,100.0
+2020-03,Heap Overflow,1,1,1,100.0
+2020-03,Improper Handling of URL Encoding (Hex Encoding),1,1,1,100.0
+2020-03,Improper Input Validation,1,0,1,0.0
+2020-03,Information Exposure Through an Error Message,1,1,1,100.0
+2020-03,Insecure Storage of Sensitive Information,1,0,1,0.0
+2020-03,Insufficiently Protected Credentials,1,0,1,0.0
+2020-03,Misconfiguration,1,1,1,100.0
+2020-03,Modification of Assumed-Immutable Data (MAID),1,0,1,0.0
+2020-03,OS Command Injection,1,0,1,0.0
+2020-03,Open Redirect,1,0,1,0.0
+2020-03,SQL Injection,1,1,1,100.0
+2020-03,Stack Overflow,1,1,1,100.0
+2020-03,UI Redressing (Clickjacking),1,0,1,0.0
+2020-03,Use After Free,1,1,1,100.0
+2020-03,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),1,1,1,100.0
+2020-04,,12,8,7,66.67
+2020-04,Cross-site Scripting (XSS) - Stored,12,5,6,41.67
+2020-04,Improper Access Control - Generic,8,8,7,100.0
+2020-04,Information Disclosure,8,6,8,75.0
+2020-04,Server-Side Request Forgery (SSRF),8,5,8,62.5
+2020-04,Cross-site Scripting (XSS) - Reflected,7,4,5,57.14
+2020-04,Insecure Direct Object Reference (IDOR),6,2,6,33.33
+2020-04,Cross-Site Request Forgery (CSRF),5,1,3,20.0
+2020-04,Cross-site Scripting (XSS) - Generic,5,2,4,40.0
+2020-04,Open Redirect,5,1,5,20.0
+2020-04,Uncontrolled Resource Consumption,5,4,5,80.0
+2020-04,Privilege Escalation,4,3,3,75.0
+2020-04,SQL Injection,4,4,2,100.0
+2020-04,Code Injection,3,1,3,33.33
+2020-04,Improper Authentication - Generic,3,1,3,33.33
+2020-04,Misconfiguration,3,2,2,66.67
+2020-04,Path Traversal,3,2,3,66.67
+2020-04,Phishing,3,1,3,33.33
+2020-04,Command Injection - Generic,2,0,1,0.0
+2020-04,Improper Authorization,2,0,1,0.0
+2020-04,Insecure Storage of Sensitive Information,2,1,2,50.0
+2020-04,Business Logic Errors,1,1,1,100.0
+2020-04,CRLF Injection,1,1,1,100.0
+2020-04,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2020-04,Cryptographic Issues - Generic,1,1,1,100.0
+2020-04,Deserialization of Untrusted Data,1,0,1,0.0
+2020-04,External Control of Critical State Data,1,0,1,0.0
+2020-04,HTTP Response Splitting,1,1,1,100.0
+2020-04,Improper Input Validation,1,0,1,0.0
+2020-04,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2020-04,Insufficiently Protected Credentials,1,1,1,100.0
+2020-04,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2020-04,UI Redressing (Clickjacking),1,0,1,0.0
+2020-04,Unverified Password Change,1,1,1,100.0
+2020-04,Violation of Secure Design Principles,1,0,1,0.0
+2020-04,XML External Entities (XXE),1,0,1,0.0
+2020-04,XML Injection,1,0,1,0.0
+2020-05,Information Disclosure,16,10,11,62.5
+2020-05,Cross-site Scripting (XSS) - Stored,14,8,9,57.14
+2020-05,,12,6,9,50.0
+2020-05,Cross-site Scripting (XSS) - Reflected,12,0,5,0.0
+2020-05,Cross-site Scripting (XSS) - DOM,7,5,5,71.43
+2020-05,Improper Access Control - Generic,7,3,7,42.86
+2020-05,Uncontrolled Resource Consumption,7,4,4,57.14
+2020-05,Cross-Site Request Forgery (CSRF),6,1,2,16.67
+2020-05,Business Logic Errors,4,2,4,50.0
+2020-05,Improper Authentication - Generic,4,1,4,25.0
+2020-05,SQL Injection,4,2,3,50.0
+2020-05,Code Injection,3,2,3,66.67
+2020-05,Command Injection - Generic,3,0,1,0.0
+2020-05,HTTP Request Smuggling,3,2,3,66.67
+2020-05,Insecure Direct Object Reference (IDOR),3,1,3,33.33
+2020-05,Modification of Assumed-Immutable Data (MAID),3,0,1,0.0
+2020-05,Server-Side Request Forgery (SSRF),3,2,3,66.67
+2020-05,Cleartext Storage of Sensitive Information,2,0,2,0.0
+2020-05,Cross-site Scripting (XSS) - Generic,2,1,2,50.0
+2020-05,Information Exposure Through an Error Message,2,1,2,50.0
+2020-05,OS Command Injection,2,0,2,0.0
+2020-05,Path Traversal,2,2,2,100.0
+2020-05,Plaintext Storage of a Password,2,0,2,0.0
+2020-05,Violation of Secure Design Principles,2,0,2,0.0
+2020-05,Array Index Underflow,1,1,1,100.0
+2020-05,Buffer Underflow,1,0,1,0.0
+2020-05,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2020-05,Cryptographic Issues - Generic,1,0,1,0.0
+2020-05,Double Free,1,0,1,0.0
+2020-05,Incorrect Calculation of Buffer Size,1,0,1,0.0
+2020-05,Insecure Storage of Sensitive Information,1,0,1,0.0
+2020-05,Integer Overflow,1,0,1,0.0
+2020-05,Man-in-the-Middle,1,0,1,0.0
+2020-05,Misconfiguration,1,0,1,0.0
+2020-05,Privilege Escalation,1,0,1,0.0
+2020-05,Storing Passwords in a Recoverable Format,1,0,1,0.0
+2020-05,Use of Hard-coded Credentials,1,0,1,0.0
+2020-05,Weak Password Recovery Mechanism for Forgotten Password,1,1,1,100.0
+2020-06,,34,21,6,61.76
+2020-06,Information Disclosure,16,7,10,43.75
+2020-06,Improper Access Control - Generic,9,3,4,33.33
+2020-06,Privilege Escalation,9,3,4,33.33
+2020-06,Server-Side Request Forgery (SSRF),9,6,4,66.67
+2020-06,Uncontrolled Resource Consumption,8,4,6,50.0
+2020-06,Cross-site Scripting (XSS) - Stored,7,2,5,28.57
+2020-06,Business Logic Errors,5,5,4,100.0
+2020-06,Code Injection,5,0,3,0.0
+2020-06,Cross-site Scripting (XSS) - Reflected,5,3,4,60.0
+2020-06,Cross-site Scripting (XSS) - DOM,4,2,4,50.0
+2020-06,Improper Authentication - Generic,4,3,4,75.0
+2020-06,Improper Restriction of Authentication Attempts,4,2,4,50.0
+2020-06,Insecure Direct Object Reference (IDOR),4,4,4,100.0
+2020-06,Improper Privilege Management,3,2,3,66.67
+2020-06,Violation of Secure Design Principles,3,1,2,33.33
+2020-06,Cross-Site Request Forgery (CSRF),2,1,2,50.0
+2020-06,Cross-site Scripting (XSS) - Generic,2,2,2,100.0
+2020-06,Externally Controlled Reference to a Resource in Another Sphere,2,0,1,0.0
+2020-06,LDAP Injection,2,0,1,0.0
+2020-06,SQL Injection,2,2,1,100.0
+2020-06,CRLF Injection,1,0,1,0.0
+2020-06,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2020-06,Cryptographic Issues - Generic,1,1,1,100.0
+2020-06,Heap Overflow,1,1,1,100.0
+2020-06,Improper Certificate Validation,1,1,1,100.0
+2020-06,Improper Input Validation,1,0,1,0.0
+2020-06,Improper Neutralization of HTTP Headers for Scripting Syntax,1,0,1,0.0
+2020-06,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,0,1,0.0
+2020-06,Inadequate Encryption Strength,1,1,1,100.0
+2020-06,Information Exposure Through an Error Message,1,1,1,100.0
+2020-06,Insecure Storage of Sensitive Information,1,0,1,0.0
+2020-06,Man-in-the-Middle,1,0,1,0.0
+2020-06,Misconfiguration,1,0,1,0.0
+2020-06,Modification of Assumed-Immutable Data (MAID),1,0,1,0.0
+2020-06,OS Command Injection,1,0,1,0.0
+2020-06,Open Redirect,1,0,1,0.0
+2020-06,Privacy Violation,1,1,1,100.0
+2020-06,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,1,0,1,0.0
+2020-06,Remote File Inclusion,1,1,1,100.0
+2020-06,Unrestricted Upload of File with Dangerous Type,1,0,1,0.0
+2020-06,Use After Free,1,1,1,100.0
+2020-06,Use of Inherently Dangerous Function,1,1,1,100.0
+2020-07,,15,10,8,66.67
+2020-07,Information Disclosure,12,4,10,33.33
+2020-07,Cross-site Scripting (XSS) - Stored,11,4,7,36.36
+2020-07,Cross-site Scripting (XSS) - Reflected,9,6,7,66.67
+2020-07,Improper Access Control - Generic,9,3,8,33.33
+2020-07,Improper Restriction of Authentication Attempts,7,7,1,100.0
+2020-07,Insecure Direct Object Reference (IDOR),7,6,4,85.71
+2020-07,Path Traversal,7,3,5,42.86
+2020-07,Business Logic Errors,5,0,3,0.0
+2020-07,Improper Authentication - Generic,5,4,5,80.0
+2020-07,Privilege Escalation,5,2,3,40.0
+2020-07,Cross-Site Request Forgery (CSRF),4,0,4,0.0
+2020-07,SQL Injection,4,1,3,25.0
+2020-07,Uncontrolled Resource Consumption,4,3,4,75.0
+2020-07,Violation of Secure Design Principles,4,1,4,25.0
+2020-07,Code Injection,3,1,3,33.33
+2020-07,Cross-site Scripting (XSS) - Generic,3,1,2,33.33
+2020-07,Deserialization of Untrusted Data,3,0,3,0.0
+2020-07,Server-Side Request Forgery (SSRF),3,1,2,33.33
+2020-07,Command Injection - Generic,2,0,2,0.0
+2020-07,HTTP Request Smuggling,2,2,2,100.0
+2020-07,Improper Handling of Insufficient Permissions or Privileges,2,0,2,0.0
+2020-07,UI Redressing (Clickjacking),2,1,2,50.0
+2020-07,Authentication Bypass Using an Alternate Path or Channel,1,0,1,0.0
+2020-07,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2020-07,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,0,1,0.0
+2020-07,Double Free,1,1,1,100.0
+2020-07,Improper Certificate Validation,1,0,1,0.0
+2020-07,Insufficient Session Expiration,1,0,1,0.0
+2020-07,Misconfiguration,1,1,1,100.0
+2020-07,OS Command Injection,1,0,1,0.0
+2020-07,Open Redirect,1,0,1,0.0
+2020-07,Security Through Obscurity,1,1,1,100.0
+2020-08,Information Disclosure,19,9,11,47.37
+2020-08,,13,9,9,69.23
+2020-08,Cross-site Scripting (XSS) - Reflected,11,9,8,81.82
+2020-08,Cross-site Scripting (XSS) - Stored,9,8,6,88.89
+2020-08,Improper Access Control - Generic,8,6,7,75.0
+2020-08,Insecure Direct Object Reference (IDOR),8,6,6,75.0
+2020-08,Path Traversal,6,1,2,16.67
+2020-08,Violation of Secure Design Principles,4,3,4,75.0
+2020-08,Command Injection - Generic,3,1,2,33.33
+2020-08,Improper Authentication - Generic,3,2,3,66.67
+2020-08,Open Redirect,3,1,3,33.33
+2020-08,Privilege Escalation,3,3,1,100.0
+2020-08,SQL Injection,3,1,3,33.33
+2020-08,Business Logic Errors,2,2,2,100.0
+2020-08,Cleartext Storage of Sensitive Information,2,2,1,100.0
+2020-08,Code Injection,2,0,1,0.0
+2020-08,Cross-site Scripting (XSS) - Generic,2,1,2,50.0
+2020-08,HTTP Request Smuggling,2,2,2,100.0
+2020-08,Information Exposure Through Debug Information,2,0,1,0.0
+2020-08,UI Redressing (Clickjacking),2,1,2,50.0
+2020-08,Uncontrolled Resource Consumption,2,1,2,50.0
+2020-08,Buffer Over-read,1,1,1,100.0
+2020-08,Classic Buffer Overflow,1,1,1,100.0
+2020-08,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2020-08,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2020-08,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2020-08,Cryptographic Issues - Generic,1,1,1,100.0
+2020-08,Failure to Sanitize Special Elements into a Different Plane (Special Element Injection),1,1,1,100.0
+2020-08,Improper Authorization,1,1,1,100.0
+2020-08,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2020-08,Insufficiently Protected Credentials,1,1,1,100.0
+2020-08,Malware,1,0,1,0.0
+2020-08,Misconfiguration,1,0,1,0.0
+2020-08,Missing Authorization,1,1,1,100.0
+2020-08,Modification of Assumed-Immutable Data (MAID),1,0,1,0.0
+2020-08,OS Command Injection,1,1,1,100.0
+2020-08,Reliance on Untrusted Inputs in a Security Decision,1,0,1,0.0
+2020-08,Server-Side Request Forgery (SSRF),1,0,1,0.0
+2020-08,Type Confusion,1,1,1,100.0
+2020-08,Unrestricted Upload of File with Dangerous Type,1,0,1,0.0
+2020-08,Use After Free,1,1,1,100.0
+2020-09,,9,7,5,77.78
+2020-09,Cross-site Scripting (XSS) - Reflected,7,3,5,42.86
+2020-09,Cross-site Scripting (XSS) - Stored,7,7,4,100.0
+2020-09,Improper Access Control - Generic,7,5,6,71.43
+2020-09,Information Disclosure,7,4,7,57.14
+2020-09,Insecure Direct Object Reference (IDOR),5,5,5,100.0
+2020-09,Business Logic Errors,4,3,4,75.0
+2020-09,Improper Authentication - Generic,4,2,4,50.0
+2020-09,Improper Restriction of Authentication Attempts,4,2,4,50.0
+2020-09,Open Redirect,4,3,4,75.0
+2020-09,SQL Injection,4,1,3,25.0
+2020-09,Cross-Site Request Forgery (CSRF),3,3,3,100.0
+2020-09,Code Injection,2,0,1,0.0
+2020-09,Command Injection - Generic,2,0,2,0.0
+2020-09,Cross-site Scripting (XSS) - DOM,2,2,2,100.0
+2020-09,Cross-site Scripting (XSS) - Generic,2,2,2,100.0
+2020-09,Path Traversal,2,1,2,50.0
+2020-09,Violation of Secure Design Principles,2,1,2,50.0
+2020-09,Array Index Underflow,1,1,1,100.0
+2020-09,Client-Side Enforcement of Server-Side Security,1,0,1,0.0
+2020-09,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,0,1,0.0
+2020-09,Deserialization of Untrusted Data,1,1,1,100.0
+2020-09,File and Directory Information Exposure,1,1,1,100.0
+2020-09,Forced Browsing,1,0,1,0.0
+2020-09,Improper Certificate Validation,1,0,1,0.0
+2020-09,Improper Neutralization of HTTP Headers for Scripting Syntax,1,1,1,100.0
+2020-09,Insufficiently Protected Credentials,1,1,1,100.0
+2020-09,Man-in-the-Middle,1,0,1,0.0
+2020-09,Modification of Assumed-Immutable Data (MAID),1,0,1,0.0
+2020-09,Privacy Violation,1,0,1,0.0
+2020-09,Privilege Escalation,1,1,1,100.0
+2020-09,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,1,1,1,100.0
+2020-09,Server-Side Request Forgery (SSRF),1,0,1,0.0
+2020-09,UI Redressing (Clickjacking),1,1,1,100.0
+2020-09,Uncontrolled Resource Consumption,1,1,1,100.0
+2020-10,Information Disclosure,13,8,6,61.54
+2020-10,Improper Access Control - Generic,12,8,8,66.67
+2020-10,Cross-site Scripting (XSS) - Stored,11,7,11,63.64
+2020-10,Cross-Site Request Forgery (CSRF),8,5,4,62.5
+2020-10,Cross-site Scripting (XSS) - Reflected,8,5,4,62.5
+2020-10,,6,5,4,83.33
+2020-10,Business Logic Errors,5,1,5,20.0
+2020-10,Improper Authentication - Generic,5,4,3,80.0
+2020-10,Uncontrolled Resource Consumption,5,4,5,80.0
+2020-10,Cross-site Scripting (XSS) - DOM,4,2,4,50.0
+2020-10,Privilege Escalation,4,2,4,50.0
+2020-10,Improper Restriction of Authentication Attempts,3,3,1,100.0
+2020-10,Insecure Direct Object Reference (IDOR),3,1,2,33.33
+2020-10,Insufficient Session Expiration,3,1,3,33.33
+2020-10,SQL Injection,3,0,2,0.0
+2020-10,Server-Side Request Forgery (SSRF),3,0,2,0.0
+2020-10,Code Injection,2,2,2,100.0
+2020-10,Misconfiguration,2,1,2,50.0
+2020-10,Path Traversal,2,1,2,50.0
+2020-10,Violation of Secure Design Principles,2,1,2,50.0
+2020-10,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,1,1,100.0
+2020-10,Improper Authorization,1,1,1,100.0
+2020-10,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,1,1,100.0
+2020-10,Information Exposure Through Debug Information,1,0,1,0.0
+2020-10,Information Exposure Through an Error Message,1,0,1,0.0
+2020-10,NULL Pointer Dereference,1,0,1,0.0
+2020-10,OS Command Injection,1,1,1,100.0
+2020-10,Privacy Violation,1,1,1,100.0
+2020-10,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,1,0,1,0.0
+2020-10,Type Confusion,1,1,1,100.0
+2020-10,User Interface (UI) Misrepresentation of Critical Information,1,1,1,100.0
+2020-10,XML Injection,1,0,1,0.0
+2020-11,,9,5,9,55.56
+2020-11,Cross-site Scripting (XSS) - Reflected,9,6,5,66.67
+2020-11,Business Logic Errors,8,4,5,50.0
+2020-11,Cross-site Scripting (XSS) - Stored,7,4,7,57.14
+2020-11,Improper Access Control - Generic,7,4,6,57.14
+2020-11,Information Disclosure,5,5,4,100.0
+2020-11,SQL Injection,5,3,4,60.0
+2020-11,Cross-site Scripting (XSS) - Generic,4,2,4,50.0
+2020-11,Code Injection,3,3,3,100.0
+2020-11,Cross-Site Request Forgery (CSRF),3,2,2,66.67
+2020-11,Cross-site Scripting (XSS) - DOM,3,3,3,100.0
+2020-11,Improper Authentication - Generic,3,2,2,66.67
+2020-11,Uncontrolled Resource Consumption,3,2,3,66.67
+2020-11,Violation of Secure Design Principles,3,3,3,100.0
+2020-11,Cleartext Storage of Sensitive Information,2,1,2,50.0
+2020-11,Improper Restriction of Authentication Attempts,2,2,2,100.0
+2020-11,Insecure Storage of Sensitive Information,2,1,2,50.0
+2020-11,Open Redirect,2,1,2,50.0
+2020-11,Path Traversal,2,1,2,50.0
+2020-11,Privilege Escalation,2,1,2,50.0
+2020-11,Authentication Bypass Using an Alternate Path or Channel,1,0,1,0.0
+2020-11,Command Injection - Generic,1,0,1,0.0
+2020-11,Improper Certificate Validation,1,1,1,100.0
+2020-11,Incorrect Authorization,1,1,1,100.0
+2020-11,Information Exposure Through Debug Information,1,0,1,0.0
+2020-11,Information Exposure Through Directory Listing,1,1,1,100.0
+2020-11,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2020-11,Misconfiguration,1,0,1,0.0
+2020-11,NULL Pointer Dereference,1,1,1,100.0
+2020-11,Phishing,1,1,1,100.0
+2020-11,Security Through Obscurity,1,1,1,100.0
+2020-11,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2020-11,UI Redressing (Clickjacking),1,1,1,100.0
+2020-11,Uncontrolled Recursion,1,0,1,0.0
+2020-11,Unverified Password Change,1,0,1,0.0
+2020-12,,28,12,7,42.86
+2020-12,Information Disclosure,18,6,9,33.33
+2020-12,Cross-site Scripting (XSS) - Stored,10,9,4,90.0
+2020-12,Improper Access Control - Generic,10,2,8,20.0
+2020-12,Cross-site Scripting (XSS) - Reflected,8,3,6,37.5
+2020-12,Server-Side Request Forgery (SSRF),7,3,5,42.86
+2020-12,Improper Restriction of Authentication Attempts,5,1,4,20.0
+2020-12,Uncontrolled Resource Consumption,5,2,3,40.0
+2020-12,Business Logic Errors,4,1,3,25.0
+2020-12,Code Injection,3,2,3,66.67
+2020-12,Improper Authentication - Generic,3,0,2,0.0
+2020-12,Insecure Direct Object Reference (IDOR),3,1,3,33.33
+2020-12,Path Traversal,3,1,3,33.33
+2020-12,Privacy Violation,3,3,3,100.0
+2020-12,HTTP Request Smuggling,2,0,1,0.0
+2020-12,Improper Certificate Validation,2,2,2,100.0
+2020-12,Open Redirect,2,2,2,100.0
+2020-12,Privilege Escalation,2,1,2,50.0
+2020-12,SQL Injection,2,1,1,50.0
+2020-12,Violation of Secure Design Principles,2,1,2,50.0
+2020-12,Authentication Bypass Using an Alternate Path or Channel,1,0,1,0.0
+2020-12,Buffer Over-read,1,0,1,0.0
+2020-12,CRLF Injection,1,1,1,100.0
+2020-12,Command Injection - Generic,1,0,1,0.0
+2020-12,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2020-12,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2020-12,Deserialization of Untrusted Data,1,0,1,0.0
+2020-12,Improper Input Validation,1,0,1,0.0
+2020-12,Insufficient Session Expiration,1,0,1,0.0
+2020-12,Insufficiently Protected Credentials,1,0,1,0.0
+2020-12,Leftover Debug Code (Backdoor),1,0,1,0.0
+2020-12,Misconfiguration,1,0,1,0.0
+2021-01,Information Disclosure,15,10,12,66.67
+2021-01,Business Logic Errors,9,5,8,55.56
+2021-01,Improper Access Control - Generic,9,7,6,77.78
+2021-01,,6,5,5,83.33
+2021-01,Cross-Site Request Forgery (CSRF),6,2,4,33.33
+2021-01,Cross-site Scripting (XSS) - Stored,6,5,5,83.33
+2021-01,Cross-site Scripting (XSS) - Reflected,5,1,3,20.0
+2021-01,Authentication Bypass Using an Alternate Path or Channel,4,3,2,75.0
+2021-01,Improper Authentication - Generic,4,1,4,25.0
+2021-01,Privilege Escalation,4,2,4,50.0
+2021-01,SQL Injection,4,3,3,75.0
+2021-01,Code Injection,3,1,3,33.33
+2021-01,Open Redirect,3,0,3,0.0
+2021-01,Cross-site Scripting (XSS) - Generic,2,0,2,0.0
+2021-01,Path Traversal,2,1,2,50.0
+2021-01,Privacy Violation,2,1,2,50.0
+2021-01,Uncontrolled Resource Consumption,2,2,2,100.0
+2021-01,Violation of Secure Design Principles,2,2,2,100.0
+2021-01,Allocation of Resources Without Limits or Throttling,1,0,1,0.0
+2021-01,CRLF Injection,1,1,1,100.0
+2021-01,Classic Buffer Overflow,1,1,1,100.0
+2021-01,Cleartext Storage of Sensitive Information,1,1,1,100.0
+2021-01,Cleartext Transmission of Sensitive Information,1,0,1,0.0
+2021-01,Forced Browsing,1,1,1,100.0
+2021-01,Improper Authorization,1,1,1,100.0
+2021-01,Improper Certificate Validation,1,1,1,100.0
+2021-01,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,1,1,100.0
+2021-01,Improper Privilege Management,1,1,1,100.0
+2021-01,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2021-01,Incorrect Authorization,1,0,1,0.0
+2021-01,Incorrect Permission Assignment for Critical Resource,1,1,1,100.0
+2021-01,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2021-01,Misconfiguration,1,0,1,0.0
+2021-01,Out-of-bounds Read,1,1,1,100.0
+2021-01,Phishing,1,0,1,0.0
+2021-02,Cross-site Scripting (XSS) - Reflected,10,2,6,20.0
+2021-02,Cross-site Scripting (XSS) - Stored,10,7,7,70.0
+2021-02,Privilege Escalation,10,7,8,70.0
+2021-02,,9,8,5,88.89
+2021-02,Improper Access Control - Generic,4,3,4,75.0
+2021-02,Code Injection,3,1,3,33.33
+2021-02,Information Disclosure,3,0,1,0.0
+2021-02,SQL Injection,3,1,3,33.33
+2021-02,Violation of Secure Design Principles,3,0,3,0.0
+2021-02,Business Logic Errors,2,2,2,100.0
+2021-02,Command Injection - Generic,2,2,2,100.0
+2021-02,Cross-Site Request Forgery (CSRF),2,1,2,50.0
+2021-02,Improper Authorization,2,2,1,100.0
+2021-02,Insecure Direct Object Reference (IDOR),2,0,1,0.0
+2021-02,Open Redirect,2,2,2,100.0
+2021-02,Uncontrolled Resource Consumption,2,1,2,50.0
+2021-02,Cleartext Storage of Sensitive Information,1,1,1,100.0
+2021-02,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2021-02,Failure to Sanitize Special Elements into a Different Plane (Special Element Injection),1,1,1,100.0
+2021-02,HTTP Request Smuggling,1,0,1,0.0
+2021-02,Information Exposure Through an Error Message,1,0,1,0.0
+2021-02,Insufficient Session Expiration,1,1,1,100.0
+2021-02,Insufficiently Protected Credentials,1,0,1,0.0
+2021-02,Integer Overflow,1,1,1,100.0
+2021-02,Path Traversal,1,0,1,0.0
+2021-02,Privacy Violation,1,0,1,0.0
+2021-02,Security Through Obscurity,1,1,1,100.0
+2021-02,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2021-02,XML External Entities (XXE),1,1,1,100.0
+2021-03,,24,21,8,87.5
+2021-03,Information Disclosure,9,1,7,11.11
+2021-03,Improper Access Control - Generic,5,3,5,60.0
+2021-03,Cross-Site Request Forgery (CSRF),4,2,3,50.0
+2021-03,Business Logic Errors,3,2,2,66.67
+2021-03,Code Injection,3,3,3,100.0
+2021-03,Cross-site Scripting (XSS) - Reflected,3,0,1,0.0
+2021-03,Cross-site Scripting (XSS) - Stored,3,1,3,33.33
+2021-03,Insecure Direct Object Reference (IDOR),3,2,2,66.67
+2021-03,Open Redirect,3,1,3,33.33
+2021-03,Privilege Escalation,3,3,3,100.0
+2021-03,SQL Injection,3,2,2,66.67
+2021-03,Server-Side Request Forgery (SSRF),3,1,2,33.33
+2021-03,Violation of Secure Design Principles,3,0,3,0.0
+2021-03,Improper Authentication - Generic,2,1,2,50.0
+2021-03,Path Traversal,2,2,2,100.0
+2021-03,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2021-03,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,0,1,0.0
+2021-03,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2021-03,Cryptographic Issues - Generic,1,1,1,100.0
+2021-03,HTTP Request Smuggling,1,0,1,0.0
+2021-03,Man-in-the-Middle,1,0,1,0.0
+2021-03,Misconfiguration,1,0,1,0.0
+2021-03,Missing Encryption of Sensitive Data,1,1,1,100.0
+2021-03,Modification of Assumed-Immutable Data (MAID),1,0,1,0.0
+2021-03,OS Command Injection,1,0,1,0.0
+2021-03,Password in Configuration File,1,1,1,100.0
+2021-03,Phishing,1,0,1,0.0
+2021-03,Remote File Inclusion,1,0,1,0.0
+2021-03,Server Side Request Forgery,1,1,1,100.0
+2021-03,Use of Inherently Dangerous Function,1,0,1,0.0
+2021-03,Use of a Broken or Risky Cryptographic Algorithm,1,0,1,0.0
+2021-03,Use of a Key Past its Expiration Date,1,1,1,100.0
+2021-04,Improper Access Control - Generic,16,9,8,56.25
+2021-04,,13,9,5,69.23
+2021-04,Cross-site Scripting (XSS) - Reflected,10,1,4,10.0
+2021-04,Information Disclosure,10,4,8,40.0
+2021-04,Uncontrolled Resource Consumption,7,6,5,85.71
+2021-04,Cross-site Scripting (XSS) - Stored,4,3,3,75.0
+2021-04,Improper Restriction of Authentication Attempts,4,1,3,25.0
+2021-04,Insecure Direct Object Reference (IDOR),4,4,2,100.0
+2021-04,Open Redirect,4,3,3,75.0
+2021-04,Privilege Escalation,4,3,4,75.0
+2021-04,Business Logic Errors,3,2,3,66.67
+2021-04,Improper Authentication - Generic,3,2,2,66.67
+2021-04,Improper Input Validation,3,0,2,0.0
+2021-04,Misconfiguration,3,1,3,33.33
+2021-04,Externally Controlled Reference to a Resource in Another Sphere,2,0,2,0.0
+2021-04,OS Command Injection,2,1,1,50.0
+2021-04,Violation of Secure Design Principles,2,0,2,0.0
+2021-04,CRLF Injection,1,0,1,0.0
+2021-04,Classic Buffer Overflow,1,1,1,100.0
+2021-04,Code Injection,1,1,1,100.0
+2021-04,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2021-04,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2021-04,Cryptographic Issues - Generic,1,1,1,100.0
+2021-04,Deserialization of Untrusted Data,1,1,1,100.0
+2021-04,Improper Authorization,1,0,1,0.0
+2021-04,Improper Null Termination,1,0,1,0.0
+2021-04,Insufficient Session Expiration,1,1,1,100.0
+2021-04,Phishing,1,0,1,0.0
+2021-04,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,1,1,1,100.0
+2021-04,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2021-04,Session Fixation,1,0,1,0.0
+2021-04,Storing Passwords in a Recoverable Format,1,0,1,0.0
+2021-04,Use of Hard-coded Password,1,0,1,0.0
+2021-04,User Interface (UI) Misrepresentation of Critical Information,1,0,1,0.0
+2021-04,Weak Cryptography for Passwords,1,0,1,0.0
+2021-04,XML Injection,1,0,1,0.0
+2021-05,,31,15,6,48.39
+2021-05,Cross-site Scripting (XSS) - Reflected,10,3,7,30.0
+2021-05,Improper Access Control - Generic,8,4,4,50.0
+2021-05,Information Disclosure,8,1,4,12.5
+2021-05,Violation of Secure Design Principles,7,2,5,28.57
+2021-05,Misconfiguration,6,2,1,33.33
+2021-05,UI Redressing (Clickjacking),6,0,2,0.0
+2021-05,Business Logic Errors,5,2,4,40.0
+2021-05,Improper Authentication - Generic,5,0,3,0.0
+2021-05,Cross-site Scripting (XSS) - DOM,4,4,3,100.0
+2021-05,Cross-site Scripting (XSS) - Stored,4,2,3,50.0
+2021-05,Open Redirect,4,2,4,50.0
+2021-05,Cross-Site Request Forgery (CSRF),3,0,3,0.0
+2021-05,Insecure Storage of Sensitive Information,3,0,2,0.0
+2021-05,Privilege Escalation,3,1,2,33.33
+2021-05,Uncontrolled Resource Consumption,3,1,3,33.33
+2021-05,Cross-site Scripting (XSS) - Generic,2,0,2,0.0
+2021-05,HTTP Response Splitting,2,0,1,0.0
+2021-05,Insecure Direct Object Reference (IDOR),2,2,2,100.0
+2021-05,Password in Configuration File,2,0,1,0.0
+2021-05,Server-Side Request Forgery (SSRF),2,1,2,50.0
+2021-05,Buffer Over-read,1,1,1,100.0
+2021-05,CRLF Injection,1,1,1,100.0
+2021-05,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2021-05,Code Injection,1,0,1,0.0
+2021-05,HTTP Request Smuggling,1,1,1,100.0
+2021-05,Improper Authorization,1,0,1,0.0
+2021-05,Information Exposure Through Directory Listing,1,0,1,0.0
+2021-05,Information Exposure Through an Error Message,1,0,1,0.0
+2021-05,Missing Authorization,1,1,1,100.0
+2021-05,Off-by-one Error,1,1,1,100.0
+2021-05,Phishing,1,1,1,100.0
+2021-05,Relative Path Traversal,1,0,1,0.0
+2021-05,Resource Injection,1,1,1,100.0
+2021-05,SQL Injection,1,0,1,0.0
+2021-05,Session Fixation,1,1,1,100.0
+2021-05,Using Components with Known Vulnerabilities,1,0,1,0.0
+2021-05,Weak Cryptography for Passwords,1,0,1,0.0
+2021-05,Wrap-around Error,1,0,1,0.0
+2021-06,Cross-site Scripting (XSS) - Reflected,11,2,5,18.18
+2021-06,Information Disclosure,9,5,9,55.56
+2021-06,,8,6,3,75.0
+2021-06,Improper Access Control - Generic,5,3,5,60.0
+2021-06,SQL Injection,5,5,3,100.0
+2021-06,Cross-site Scripting (XSS) - Stored,4,1,3,25.0
+2021-06,Improper Authentication - Generic,4,2,4,50.0
+2021-06,Violation of Secure Design Principles,4,3,4,75.0
+2021-06,Uncontrolled Resource Consumption,3,2,2,66.67
+2021-06,Code Injection,2,1,2,50.0
+2021-06,Improper Restriction of Authentication Attempts,2,0,2,0.0
+2021-06,Open Redirect,2,2,2,100.0
+2021-06,Privilege Escalation,2,2,2,100.0
+2021-06,Resource Injection,2,2,1,100.0
+2021-06,XML External Entities (XXE),2,1,1,50.0
+2021-06,Business Logic Errors,1,1,1,100.0
+2021-06,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2021-06,Client-Side Enforcement of Server-Side Security,1,0,1,0.0
+2021-06,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2021-06,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2021-06,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2021-06,Cryptographic Issues - Generic,1,1,1,100.0
+2021-06,HTTP Request Smuggling,1,1,1,100.0
+2021-06,Improper Authorization,1,1,1,100.0
+2021-06,Improper Input Validation,1,1,1,100.0
+2021-06,Insecure Storage of Sensitive Information,1,0,1,0.0
+2021-06,Leftover Debug Code (Backdoor),1,0,1,0.0
+2021-06,Off-by-one Error,1,0,1,0.0
+2021-06,Out-of-bounds Read,1,1,1,100.0
+2021-06,Path Traversal,1,0,1,0.0
+2021-06,Privacy Violation,1,1,1,100.0
+2021-06,Server-Side Request Forgery (SSRF),1,0,1,0.0
+2021-06,UI Redressing (Clickjacking),1,0,1,0.0
+2021-07,Cross-site Scripting (XSS) - Reflected,14,1,5,7.14
+2021-07,,11,8,7,72.73
+2021-07,Information Disclosure,10,6,6,60.0
+2021-07,Improper Access Control - Generic,8,4,8,50.0
+2021-07,Cross-site Scripting (XSS) - Stored,5,3,3,60.0
+2021-07,Improper Authentication - Generic,5,4,4,80.0
+2021-07,Open Redirect,5,3,4,60.0
+2021-07,Privilege Escalation,4,4,3,100.0
+2021-07,Improper Restriction of Authentication Attempts,3,2,2,66.67
+2021-07,Business Logic Errors,2,2,2,100.0
+2021-07,Cleartext Storage of Sensitive Information,2,1,2,50.0
+2021-07,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2,0,2,0.0
+2021-07,Insecure Direct Object Reference (IDOR),2,1,2,50.0
+2021-07,LDAP Injection,2,0,1,0.0
+2021-07,Path Traversal,2,1,2,50.0
+2021-07,Uncontrolled Resource Consumption,2,2,2,100.0
+2021-07,Code Injection,1,0,1,0.0
+2021-07,Command Injection - Generic,1,1,1,100.0
+2021-07,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2021-07,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2021-07,Cryptographic Issues - Generic,1,0,1,0.0
+2021-07,Double Free,1,1,1,100.0
+2021-07,Improper Certificate Validation,1,1,1,100.0
+2021-07,Information Exposure Through Debug Information,1,0,1,0.0
+2021-07,Misconfiguration,1,0,1,0.0
+2021-07,Missing Encryption of Sensitive Data,1,0,1,0.0
+2021-07,Phishing,1,1,1,100.0
+2021-07,Privacy Violation,1,1,1,100.0
+2021-07,SQL Injection,1,0,1,0.0
+2021-07,Violation of Secure Design Principles,1,0,1,0.0
+2021-08,,14,9,6,64.29
+2021-08,Cross-site Scripting (XSS) - Reflected,7,1,3,14.29
+2021-08,Improper Access Control - Generic,5,4,4,80.0
+2021-08,Privilege Escalation,4,1,4,25.0
+2021-08,Cleartext Storage of Sensitive Information,3,1,2,33.33
+2021-08,Cross-site Scripting (XSS) - Stored,3,1,3,33.33
+2021-08,Improper Input Validation,3,0,1,0.0
+2021-08,Insufficient Session Expiration,3,1,3,33.33
+2021-08,Path Traversal,3,0,3,0.0
+2021-08,Uncontrolled Resource Consumption,3,0,3,0.0
+2021-08,Business Logic Errors,2,2,2,100.0
+2021-08,Cross-site Scripting (XSS) - Generic,2,1,2,50.0
+2021-08,Improper Authentication - Generic,2,1,2,50.0
+2021-08,Insecure Direct Object Reference (IDOR),2,2,2,100.0
+2021-08,UI Redressing (Clickjacking),2,0,2,0.0
+2021-08,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2021-08,Improper Authorization,1,1,1,100.0
+2021-08,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2021-08,Information Disclosure,1,0,1,0.0
+2021-08,Information Exposure Through Directory Listing,1,0,1,0.0
+2021-08,Memory Corruption - Generic,1,1,1,100.0
+2021-08,Open Redirect,1,0,1,0.0
+2021-08,Phishing,1,0,1,0.0
+2021-08,"Reusing a Nonce, Key Pair in Encryption",1,0,1,0.0
+2021-08,XML External Entities (XXE),1,0,1,0.0
+2021-09,,13,7,8,53.85
+2021-09,Information Disclosure,11,6,7,54.55
+2021-09,Cross-site Scripting (XSS) - Stored,5,2,5,40.0
+2021-09,Misconfiguration,4,0,1,0.0
+2021-09,Improper Access Control - Generic,3,3,3,100.0
+2021-09,Improper Authentication - Generic,3,2,3,66.67
+2021-09,Violation of Secure Design Principles,3,0,3,0.0
+2021-09,Business Logic Errors,2,1,2,50.0
+2021-09,OS Command Injection,2,0,2,0.0
+2021-09,Open Redirect,2,1,2,50.0
+2021-09,Privilege Escalation,2,1,2,50.0
+2021-09,Uncontrolled Resource Consumption,2,1,2,50.0
+2021-09,Classic Buffer Overflow,1,1,1,100.0
+2021-09,Client-Side Enforcement of Server-Side Security,1,0,1,0.0
+2021-09,Code Injection,1,0,1,0.0
+2021-09,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2021-09,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2021-09,Cryptographic Issues - Generic,1,1,1,100.0
+2021-09,Heap Overflow,1,1,1,100.0
+2021-09,Improper Authorization,1,1,1,100.0
+2021-09,Improper Input Validation,1,0,1,0.0
+2021-09,Information Exposure Through Debug Information,1,0,1,0.0
+2021-09,Path Traversal,1,1,1,100.0
+2021-09,Phishing,1,0,1,0.0
+2021-09,SQL Injection,1,0,1,0.0
+2021-09,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2021-09,Session Fixation,1,0,1,0.0
+2021-09,UI Redressing (Clickjacking),1,0,1,0.0
+2021-09,Unchecked Error Condition,1,1,1,100.0
+2021-10,Cross-site Scripting (XSS) - Reflected,7,3,6,42.86
+2021-10,,6,5,2,83.33
+2021-10,Improper Authentication - Generic,5,4,5,80.0
+2021-10,Code Injection,4,3,4,75.0
+2021-10,Open Redirect,4,3,4,75.0
+2021-10,Cross-site Scripting (XSS) - Stored,3,3,3,100.0
+2021-10,Information Disclosure,3,2,3,66.67
+2021-10,Uncontrolled Resource Consumption,3,0,3,0.0
+2021-10,Business Logic Errors,2,2,2,100.0
+2021-10,Improper Access Control - Generic,2,2,2,100.0
+2021-10,Path Traversal,2,1,2,50.0
+2021-10,Privilege Escalation,2,2,2,100.0
+2021-10,Server-Side Request Forgery (SSRF),2,0,1,0.0
+2021-10,Command Injection - Generic,1,0,1,0.0
+2021-10,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,1,1,100.0
+2021-10,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2021-10,Information Exposure Through Debug Information,1,1,1,100.0
+2021-10,Information Exposure Through an Error Message,1,0,1,0.0
+2021-10,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2021-10,OS Command Injection,1,1,1,100.0
+2021-10,Path Traversal: '.../...//',1,1,1,100.0
+2021-11,,20,17,7,85.0
+2021-11,Improper Access Control - Generic,7,5,3,71.43
+2021-11,Information Disclosure,7,2,5,28.57
+2021-11,Cross-site Scripting (XSS) - Reflected,6,3,6,50.0
+2021-11,Business Logic Errors,5,4,5,80.0
+2021-11,Cross-Site Request Forgery (CSRF),3,2,3,66.67
+2021-11,Cross-site Scripting (XSS) - Stored,3,2,3,66.67
+2021-11,Path Traversal,3,3,2,100.0
+2021-11,Cleartext Storage of Sensitive Information,2,0,2,0.0
+2021-11,Cross-site Scripting (XSS) - Generic,2,2,2,100.0
+2021-11,Insecure Direct Object Reference (IDOR),2,2,2,100.0
+2021-11,CRLF Injection,1,1,1,100.0
+2021-11,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2021-11,Code Injection,1,0,1,0.0
+2021-11,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2021-11,Forced Browsing,1,1,1,100.0
+2021-11,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2021-11,OS Command Injection,1,1,1,100.0
+2021-11,Open Redirect,1,0,1,0.0
+2021-11,Path Traversal: '.../...//',1,1,1,100.0
+2021-11,Phishing,1,0,1,0.0
+2021-11,Privacy Violation,1,1,1,100.0
+2021-11,Privilege Escalation,1,0,1,0.0
+2021-11,Resource Injection,1,1,1,100.0
+2021-11,SQL Injection,1,0,1,0.0
+2021-11,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2021-11,UI Redressing (Clickjacking),1,0,1,0.0
+2021-11,Uncontrolled Resource Consumption,1,1,1,100.0
+2021-11,Violation of Secure Design Principles,1,1,1,100.0
+2021-12,Information Disclosure,7,3,5,42.86
+2021-12,Cross-site Scripting (XSS) - Stored,6,6,4,100.0
+2021-12,,4,1,4,25.0
+2021-12,Code Injection,4,1,4,25.0
+2021-12,Deserialization of Untrusted Data,2,1,2,50.0
+2021-12,Improper Access Control - Generic,2,2,2,100.0
+2021-12,Improper Authentication - Generic,2,2,2,100.0
+2021-12,Path Traversal,2,0,1,0.0
+2021-12,UI Redressing (Clickjacking),2,2,1,100.0
+2021-12,Use of Externally-Controlled Format String,2,0,1,0.0
+2021-12,Business Logic Errors,1,0,1,0.0
+2021-12,Command Injection - Generic,1,1,1,100.0
+2021-12,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2021-12,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2021-12,Cross-site Scripting (XSS) - Reflected,1,0,1,0.0
+2021-12,Heap Overflow,1,1,1,100.0
+2021-12,Improper Authorization,1,1,1,100.0
+2021-12,Improper Following of a Certificate's Chain of Trust,1,0,1,0.0
+2021-12,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2021-12,Information Exposure Through Debug Information,1,0,1,0.0
+2021-12,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2021-12,Insecure Temporary File,1,1,1,100.0
+2021-12,Misconfiguration,1,0,1,0.0
+2021-12,Modification of Assumed-Immutable Data (MAID),1,0,1,0.0
+2021-12,Open Redirect,1,0,1,0.0
+2021-12,Privilege Escalation,1,0,1,0.0
+2021-12,Remote File Inclusion,1,0,1,0.0
+2021-12,SQL Injection,1,1,1,100.0
+2021-12,Security Through Obscurity,1,1,1,100.0
+2021-12,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2021-12,Weak Cryptography for Passwords,1,1,1,100.0
+2022-01,,13,8,10,61.54
+2022-01,Cross-site Scripting (XSS) - Reflected,5,2,4,40.0
+2022-01,Improper Access Control - Generic,4,3,4,75.0
+2022-01,Information Disclosure,4,0,2,0.0
+2022-01,Cross-site Scripting (XSS) - Generic,3,2,3,66.67
+2022-01,Path Traversal,3,1,2,33.33
+2022-01,Business Logic Errors,2,2,2,100.0
+2022-01,Code Injection,2,1,2,50.0
+2022-01,Cross-site Scripting (XSS) - DOM,2,0,2,0.0
+2022-01,Improper Authentication - Generic,2,1,2,50.0
+2022-01,Insecure Direct Object Reference (IDOR),2,1,2,50.0
+2022-01,Use After Free,2,1,2,50.0
+2022-01,Violation of Secure Design Principles,2,1,2,50.0
+2022-01,Classic Buffer Overflow,1,1,1,100.0
+2022-01,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2022-01,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2022-01,Cross-site Scripting (XSS) - Stored,1,1,1,100.0
+2022-01,Improper Authorization,1,1,1,100.0
+2022-01,Improper Certificate Validation,1,1,1,100.0
+2022-01,Improper Input Validation,1,1,1,100.0
+2022-01,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,0,1,0.0
+2022-01,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2022-01,Insecure Storage of Sensitive Information,1,0,1,0.0
+2022-01,Open Redirect,1,0,1,0.0
+2022-01,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,1,1,1,100.0
+2022-01,Security Through Obscurity,1,0,1,0.0
+2022-01,Use of Hard-coded Password,1,0,1,0.0
+2022-02,,9,6,4,66.67
+2022-02,Improper Access Control - Generic,9,7,6,77.78
+2022-02,Business Logic Errors,3,1,2,33.33
+2022-02,Improper Authentication - Generic,3,1,3,33.33
+2022-02,Insecure Storage of Sensitive Information,3,0,3,0.0
+2022-02,Misconfiguration,3,2,3,66.67
+2022-02,Classic Buffer Overflow,2,0,1,0.0
+2022-02,Cross-Site Request Forgery (CSRF),2,2,2,100.0
+2022-02,Information Disclosure,2,2,2,100.0
+2022-02,Insecure Direct Object Reference (IDOR),2,1,2,50.0
+2022-02,Command Injection - Generic,1,1,1,100.0
+2022-02,Cross-site Scripting (XSS) - Stored,1,1,1,100.0
+2022-02,HTTP Request Smuggling,1,1,1,100.0
+2022-02,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,1,1,100.0
+2022-02,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2022-02,Information Exposure Through Directory Listing,1,0,1,0.0
+2022-02,Insecure Temporary File,1,1,1,100.0
+2022-02,Open Redirect,1,0,1,0.0
+2022-02,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2022-03,,8,7,6,87.5
+2022-03,Cross-site Scripting (XSS) - Reflected,4,4,4,100.0
+2022-03,Improper Access Control - Generic,4,4,4,100.0
+2022-03,Uncontrolled Resource Consumption,4,2,3,50.0
+2022-03,HTTP Request Smuggling,3,0,1,0.0
+2022-03,Information Disclosure,3,2,3,66.67
+2022-03,Insecure Direct Object Reference (IDOR),3,2,2,66.67
+2022-03,Business Logic Errors,2,1,2,50.0
+2022-03,CRLF Injection,2,2,2,100.0
+2022-03,Privacy Violation,2,2,2,100.0
+2022-03,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2022-03,Cleartext Transmission of Sensitive Information,1,0,1,0.0
+2022-03,Code Injection,1,0,1,0.0
+2022-03,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2022-03,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2022-03,Cross-site Scripting (XSS) - Stored,1,1,1,100.0
+2022-03,Forced Browsing,1,1,1,100.0
+2022-03,Heap Overflow,1,1,1,100.0
+2022-03,Improper Authentication - Generic,1,0,1,0.0
+2022-03,Insecure Storage of Sensitive Information,1,1,1,100.0
+2022-03,Open Redirect,1,1,1,100.0
+2022-03,Phishing,1,0,1,0.0
+2022-03,SQL Injection,1,0,1,0.0
+2022-03,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2022-04,Cross-site Scripting (XSS) - Stored,6,6,4,100.0
+2022-04,Business Logic Errors,5,2,3,40.0
+2022-04,Improper Access Control - Generic,5,4,5,80.0
+2022-04,,4,3,3,75.0
+2022-04,Insecure Direct Object Reference (IDOR),4,3,3,75.0
+2022-04,Insufficiently Protected Credentials,4,2,2,50.0
+2022-04,Code Injection,3,0,2,0.0
+2022-04,Cross-site Scripting (XSS) - Reflected,3,1,3,33.33
+2022-04,Improper Authentication - Generic,3,2,3,66.67
+2022-04,Path Traversal,3,0,1,0.0
+2022-04,Server-Side Request Forgery (SSRF),3,3,3,100.0
+2022-04,Uncontrolled Resource Consumption,3,2,2,66.67
+2022-04,Classic Buffer Overflow,2,2,2,100.0
+2022-04,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2022-04,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2022-04,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2022-04,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2022-04,Cryptographic Issues - Generic,1,0,1,0.0
+2022-04,Deserialization of Untrusted Data,1,1,1,100.0
+2022-04,Double Free,1,1,1,100.0
+2022-04,External Control of Critical State Data,1,0,1,0.0
+2022-04,Improper Check or Handling of Exceptional Conditions,1,0,1,0.0
+2022-04,Improper Input Validation,1,1,1,100.0
+2022-04,Information Disclosure,1,1,1,100.0
+2022-04,Information Exposure Through Sent Data,1,0,1,0.0
+2022-04,NULL Pointer Dereference,1,1,1,100.0
+2022-04,Open Redirect,1,0,1,0.0
+2022-04,Plaintext Storage of a Password,1,1,1,100.0
+2022-04,Privilege Escalation,1,1,1,100.0
+2022-04,Resource Injection,1,1,1,100.0
+2022-04,Unrestricted Upload of File with Dangerous Type,1,1,1,100.0
+2022-04,Violation of Secure Design Principles,1,0,1,0.0
+2022-05,,15,12,9,80.0
+2022-05,Information Disclosure,8,4,5,50.0
+2022-05,Insecure Direct Object Reference (IDOR),6,5,3,83.33
+2022-05,Improper Access Control - Generic,5,4,4,80.0
+2022-05,Business Logic Errors,4,2,2,50.0
+2022-05,Cross-site Scripting (XSS) - Generic,4,4,3,100.0
+2022-05,Uncontrolled Resource Consumption,3,0,2,0.0
+2022-05,Allocation of Resources Without Limits or Throttling,2,0,1,0.0
+2022-05,Insufficiently Protected Credentials,2,0,1,0.0
+2022-05,Open Redirect,2,1,2,50.0
+2022-05,SQL Injection,2,0,2,0.0
+2022-05,UI Redressing (Clickjacking),2,0,2,0.0
+2022-05,Authentication Bypass Using an Alternate Path or Channel,1,1,1,100.0
+2022-05,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2022-05,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,1,1,100.0
+2022-05,HTTP Request Smuggling,1,1,1,100.0
+2022-05,Improper Authentication - Generic,1,1,1,100.0
+2022-05,Improper Authorization,1,1,1,100.0
+2022-05,Improper Certificate Validation,1,0,1,0.0
+2022-05,Information Exposure Through Sent Data,1,1,1,100.0
+2022-05,Integer Overflow,1,0,1,0.0
+2022-05,OS Command Injection,1,0,1,0.0
+2022-05,Privacy Violation,1,1,1,100.0
+2022-05,Privilege Escalation,1,1,1,100.0
+2022-05,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2022-05,Violation of Secure Design Principles,1,0,1,0.0
+2022-06,,11,7,7,63.64
+2022-06,Uncontrolled Resource Consumption,6,5,5,83.33
+2022-06,Information Disclosure,5,4,3,80.0
+2022-06,Business Logic Errors,4,2,2,50.0
+2022-06,Improper Access Control - Generic,4,3,4,75.0
+2022-06,Cross-site Scripting (XSS) - Stored,3,2,3,66.67
+2022-06,Improper Authentication - Generic,3,2,2,66.67
+2022-06,Cleartext Storage of Sensitive Information,2,0,2,0.0
+2022-06,Cross-site Scripting (XSS) - Generic,2,2,2,100.0
+2022-06,Cross-site Scripting (XSS) - Reflected,2,1,2,50.0
+2022-06,Improper Input Validation,2,1,2,50.0
+2022-06,Insecure Direct Object Reference (IDOR),2,2,2,100.0
+2022-06,Server-Side Request Forgery (SSRF),2,2,1,100.0
+2022-06,Allocation of Resources Without Limits or Throttling,1,1,1,100.0
+2022-06,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2022-06,Code Injection,1,1,1,100.0
+2022-06,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2022-06,Deserialization of Untrusted Data,1,1,1,100.0
+2022-06,Heap Overflow,1,0,1,0.0
+2022-06,Improper Certificate Validation,1,1,1,100.0
+2022-06,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,1,1,100.0
+2022-06,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2022-06,Information Exposure Through Debug Information,1,0,1,0.0
+2022-06,Missing Authentication for Critical Function,1,1,1,100.0
+2022-06,Privacy Violation,1,1,1,100.0
+2022-06,Violation of Secure Design Principles,1,0,1,0.0
+2022-06,Weak Cryptography for Passwords,1,1,1,100.0
+2022-07,Cross-site Scripting (XSS) - Reflected,8,2,4,25.0
+2022-07,Information Disclosure,7,3,3,42.86
+2022-07,Code Injection,5,3,3,60.0
+2022-07,Cross-site Scripting (XSS) - Stored,5,4,5,80.0
+2022-07,HTTP Request Smuggling,5,3,3,60.0
+2022-07,Improper Access Control - Generic,5,2,5,40.0
+2022-07,Path Traversal,5,3,5,60.0
+2022-07,SQL Injection,5,4,2,80.0
+2022-07,,4,3,4,75.0
+2022-07,Insecure Direct Object Reference (IDOR),4,2,3,50.0
+2022-07,Server-Side Request Forgery (SSRF),4,3,2,75.0
+2022-07,Cleartext Storage of Sensitive Information,2,0,2,0.0
+2022-07,Client-Side Enforcement of Server-Side Security,2,2,1,100.0
+2022-07,Command Injection - Generic,2,1,2,50.0
+2022-07,Improper Authentication - Generic,2,2,2,100.0
+2022-07,Misconfiguration,2,2,2,100.0
+2022-07,Privilege Escalation,2,0,2,0.0
+2022-07,Uncontrolled Resource Consumption,2,1,2,50.0
+2022-07,Violation of Secure Design Principles,2,0,2,0.0
+2022-07,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2022-07,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2022-07,Improper Input Validation,1,1,1,100.0
+2022-07,Information Exposure Through Directory Listing,1,0,1,0.0
+2022-07,Insufficient Session Expiration,1,0,1,0.0
+2022-07,Insufficiently Protected Credentials,1,1,1,100.0
+2022-07,Open Redirect,1,0,1,0.0
+2022-07,PHP Local File Inclusion,1,1,1,100.0
+2022-07,Path Traversal: '.../...//',1,1,1,100.0
+2022-07,Privacy Violation,1,0,1,0.0
+2022-07,Unrestricted Upload of File with Dangerous Type,1,1,1,100.0
+2022-07,Untrusted Search Path,1,1,1,100.0
+2022-07,Use of a Broken or Risky Cryptographic Algorithm,1,0,1,0.0
+2022-08,Cross-site Scripting (XSS) - Stored,12,2,3,16.67
+2022-08,Improper Access Control - Generic,6,4,4,66.67
+2022-08,Business Logic Errors,5,3,5,60.0
+2022-08,Cross-site Scripting (XSS) - Reflected,4,1,3,25.0
+2022-08,Insecure Direct Object Reference (IDOR),4,3,3,75.0
+2022-08,,3,2,3,66.67
+2022-08,HTTP Request Smuggling,3,1,2,33.33
+2022-08,Information Disclosure,3,1,3,33.33
+2022-08,Command Injection - Generic,2,2,2,100.0
+2022-08,Cross-site Scripting (XSS) - Generic,2,1,2,50.0
+2022-08,Privilege Escalation,2,1,2,50.0
+2022-08,Uncontrolled Resource Consumption,2,2,1,100.0
+2022-08,Authentication Bypass Using an Alternate Path or Channel,1,1,1,100.0
+2022-08,Cleartext Storage of Sensitive Information,1,1,1,100.0
+2022-08,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2022-08,Improper Authentication - Generic,1,1,1,100.0
+2022-08,Improper Certificate Validation,1,1,1,100.0
+2022-08,Improper Input Validation,1,1,1,100.0
+2022-08,Misconfiguration,1,0,1,0.0
+2022-08,OS Command Injection,1,1,1,100.0
+2022-08,Privacy Violation,1,1,1,100.0
+2022-08,SQL Injection,1,0,1,0.0
+2022-08,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2022-08,Violation of Secure Design Principles,1,1,1,100.0
+2022-09,Improper Access Control - Generic,9,5,7,55.56
+2022-09,,8,3,4,37.5
+2022-09,Server-Side Request Forgery (SSRF),5,2,4,40.0
+2022-09,Cross-site Scripting (XSS) - Reflected,4,2,4,50.0
+2022-09,Cross-site Scripting (XSS) - Stored,3,3,3,100.0
+2022-09,Insecure Direct Object Reference (IDOR),3,2,3,66.67
+2022-09,Business Logic Errors,2,1,2,50.0
+2022-09,Cleartext Transmission of Sensitive Information,2,0,2,0.0
+2022-09,Cross-site Scripting (XSS) - Generic,2,0,2,0.0
+2022-09,Improper Authentication - Generic,2,1,2,50.0
+2022-09,Path Traversal,2,1,2,50.0
+2022-09,Privilege Escalation,2,0,2,0.0
+2022-09,Resource Injection,2,0,1,0.0
+2022-09,Uncontrolled Resource Consumption,2,1,2,50.0
+2022-09,Command Injection - Generic,1,1,1,100.0
+2022-09,Cryptographic Issues - Generic,1,0,1,0.0
+2022-09,Deserialization of Untrusted Data,1,0,1,0.0
+2022-09,Expected Behavior Violation,1,0,1,0.0
+2022-09,Improper Certificate Validation,1,0,1,0.0
+2022-09,Improper Removal of Sensitive Information Before Storage or Transfer,1,0,1,0.0
+2022-09,Incorrect Permission Assignment for Critical Resource,1,1,1,100.0
+2022-09,Information Disclosure,1,1,1,100.0
+2022-09,Insecure Storage of Sensitive Information,1,0,1,0.0
+2022-09,Leftover Debug Code (Backdoor),1,0,1,0.0
+2022-09,Misconfiguration,1,0,1,0.0
+2022-09,NULL Pointer Dereference,1,1,1,100.0
+2022-09,Open Redirect,1,1,1,100.0
+2022-09,Phishing,1,0,1,0.0
+2022-09,Privacy Violation,1,0,1,0.0
+2022-09,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2022-09,Use of Cache Containing Sensitive Information,1,1,1,100.0
+2022-09,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),1,0,1,0.0
+2022-09,Use of Incorrectly-Resolved Name or Reference,1,0,1,0.0
+2022-09,Use of a Broken or Risky Cryptographic Algorithm,1,1,1,100.0
+2022-09,User Interface (UI) Misrepresentation of Critical Information,1,1,1,100.0
+2022-10,Insecure Direct Object Reference (IDOR),6,5,5,83.33
+2022-10,Improper Access Control - Generic,5,3,2,60.0
+2022-10,,4,2,4,50.0
+2022-10,Information Disclosure,4,2,4,50.0
+2022-10,Business Logic Errors,3,2,2,66.67
+2022-10,Cleartext Transmission of Sensitive Information,3,1,2,33.33
+2022-10,Cross-site Scripting (XSS) - Reflected,3,0,2,0.0
+2022-10,Server-Side Request Forgery (SSRF),3,2,2,66.67
+2022-10,Authentication Bypass Using an Alternate Path or Channel,2,1,2,50.0
+2022-10,Cross-Site Request Forgery (CSRF),2,2,2,100.0
+2022-10,Cross-site Scripting (XSS) - DOM,2,0,1,0.0
+2022-10,CRLF Injection,1,0,1,0.0
+2022-10,Code Injection,1,1,1,100.0
+2022-10,Command Injection - Generic,1,1,1,100.0
+2022-10,Cross-site Scripting (XSS) - Stored,1,1,1,100.0
+2022-10,Double Free,1,0,1,0.0
+2022-10,Insufficiently Protected Credentials,1,0,1,0.0
+2022-10,Out-of-bounds Read,1,0,1,0.0
+2022-10,Privilege Escalation,1,0,1,0.0
+2022-10,Remote File Inclusion,1,0,1,0.0
+2022-10,Stack Overflow,1,1,1,100.0
+2022-10,Violation of Secure Design Principles,1,0,1,0.0
+2022-11,,7,4,6,57.14
+2022-11,Information Disclosure,7,4,5,57.14
+2022-11,Cross-site Scripting (XSS) - Stored,4,3,4,75.0
+2022-11,Improper Access Control - Generic,4,2,4,50.0
+2022-11,Business Logic Errors,2,2,2,100.0
+2022-11,Code Injection,2,1,2,50.0
+2022-11,Cross-site Scripting (XSS) - DOM,2,1,2,50.0
+2022-11,Insecure Storage of Sensitive Information,2,1,2,50.0
+2022-11,Violation of Secure Design Principles,2,2,1,100.0
+2022-11,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2022-11,File and Directory Information Exposure,1,0,1,0.0
+2022-11,Improper Authentication - Generic,1,1,1,100.0
+2022-11,Improper Authorization,1,1,1,100.0
+2022-11,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2022-11,Memory Corruption - Generic,1,1,1,100.0
+2022-11,OS Command Injection,1,0,1,0.0
+2022-11,Open Redirect,1,1,1,100.0
+2022-11,Privacy Violation,1,1,1,100.0
+2022-11,Resource Injection,1,1,1,100.0
+2022-11,SQL Injection,1,0,1,0.0
+2022-11,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2022-11,Uncontrolled Resource Consumption,1,0,1,0.0
+2022-11,Use After Free,1,0,1,0.0
+2022-12,Cross-site Scripting (XSS) - Reflected,5,0,4,0.0
+2022-12,Cross-site Scripting (XSS) - Generic,4,3,3,75.0
+2022-12,Improper Access Control - Generic,4,1,4,25.0
+2022-12,Insecure Direct Object Reference (IDOR),4,4,2,100.0
+2022-12,Improper Authentication - Generic,3,2,3,66.67
+2022-12,,2,1,2,50.0
+2022-12,Cleartext Transmission of Sensitive Information,2,0,1,0.0
+2022-12,Code Injection,2,2,2,100.0
+2022-12,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),2,1,2,50.0
+2022-12,Privilege Escalation,2,1,1,50.0
+2022-12,Array Index Underflow,1,1,1,100.0
+2022-12,Business Logic Errors,1,0,1,0.0
+2022-12,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2022-12,Cross-site Scripting (XSS) - Stored,1,1,1,100.0
+2022-12,Cryptographic Issues - Generic,1,0,1,0.0
+2022-12,Improper Authorization,1,1,1,100.0
+2022-12,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2022-12,Incorrect Authorization,1,0,1,0.0
+2022-12,Information Exposure Through an Error Message,1,1,1,100.0
+2022-12,Missing Encryption of Sensitive Data,1,0,1,0.0
+2022-12,Phishing,1,1,1,100.0
+2022-12,Plaintext Storage of a Password,1,0,1,0.0
+2022-12,Uncontrolled Resource Consumption,1,0,1,0.0
+2023-01,Business Logic Errors,4,2,4,50.0
+2023-01,Cross-site Scripting (XSS) - Reflected,4,0,3,0.0
+2023-01,Improper Access Control - Generic,4,4,3,100.0
+2023-01,Improper Authentication - Generic,3,2,3,66.67
+2023-01,Information Disclosure,3,1,2,33.33
+2023-01,,2,2,2,100.0
+2023-01,Open Redirect,2,0,2,0.0
+2023-01,Privilege Escalation,2,2,2,100.0
+2023-01,Violation of Secure Design Principles,2,0,1,0.0
+2023-01,Allocation of Resources Without Limits or Throttling,1,0,1,0.0
+2023-01,CRLF Injection,1,0,1,0.0
+2023-01,Code Injection,1,1,1,100.0
+2023-01,Command Injection - Generic,1,0,1,0.0
+2023-01,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2023-01,Cross-site Scripting (XSS) - Stored,1,1,1,100.0
+2023-01,Deserialization of Untrusted Data,1,1,1,100.0
+2023-01,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,0,1,0.0
+2023-01,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2023-01,Information Exposure Through Directory Listing,1,0,1,0.0
+2023-01,Information Exposure Through an Error Message,1,0,1,0.0
+2023-01,Phishing,1,1,1,100.0
+2023-01,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2023-02,,4,4,3,100.0
+2023-02,Cross-site Scripting (XSS) - Reflected,4,1,2,25.0
+2023-02,Information Disclosure,4,2,2,50.0
+2023-02,Uncontrolled Resource Consumption,4,0,2,0.0
+2023-02,Improper Access Control - Generic,3,2,3,66.67
+2023-02,Server-Side Request Forgery (SSRF),3,3,3,100.0
+2023-02,Business Logic Errors,2,2,1,100.0
+2023-02,Allocation of Resources Without Limits or Throttling,1,1,1,100.0
+2023-02,Brute Force,1,1,1,100.0
+2023-02,CRLF Injection,1,1,1,100.0
+2023-02,Code Injection,1,1,1,100.0
+2023-02,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2023-02,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2023-02,Cross-site Scripting (XSS) - Stored,1,0,1,0.0
+2023-02,Cryptographic Issues - Generic,1,1,1,100.0
+2023-02,HTTP Request Smuggling,1,1,1,100.0
+2023-02,Improper Authorization,1,1,1,100.0
+2023-02,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,1,1,100.0
+2023-02,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2023-02,Incorrect Authorization,1,1,1,100.0
+2023-02,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2023-02,Misconfiguration,1,1,1,100.0
+2023-02,Missing Critical Step in Authentication,1,1,1,100.0
+2023-02,Open Redirect,1,1,1,100.0
+2023-02,Path Traversal,1,0,1,0.0
+2023-02,Privilege Escalation,1,0,1,0.0
+2023-02,SQL Injection,1,0,1,0.0
+2023-02,Violation of Secure Design Principles,1,1,1,100.0
+2023-03,,7,4,3,57.14
+2023-03,Business Logic Errors,4,4,1,100.0
+2023-03,Improper Access Control - Generic,3,3,3,100.0
+2023-03,Improper Restriction of Authentication Attempts,3,2,1,66.67
+2023-03,Server-Side Request Forgery (SSRF),3,1,2,33.33
+2023-03,Uncontrolled Resource Consumption,3,1,3,33.33
+2023-03,Authentication Bypass by Primary Weakness,2,0,1,0.0
+2023-03,Cross-site Scripting (XSS) - Reflected,2,1,2,50.0
+2023-03,Double Free,2,1,2,50.0
+2023-03,Improper Input Validation,2,2,1,100.0
+2023-03,Information Disclosure,2,0,2,0.0
+2023-03,Use After Free,2,1,2,50.0
+2023-03,Code Injection,1,1,1,100.0
+2023-03,Command Injection - Generic,1,0,1,0.0
+2023-03,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2023-03,Cross-Site Scripting (XSS),1,1,1,100.0
+2023-03,Cross-site Scripting (XSS) - Stored,1,0,1,0.0
+2023-03,HTTP Response Splitting,1,1,1,100.0
+2023-03,Improper Authentication - Generic,1,0,1,0.0
+2023-03,Inconsistency Between Implementation and Documented Design,1,0,1,0.0
+2023-03,Information Exposure Through an Error Message,1,1,1,100.0
+2023-03,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2023-03,Path Traversal,1,0,1,0.0
+2023-03,SQL Injection,1,0,1,0.0
+2023-03,Unrestricted Upload of File with Dangerous Type,1,1,1,100.0
+2023-03,Use of Hard-coded Credentials,1,0,1,0.0
+2023-04,Improper Access Control - Generic,10,3,9,30.0
+2023-04,Insecure Direct Object Reference (IDOR),5,2,3,40.0
+2023-04,,3,3,1,100.0
+2023-04,Privilege Escalation,3,0,1,0.0
+2023-04,Cross-site Scripting (XSS) - Reflected,2,1,2,50.0
+2023-04,Cross-site Scripting (XSS) - Stored,2,2,2,100.0
+2023-04,Information Disclosure,2,1,2,50.0
+2023-04,CRLF Injection,1,0,1,0.0
+2023-04,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2023-04,Expected Behavior Violation,1,0,1,0.0
+2023-04,HTTP Request Smuggling,1,1,1,100.0
+2023-04,Heap Overflow,1,0,1,0.0
+2023-04,Improper Authentication - Generic,1,0,1,0.0
+2023-04,Improper Certificate Validation,1,0,1,0.0
+2023-04,Improper Restriction of Authentication Attempts,1,0,1,0.0
+2023-04,Improper Synchronization,1,0,1,0.0
+2023-04,Information Exposure Through Directory Listing,1,0,1,0.0
+2023-04,Open Redirect,1,1,1,100.0
+2023-04,Path Traversal,1,0,1,0.0
+2023-04,Resource Injection,1,1,1,100.0
+2023-04,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2023-04,Uncontrolled Resource Consumption,1,1,1,100.0
+2023-05,,7,5,5,71.43
+2023-05,Business Logic Errors,2,1,2,50.0
+2023-05,Cross-Site Request Forgery (CSRF),2,1,2,50.0
+2023-05,Cross-site Scripting (XSS) - Reflected,2,1,2,50.0
+2023-05,Cross-site Scripting (XSS) - Stored,2,0,1,0.0
+2023-05,Improper Access Control - Generic,2,2,1,100.0
+2023-05,Information Disclosure,2,1,1,50.0
+2023-05,Misconfiguration,2,2,1,100.0
+2023-05,Use After Free,2,2,2,100.0
+2023-05,Cache Poisoning,1,0,1,0.0
+2023-05,Cleartext Storage in a File or on Disk,1,1,1,100.0
+2023-05,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,1,1,100.0
+2023-05,HTTP Request Smuggling,1,0,1,0.0
+2023-05,Improper Authentication - Generic,1,0,1,0.0
+2023-05,Improper Certificate Validation,1,1,1,100.0
+2023-05,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2023-05,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2023-05,Missing Encryption of Sensitive Data,1,0,1,0.0
+2023-05,Open Redirect,1,1,1,100.0
+2023-05,Path Traversal,1,1,1,100.0
+2023-06,,6,5,4,83.33
+2023-06,Cross-site Scripting (XSS) - Reflected,4,4,2,100.0
+2023-06,Uncontrolled Resource Consumption,4,4,1,100.0
+2023-06,Cross-site Scripting (XSS) - Stored,3,1,3,33.33
+2023-06,Path Traversal,3,0,2,0.0
+2023-06,Business Logic Errors,2,2,2,100.0
+2023-06,Code Injection,2,2,2,100.0
+2023-06,Misconfiguration,2,2,2,100.0
+2023-06,Authentication Bypass Using an Alternate Path or Channel,1,0,1,0.0
+2023-06,Cleartext Storage of Sensitive Information,1,1,1,100.0
+2023-06,Client-Side Enforcement of Server-Side Security,1,1,1,100.0
+2023-06,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2023-06,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2023-06,HTTP Request Smuggling,1,1,1,100.0
+2023-06,Improper Access Control - Generic,1,1,1,100.0
+2023-06,Improper Authorization,1,1,1,100.0
+2023-06,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2023-06,Privilege Escalation,1,0,1,0.0
+2023-06,SQL Injection,1,0,1,0.0
+2023-06,Time-of-check Time-of-use (TOCTOU) Race Condition,1,0,1,0.0
+2023-07,Improper Access Control - Generic,9,4,6,44.44
+2023-07,,7,5,4,71.43
+2023-07,Information Disclosure,5,3,4,60.0
+2023-07,Privilege Escalation,5,5,2,100.0
+2023-07,Cross-site Scripting (XSS) - Reflected,3,1,3,33.33
+2023-07,Cross-site Scripting (XSS) - Generic,2,2,2,100.0
+2023-07,Cross-site Scripting (XSS) - Stored,2,2,2,100.0
+2023-07,SQL Injection,2,0,1,0.0
+2023-07,Allocation of Resources Without Limits or Throttling,1,0,1,0.0
+2023-07,Command Injection - Generic,1,0,1,0.0
+2023-07,Deserialization of Untrusted Data,1,1,1,100.0
+2023-07,Improper Authentication - Generic,1,0,1,0.0
+2023-07,Improper Input Validation,1,1,1,100.0
+2023-07,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,0,1,0.0
+2023-07,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2023-07,Misconfiguration,1,1,1,100.0
+2023-07,NULL Pointer Dereference,1,1,1,100.0
+2023-07,Path Traversal,1,1,1,100.0
+2023-07,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2023-07,Time-of-check Time-of-use (TOCTOU) Race Condition,1,1,1,100.0
+2023-07,Uncontrolled Resource Consumption,1,1,1,100.0
+2023-08,Information Disclosure,7,4,5,57.14
+2023-08,,3,3,2,100.0
+2023-08,Improper Access Control - Generic,3,3,2,100.0
+2023-08,Misconfiguration,3,3,1,100.0
+2023-08,Cleartext Storage of Sensitive Information,2,1,2,50.0
+2023-08,Cross-site Scripting (XSS) - Reflected,2,1,2,50.0
+2023-08,Improper Restriction of Authentication Attempts,2,0,1,0.0
+2023-08,Insecure Direct Object Reference (IDOR),2,2,2,100.0
+2023-08,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2023-08,Code Injection,1,1,1,100.0
+2023-08,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),1,1,1,100.0
+2023-08,Content Spoofing,1,1,1,100.0
+2023-08,Cross-site Scripting (XSS) - DOM,1,1,1,100.0
+2023-08,Cross-site Scripting (XSS) - Stored,1,1,1,100.0
+2023-08,Deserialization of Untrusted Data,1,1,1,100.0
+2023-08,Improper Authentication - Generic,1,1,1,100.0
+2023-08,Improper Null Termination,1,1,1,100.0
+2023-08,Incorrect Authorization,1,1,1,100.0
+2023-08,Insufficient Session Expiration,1,1,1,100.0
+2023-08,Missing Encryption of Sensitive Data,1,0,1,0.0
+2023-08,Path Traversal,1,1,1,100.0
+2023-08,Phishing,1,0,1,0.0
+2023-08,Privilege Escalation,1,1,1,100.0
+2023-08,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2023-08,Session Fixation,1,1,1,100.0
+2023-09,Improper Access Control - Generic,8,7,7,87.5
+2023-09,Information Disclosure,3,2,2,66.67
+2023-09,Improper Authentication - Generic,2,0,2,0.0
+2023-09,Misconfiguration,2,2,1,100.0
+2023-09,Privilege Escalation,2,2,2,100.0
+2023-09,,1,0,1,0.0
+2023-09,Allocation of Resources Without Limits or Throttling,1,1,1,100.0
+2023-09,CRLF Injection,1,1,1,100.0
+2023-09,Classic Buffer Overflow,1,1,1,100.0
+2023-09,Cross-site Scripting (XSS) - Reflected,1,1,1,100.0
+2023-09,External Control of File Name or Path,1,0,1,0.0
+2023-09,Heap Overflow,1,0,1,0.0
+2023-09,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2023-09,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2023-09,Insecure Storage of Sensitive Information,1,1,1,100.0
+2023-09,NULL Pointer Dereference,1,0,1,0.0
+2023-09,Privacy Violation,1,1,1,100.0
+2023-09,Resource Injection,1,1,1,100.0
+2023-10,Improper Access Control - Generic,9,7,7,77.78
+2023-10,Information Disclosure,5,3,5,60.0
+2023-10,Misconfiguration,4,4,2,100.0
+2023-10,Cross-site Scripting (XSS) - Stored,2,2,2,100.0
+2023-10,Improper Authentication - Generic,2,0,2,0.0
+2023-10,Insecure Direct Object Reference (IDOR),2,1,2,50.0
+2023-10,Path Traversal,2,1,2,50.0
+2023-10,,1,1,1,100.0
+2023-10,Authentication Bypass Using an Alternate Path or Channel,1,1,1,100.0
+2023-10,Business Logic Errors,1,0,1,0.0
+2023-10,CRLF Injection,1,1,1,100.0
+2023-10,Cleartext Storage of Sensitive Information,1,1,1,100.0
+2023-10,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2023-10,Cross-site Scripting (XSS) - Generic,1,0,1,0.0
+2023-10,Cross-site Scripting (XSS) - Reflected,1,0,1,0.0
+2023-10,File and Directory Information Exposure,1,0,1,0.0
+2023-10,Improper Restriction of Authentication Attempts,1,1,1,100.0
+2023-10,Information Exposure Through Sent Data,1,0,1,0.0
+2023-10,Information Exposure Through an Error Message,1,0,1,0.0
+2023-10,Insufficient Verification of Data Authenticity,1,1,1,100.0
+2023-10,Privilege Escalation,1,1,1,100.0
+2023-10,Uncontrolled Resource Consumption,1,0,1,0.0
+2023-10,Use of Insufficiently Random Values,1,1,1,100.0
+2023-10,Violation of Secure Design Principles,1,0,1,0.0
+2023-11,Improper Access Control - Generic,6,1,4,16.67
+2023-11,,3,3,3,100.0
+2023-11,Business Logic Errors,2,2,2,100.0
+2023-11,Information Disclosure,2,2,2,100.0
+2023-11,Path Traversal,2,1,2,50.0
+2023-11,SQL Injection,2,0,2,0.0
+2023-11,Classic Buffer Overflow,1,0,1,0.0
+2023-11,Code Injection,1,1,1,100.0
+2023-11,Cross-Site Request Forgery (CSRF),1,0,1,0.0
+2023-11,Cross-site Scripting (XSS) - Generic,1,1,1,100.0
+2023-11,Cross-site Scripting (XSS) - Reflected,1,1,1,100.0
+2023-11,Cross-site Scripting (XSS) - Stored,1,0,1,0.0
+2023-11,Deserialization of Untrusted Data,1,0,1,0.0
+2023-11,Exposure of Sensitive Information Due to Incompatible Policies,1,1,1,100.0
+2023-11,Improper Authorization,1,1,1,100.0
+2023-11,Improper Handling of URL Encoding (Hex Encoding),1,1,1,100.0
+2023-11,Information Exposure Through Debug Information,1,0,1,0.0
+2023-11,Misconfiguration,1,1,1,100.0
+2023-11,Missing Encryption of Sensitive Data,1,0,1,0.0
+2023-11,Open Redirect,1,1,1,100.0
+2023-11,Privilege Escalation,1,0,1,0.0
+2023-11,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2023-12,,5,3,5,60.0
+2023-12,Misconfiguration,3,3,1,100.0
+2023-12,HTTP Request Smuggling,2,2,1,100.0
+2023-12,Cleartext Storage of Sensitive Information,1,0,1,0.0
+2023-12,Code Injection,1,1,1,100.0
+2023-12,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2023-12,Cross-site Scripting (XSS) - Reflected,1,1,1,100.0
+2023-12,Heap Overflow,1,0,1,0.0
+2023-12,Improper Access Control - Generic,1,1,1,100.0
+2023-12,Improper Authentication - Generic,1,0,1,0.0
+2023-12,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),1,1,1,100.0
+2023-12,Information Disclosure,1,1,1,100.0
+2023-12,Information Exposure Through Sent Data,1,1,1,100.0
+2023-12,Information Exposure Through Timing Discrepancy,1,1,1,100.0
+2023-12,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2023-12,Privacy Violation,1,0,1,0.0
+2023-12,Privilege Escalation,1,1,1,100.0
+2023-12,Resource Injection,1,0,1,0.0
+2023-12,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2023-12,Uncontrolled Resource Consumption,1,0,1,0.0
+2023-12,Use of a Broken or Risky Cryptographic Algorithm,1,0,1,0.0
+2023-12,XML External Entities (XXE),1,0,1,0.0
+2024-01,Information Disclosure,4,2,3,50.0
+2024-01,,3,2,3,66.67
+2024-01,Improper Access Control - Generic,3,3,2,100.0
+2024-01,Improper Authentication - Generic,2,1,2,50.0
+2024-01,Cross-Site Request Forgery (CSRF),1,1,1,100.0
+2024-01,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2024-01,Deserialization of Untrusted Data,1,1,1,100.0
+2024-01,HTTP Request Smuggling,1,1,1,100.0
+2024-01,Open Redirect,1,1,1,100.0
+2024-01,SQL Injection,1,0,1,0.0
+2024-01,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2024-01,Uncontrolled Resource Consumption,1,1,1,100.0
+2024-02,Cross-site Scripting (XSS) - Reflected,3,1,2,33.33
+2024-02,Insecure Direct Object Reference (IDOR),3,2,3,66.67
+2024-02,,2,0,2,0.0
+2024-02,Information Disclosure,2,1,2,50.0
+2024-02,Business Logic Errors,1,0,1,0.0
+2024-02,Improper Access Control - Generic,1,0,1,0.0
+2024-02,Improper Authentication - Generic,1,0,1,0.0
+2024-02,Insecure Storage of Sensitive Information,1,0,1,0.0
+2024-02,LLM01: Prompt Injection,1,1,1,100.0
+2024-02,Misinterpretation of Input,1,0,1,0.0
+2024-02,Uncontrolled Resource Consumption,1,1,1,100.0
+2024-02,Unrestricted Upload of File with Dangerous Type,1,0,1,0.0
+2024-02,Violation of Secure Design Principles,1,0,1,0.0
+2024-03,Cross-site Scripting (XSS) - Reflected,3,0,2,0.0
+2024-03,Improper Certificate Validation,3,2,2,66.67
+2024-03,Information Disclosure,3,3,2,100.0
+2024-03,,2,2,2,100.0
+2024-03,Uncontrolled Resource Consumption,2,1,2,50.0
+2024-03,Cleartext Transmission of Sensitive Information,1,1,1,100.0
+2024-03,Cross-site Scripting (XSS) - DOM,1,0,1,0.0
+2024-03,Improper Authentication - Generic,1,1,1,100.0
+2024-03,Insecure Direct Object Reference (IDOR),1,1,1,100.0
+2024-03,Insufficiently Protected Credentials,1,0,1,0.0
+2024-03,Path Traversal,1,1,1,100.0
+2024-03,SQL Injection,1,0,1,0.0
+2024-03,Server-Side Request Forgery (SSRF),1,1,1,100.0
+2024-04,Cross-site Scripting (XSS) - Reflected,2,0,1,0.0
+2024-04,Uncontrolled Resource Consumption,2,2,1,100.0
+2024-04,Business Logic Errors,1,0,1,0.0
+2024-04,Code Injection,1,1,1,100.0
+2024-04,Cryptographic Issues - Generic,1,0,1,0.0
+2024-04,Deserialization of Untrusted Data,1,0,1,0.0
+2024-04,Insecure Direct Object Reference (IDOR),1,0,1,0.0
+2024-04,Insecure Storage of Sensitive Information,1,1,1,100.0

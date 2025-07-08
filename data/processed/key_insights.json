@@ -1,0 +1,11 @@
+{
+  "total_reports": 10094,
+  "total_bounties": 5383,
+  "overall_bounty_rate": 53.33,
+  "unique_organizations": 328,
+  "active_reporters": 3896,
+  "vulnerability_types": 152,
+  "top_vulnerability": "nan",
+  "top_organization": "Mail.ru",
+  "top_reporter": "bobrov"
+}
