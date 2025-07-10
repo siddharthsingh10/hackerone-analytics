@@ -445,179 +445,22 @@ def show_insights_and_recommendations(vulnerability_summary, org_metrics, report
             """)
     
     # Strategic recommendations with interactive sections
-    st.subheader("🎯 Strategic Recommendations")
-    
-    with st.expander("🚀 Platform Optimization", expanded=True):
-        col1, col2 = st.columns(2)
-        with col1:
-            st.markdown("""
-            **🔧 Technical Improvements:**
-            ✅ **High Priority:**
-            - Implement automated detection for Information Disclosure patterns
-            - Develop AI-powered XSS variant recognition
-            - Create verification-based report prioritization system
-            
-            ✅ **Medium Priority:**
-            - Build real-time vulnerability trend monitoring
-            - Develop automated report quality scoring
-            - Implement predictive threat modeling
-            """)
-        with col2:
-            st.markdown("""
-            **📊 Quality Enhancements:**
-            ✅ **Immediate Actions:**
-            - Focus on report quality over quantity
-            - Implement automated validation workflows
-            - Develop specialized training for emerging threats
-            
-            ✅ **Long-term Vision:**
-            - AI-powered threat prediction models
-            - Automated vulnerability pattern recognition
-            - Real-time security intelligence platform
-            """)
-    
-    with st.expander("👥 Community Building & Talent Development", expanded=True):
-        col1, col2 = st.columns(2)
-        with col1:
-            st.markdown("""
-            **🌟 Talent Development:**
-            ✅ **High Priority:**
-            - Identify and nurture high-quality reporters
-            - Provide specialized training for top vulnerability types
-            - Create incentives for verified researchers
-            
-            ✅ **Medium Priority:**
-            - Build regional talent clusters
-            - Develop certification programs
-            - Create mentorship opportunities
-            """)
-        with col2:
-            st.markdown("""
-            **🌍 Global Expansion:**
-            ✅ **Strategic Focus:**
-            - Geographic expansion to emerging markets
-            - Industry-specific security programs
-            - Regional bug bounty programs
-            
-            ✅ **Community Health:**
-            - Enhanced training and certification programs
-            - Improved feedback and communication systems
-            - Recognition and reward programs
-            """)
-    
-    with st.expander("🏢 Customer Success & Market Intelligence", expanded=True):
-        col1, col2 = st.columns(2)
-        with col1:
-            st.markdown("""
-            **🎯 Customer Success:**
-            ✅ **Immediate Actions:**
-            - Help low-bounty organizations improve programs
-            - Share best practices from top performers
-            - Develop maturity assessment framework
-            
-            ✅ **Strategic Initiatives:**
-            - Provide benchmarking reports
-            - Create industry-specific security frameworks
-            - Develop customer success metrics
-            """)
-        with col2:
-            st.markdown("""
-            **📊 Market Intelligence:**
-            ✅ **Data-Driven Insights:**
-            - Monitor vulnerability trends for early detection
-            - Analyze geographic and industry patterns
-            - Develop predictive threat models
-            
-            ✅ **Strategic Planning:**
-            - Create security maturity scoring
-            - Industry-specific threat intelligence
-            - Competitive positioning analysis
-            """)
-    
-    # Action items with priority levels
-    st.subheader("📋 Immediate Action Items")
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.markdown("""
-        **🔴 High Priority (Next 30 Days):**
-        
-        ✅ **Platform Optimization:**
-        - Implement verification-based report prioritization
-        - Develop automated detection for top vulnerability types
-        - Create customer success program for low-performing organizations
-        
-        ✅ **Quality Focus:**
-        - Build reporter quality scoring system
-        - Implement automated report validation
-        - Develop vulnerability trend monitoring
-        """)
-    
-    with col2:
-        st.markdown("""
-        **🟡 Medium Priority (Next 90 Days):**
-        
-        ✅ **Community Development:**
-        - Enhanced training programs for emerging threats
-        - Regional talent development initiatives
-        - Improved feedback and communication systems
-        
-        ✅ **Market Expansion:**
-        - Geographic expansion planning
-        - Industry-specific security programs
-        - Customer benchmarking reports
-        """)
-    
-    with col3:
-        st.markdown("""
-        **🟢 Long Term (6-12 Months):**
-        
-        ✅ **Advanced Analytics:**
-        - AI-powered threat prediction models
-        - Automated vulnerability pattern recognition
-        - Real-time security intelligence platform
-        
-        ✅ **Strategic Growth:**
-        - Global talent development programs
-        - Industry-specific security maturity frameworks
-        - Advanced customer success metrics
-        """)
-    
+    st.subheader("Recommendations Based on Data Patterns")
+    st.markdown("""
+- Prioritize automated detection for Information Disclosure and XSS, as these are the most common and persistent vulnerabilities.
+- Support organizations with low bounty rates by sharing best practices from top performers and providing targeted program feedback.
+- Encourage and recognize high-validity reporters to maintain quality and engagement.
+- Monitor seasonal spikes (especially Q4) to allocate review resources efficiently.
+- Track and address the rise of business logic vulnerabilities with specialized training and detection tools.
+    """)
     # Success metrics
-    st.subheader("📊 Success Metrics & KPIs")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        **🎯 Key Performance Indicators:**
-        
-        **Platform Quality:**
-        - Target: Increase overall bounty rate to 60%
-        - Target: Reduce average report processing time by 20%
-        - Target: Achieve 90% reporter satisfaction score
-        
-        **Community Growth:**
-        - Target: 15% increase in verified reporters
-        - Target: 25% improvement in reporter retention
-        - Target: 30% increase in high-quality submissions
-        """)
-    
-    with col2:
-        st.markdown("""
-        **📈 Business Impact:**
-        
-        **Customer Success:**
-        - Target: 20% improvement in low-performing organizations
-        - Target: 95% customer satisfaction score
-        - Target: 40% increase in program renewals
-        
-        **Market Position:**
-        - Target: 25% market share growth
-        - Target: 50% increase in enterprise customers
-        - Target: 35% improvement in competitive positioning
-        """)
+    st.subheader("Key Metrics to Track")
+    st.markdown("""
+- Bounty rate (current: 53%) — aim for incremental improvement.
+- Valid report rate among top reporters (>90%) — maintain and expand this group.
+- Organization engagement — increase the share of orgs with >70% bounty rates.
+- Volume of business logic and authentication issues — monitor for emerging trends.
+    """)
 
 def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analytics, time_trends):
     """Display trends analysis with narrative storytelling"""
