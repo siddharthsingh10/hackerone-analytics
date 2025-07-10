@@ -130,9 +130,6 @@ def main():
 def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_insights):
     """Display overview dashboard with key metrics"""
     st.header("Executive Overview")
-    st.markdown("""
-    A summary of platform-wide activity, including total reports, bounties, organizations, and top vulnerability types.
-    """)
     
     # Key metrics
     col1, col2, col3, col4 = st.columns(4)
@@ -213,9 +210,6 @@ def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_in
 def show_vulnerability_analysis(vulnerability_summary, time_trends):
     """Display vulnerability analysis"""
     st.header("Vulnerability Analysis")
-    st.markdown("""
-    Explore the most frequently reported vulnerability types and their bounty rates over time.
-    """)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -262,9 +256,6 @@ def show_vulnerability_analysis(vulnerability_summary, time_trends):
 def show_organization_metrics(org_metrics):
     """Display organization metrics"""
     st.header("Organization Metrics")
-    st.markdown("""
-    Review organization-level statistics, including report volume, bounty rates, and engagement.
-    """)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -311,9 +302,6 @@ def show_organization_metrics(org_metrics):
 def show_reporter_analytics(reporter_analytics):
     """Display reporter analytics"""
     st.header("Reporter Analytics")
-    st.markdown("""
-    Analyze reporter activity, validity rates, and specialization across the platform.
-    """)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -399,9 +387,6 @@ def show_time_trends(time_trends):
 def show_insights_and_recommendations(vulnerability_summary, org_metrics, reporter_analytics):
     """Display insights and recommendations"""
     st.header("Insights & Recommendations")
-    st.markdown("""
-    Key findings and actionable recommendations based on the data analysis.
-    """)
     
     # Key insights with expandable sections
     st.subheader("🔍 Key Insights")
@@ -637,9 +622,6 @@ def show_insights_and_recommendations(vulnerability_summary, org_metrics, report
 def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analytics, time_trends):
     """Display trends analysis with narrative storytelling"""
     st.header("Time Trends")
-    st.markdown("""
-    Visualize how key metrics and patterns have evolved over time on the platform.
-    """)
     
 
     
