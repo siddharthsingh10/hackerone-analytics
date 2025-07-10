@@ -75,7 +75,14 @@ def get_first_valid(series):
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🔒 HackerOne Analytics Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🕵️‍♂️ Welcome to HackerOne Analytics!</h1>', unsafe_allow_html=True)
+    st.markdown('''
+        <div style="text-align:center; font-size:1.2rem; margin-bottom:1.5rem;">
+        Curious about what hackers are finding? Want to see which organizations are leading the way, or who the top bug bounty hunters are?\
+        <br>Explore real data, spot trends, and discover stories behind the numbers.\
+        <br><br>Let’s dive in! 🚀
+        </div>
+    ''', unsafe_allow_html=True)
     
     # Load data
     vulnerability_summary, org_metrics, reporter_analytics, time_trends, key_insights = load_data()
@@ -123,7 +130,11 @@ def main():
 
 def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_insights):
     """Display overview dashboard with key metrics"""
-    st.header("📊 Executive Overview")
+    st.header("📊 The Big Picture: Platform at a Glance")
+    st.markdown("""
+    Welcome to your bug bounty data playground! Here’s a quick look at the platform’s pulse—how many reports, bounties, and organizations are making waves.\
+    <br>Scroll down to see what’s hot, who’s leading, and where the action is!
+    """, unsafe_allow_html=True)
     
     # Key metrics
     col1, col2, col3, col4 = st.columns(4)
@@ -165,7 +176,7 @@ def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_in
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("Top Vulnerability Types")
+        st.subheader("Top Vulnerability Types 🐞")
         # Filter out null/None/Unknown
         filtered_vulns = vulnerability_summary[~vulnerability_summary['weakness_name'].isin([None, np.nan, "None", "null", "nan", "Unknown", ""])]
         top_vulns = filtered_vulns.head(10).sort_values("total_reports", ascending=False)
@@ -177,14 +188,14 @@ def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_in
         st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("""
-        **📊 Chart Interpretation:**
-        - **Bar Height**: Total number of reports for each vulnerability type
-        - **Color Intensity**: Bounty rate percentage (darker = higher rate)
-        - **Key Insight**: Information Disclosure dominates with highest volume
+        **What’s going on here?**
+        - The tallest bars show the most-reported bug types.
+        - Color = bounty rate (darker = more $$$ paid out).
+        - **Fun fact:** Info Disclosure is the crowd favorite!
         """)
     
     with col2:
-        st.subheader("Organization Performance Matrix")
+        st.subheader("Organization Showdown 🏢 vs 💰")
         top_orgs = org_metrics.head(10)
         fig = px.scatter(top_orgs, x='total_reports', y='bounty_percentage',
                         size='avg_vote_count', hover_data=['team_name'],
@@ -194,16 +205,21 @@ def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_in
         st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("""
-        **📊 Chart Interpretation:**
-        - **X-Axis**: Total reports (volume)
-        - **Y-Axis**: Bounty rate (quality)
-        - **Bubble Size**: Average vote count (community engagement)
-        - **Top Right**: High volume, high quality organizations
+        **How to read this:**
+        - Right side = orgs that pay out more bounties.
+        - Higher up = more community engagement.
+        - Bubble size = how much the crowd cares (votes).
+        - Who’s your favorite?
         """)
 
 def show_vulnerability_analysis(vulnerability_summary, time_trends):
     """Display vulnerability analysis"""
-    st.header("🔍 Vulnerability Analysis")
+    st.header("🔍 What Are Hackers Finding Most Often?")
+    st.markdown("""
+    Here’s where we break down the most common vulnerabilities.\
+    <br>See which bug types are trending, and how bounty rates stack up.\
+    <br>Keep an eye out for surprises!
+    """, unsafe_allow_html=True)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -249,7 +265,11 @@ def show_vulnerability_analysis(vulnerability_summary, time_trends):
 
 def show_organization_metrics(org_metrics):
     """Display organization metrics"""
-    st.header("🏢 Organization Metrics")
+    st.header("🏢 Who’s Leading the Pack? Organization Metrics")
+    st.markdown("""
+    Which organizations are getting the most reports? Who’s paying out the most?\
+    <br>Check out the leaderboard and see who’s making a splash in the bug bounty world.
+    """, unsafe_allow_html=True)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -295,7 +315,11 @@ def show_organization_metrics(org_metrics):
 
 def show_reporter_analytics(reporter_analytics):
     """Display reporter analytics"""
-    st.header("👥 Reporter Analytics")
+    st.header("👥 Meet the Hunters: Reporter Analytics")
+    st.markdown("""
+    Who are the top bug bounty hunters?\
+    <br>See who’s submitting the most reports, who’s got the highest validity rates, and who’s making a name for themselves.
+    """, unsafe_allow_html=True)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -380,7 +404,11 @@ def show_time_trends(time_trends):
 
 def show_insights_and_recommendations(vulnerability_summary, org_metrics, reporter_analytics):
     """Display insights and recommendations"""
-    st.header("💡 Insights & Strategic Recommendations")
+    st.header("💡 Insights & Friendly Recommendations")
+    st.markdown("""
+    Here’s where we pull it all together.\
+    <br>Get quick takeaways, see what’s working, and find ideas for making the platform even better.
+    """, unsafe_allow_html=True)
     
     # Key insights with expandable sections
     st.subheader("🔍 Key Insights")
@@ -615,7 +643,11 @@ def show_insights_and_recommendations(vulnerability_summary, org_metrics, report
 
 def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analytics, time_trends):
     """Display trends analysis with narrative storytelling"""
-    st.header("📈 Trends & Narrative Analysis")
+    st.header("📈 The Story Over Time: Trends & Narrative")
+    st.markdown("""
+    Let’s zoom out and see how things have changed over the years.\
+    <br>Spot spikes, dips, and long-term trends in the world of bug bounties.
+    """, unsafe_allow_html=True)
     
 
     
@@ -813,7 +845,11 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
 
 def show_glossary():
     """Display glossary and data dictionary"""
-    st.header("📘 Glossary & Data Dictionary")
+    st.header("📘 Glossary: Don’t Get Lost in the Lingo!")
+    st.markdown("""
+    Not sure what something means? Here’s a handy glossary to help you out.\
+    <br>Hover over metrics in the dashboard for quick tips, too!
+    """, unsafe_allow_html=True)
     
     # Core Metrics
     st.subheader("📊 Core Metrics")
@@ -932,158 +968,3 @@ def show_glossary():
         **Specialization**
         - Definition: Primary vulnerability focus area
         - Calculation: `MODE(weakness_name) BY reporter_username`
-        - Business Impact: Expertise mapping and training needs
-        
-        **Verification Status**
-        - Definition: Reporter's verification level
-        - Source: Platform verification data
-        - Business Impact: Report credibility and prioritization
-        
-        **Average Vote Count**
-        - Definition: Average community engagement per reporter
-        - Calculation: `AVG(vote_count) BY reporter_username`
-        - Business Impact: Community influence and reputation
-        """)
-    
-    # Vulnerability Metrics
-    st.subheader("🔍 Vulnerability Metrics")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        **📊 Type Analysis:**
-        
-        **Vulnerability Type Distribution**
-        - Definition: Breakdown of reports by vulnerability category
-        - Calculation: `COUNT(*) GROUP BY weakness_name`
-        - Business Impact: Attack vector focus and defense priorities
-        
-        **Most Common Severity**
-        - Definition: Most frequent severity level per vulnerability type
-        - Calculation: `MODE(severity) BY weakness_name`
-        - Business Impact: Risk assessment and resource planning
-        
-        **Bounty Rate by Type**
-        - Definition: Bounty rate for specific vulnerability types
-        - Calculation: `(bounty_reports / total_reports) * 100 BY weakness_name`
-        - Business Impact: Vulnerability value and market demand
-        """)
-    
-    with col2:
-        st.markdown("""
-        **🎯 Trend Analysis:**
-        
-        **Vulnerability Evolution**
-        - Definition: Changes in vulnerability type popularity over time
-        - Calculation: `COUNT(*) BY year_month, weakness_name`
-        - Business Impact: Threat landscape and defense priorities
-        
-        **Severity Distribution**
-        - Definition: Breakdown of severity levels across vulnerability types
-        - Calculation: `COUNT(*) BY severity, weakness_name`
-        - Business Impact: Risk assessment and response prioritization
-        """)
-    
-    # Time-Based Metrics
-    st.subheader("⏰ Time-Based Metrics")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        **📈 Trend Metrics:**
-        
-        **Monthly Report Volume**
-        - Definition: Number of reports submitted per month
-        - Calculation: `COUNT(*) BY DATE_TRUNC('month', reported_at)`
-        - Business Impact: Platform growth and seasonal patterns
-        
-        **Monthly Bounty Rate**
-        - Definition: Percentage of reports receiving bounties per month
-        - Calculation: `(bounty_count / report_count) * 100 BY month`
-        - Business Impact: Quality trends and program evolution
-        
-        **Organization Participation**
-        - Definition: Number of organizations active per month
-        - Calculation: `COUNT(DISTINCT team_handle) BY month`
-        - Business Impact: Market expansion and diversity
-        """)
-    
-    with col2:
-        st.markdown("""
-        **🎯 Seasonal Analysis:**
-        
-        **Seasonal Patterns**
-        - Definition: Recurring patterns in report volume
-        - Analysis: Time series decomposition
-        - Business Impact: Resource planning and capacity management
-        
-        **Growth Trends**
-        - Definition: Long-term growth patterns
-        - Analysis: Year-over-year comparisons
-        - Business Impact: Strategic planning and investment decisions
-        """)
-    
-    # Data Quality Information
-    st.subheader("🔍 Data Quality Information")
-    
-    st.markdown("""
-    **📊 Data Completeness:**
-    - **Total Records**: 10,094 vulnerability reports
-    - **Time Span**: 2013-2024 (11+ years of data)
-    - **Organizations**: 328 unique teams
-    - **Reporters**: 3,896 unique researchers
-    - **Vulnerability Types**: 154 distinct categories
-    
-    **⚠️ Known Data Quality Issues:**
-    - **Null Values**: Minimal (1-2 per table)
-    - **Missing Severity**: 31 vulnerability types lack severity classification
-    - **Missing Specializations**: 520 reporters (13.3%) have no specialization data
-    - **Unclassified Reports**: 127 time-vulnerability combinations have null types
-    
-    **✅ Data Validation:**
-    - **Consistency**: Perfect across all tables
-    - **Calculations**: 100% accurate
-    - **Logical Relationships**: All constraints satisfied
-    - **No Duplicates**: Clean data structure
-    """)
-    
-    # Interpretation Guidelines
-    st.subheader("📖 Interpretation Guidelines")
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        **🎯 High-Value Insights:**
-        
-        **Bounty Rate Interpretation:**
-        - **High (70%+)**: Excellent report quality or generous organization
-        - **Medium (30-70%)**: Standard performance range
-        - **Low (<30%)**: May indicate quality issues or strict criteria
-        
-        **Vote Count Interpretation:**
-        - **High (50+ votes)**: Highly engaging or impactful vulnerabilities
-        - **Medium (10-50 votes)**: Standard community interest
-        - **Low (<10 votes)**: May indicate less critical or common issues
-        """)
-    
-    with col2:
-        st.markdown("""
-        **📊 Quality Tiers:**
-        
-        **Reporter Quality:**
-        - **Elite (95%+)**: Top-tier researchers
-        - **Good (80-95%)**: Reliable contributors
-        - **Average (60-80%)**: Standard performance
-        - **Needs Improvement (<60%)**: May need training/support
-        
-        **Organization Performance:**
-        - **Top Performers**: 90%+ bounty rates
-        - **Average**: 30-70% bounty rates
-        - **Low Performers**: <30% bounty rates
-        """)
-
-if __name__ == "__main__":
-    main() 
