@@ -36,4 +36,19 @@
 - Source of truth tables (CSV)
 - Streamlit dashboard
 - Presentation slides
-- README and submission package 
+- Comprehensive documentation
+
+## Documentation
+
+### Core Documentation
+- **README.md** - Project overview and setup instructions
+- **PROJECT_SUMMARY.md** - Complete project status and deliverables
+- **DATA_SCHEMA.md** - Source of truth tables structure and schema
+- **METRICS_DICTIONARY.md** - Detailed metric definitions and calculations
+- **DATA_QUALITY_ANALYSIS.md** - Data quality assessment and null handling
+
+### Technical Files
+- **process_data.py** - Data processing pipeline
+- **generate_insights.py** - Insights generation script
+- **requirements.txt** - Python dependencies
+- **dashboards/streamlit_app.py** - Interactive dashboard application 
