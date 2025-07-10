@@ -75,12 +75,11 @@ def get_first_valid(series):
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🕵️‍♂️ Welcome to HackerOne Analytics!</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">HackerOne Analytics Dashboard</h1>', unsafe_allow_html=True)
     st.markdown('''
-        <div style="text-align:center; font-size:1.2rem; margin-bottom:1.5rem;">
-        Curious about what hackers are finding? Want to see which organizations are leading the way, or who the top bug bounty hunters are?\
-        <br>Explore real data, spot trends, and discover stories behind the numbers.\
-        <br><br>Let’s dive in! 🚀
+        <div style="text-align:center; font-size:1.1rem; margin-bottom:1.5rem;">
+        Analyze vulnerability reports, organization performance, and researcher activity from the HackerOne platform.\
+        <br>Use the navigation to explore key metrics, trends, and insights.
         </div>
     ''', unsafe_allow_html=True)
     
@@ -130,11 +129,10 @@ def main():
 
 def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_insights):
     """Display overview dashboard with key metrics"""
-    st.header("📊 The Big Picture: Platform at a Glance")
+    st.header("Executive Overview")
     st.markdown("""
-    Welcome to your bug bounty data playground! Here’s a quick look at the platform’s pulse—how many reports, bounties, and organizations are making waves.\
-    <br>Scroll down to see what’s hot, who’s leading, and where the action is!
-    """, unsafe_allow_html=True)
+    A summary of platform-wide activity, including total reports, bounties, organizations, and top vulnerability types.
+    """)
     
     # Key metrics
     col1, col2, col3, col4 = st.columns(4)
@@ -214,12 +212,10 @@ def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_in
 
 def show_vulnerability_analysis(vulnerability_summary, time_trends):
     """Display vulnerability analysis"""
-    st.header("🔍 What Are Hackers Finding Most Often?")
+    st.header("Vulnerability Analysis")
     st.markdown("""
-    Here’s where we break down the most common vulnerabilities.\
-    <br>See which bug types are trending, and how bounty rates stack up.\
-    <br>Keep an eye out for surprises!
-    """, unsafe_allow_html=True)
+    Explore the most frequently reported vulnerability types and their bounty rates over time.
+    """)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -265,11 +261,10 @@ def show_vulnerability_analysis(vulnerability_summary, time_trends):
 
 def show_organization_metrics(org_metrics):
     """Display organization metrics"""
-    st.header("🏢 Who’s Leading the Pack? Organization Metrics")
+    st.header("Organization Metrics")
     st.markdown("""
-    Which organizations are getting the most reports? Who’s paying out the most?\
-    <br>Check out the leaderboard and see who’s making a splash in the bug bounty world.
-    """, unsafe_allow_html=True)
+    Review organization-level statistics, including report volume, bounty rates, and engagement.
+    """)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -315,11 +310,10 @@ def show_organization_metrics(org_metrics):
 
 def show_reporter_analytics(reporter_analytics):
     """Display reporter analytics"""
-    st.header("👥 Meet the Hunters: Reporter Analytics")
+    st.header("Reporter Analytics")
     st.markdown("""
-    Who are the top bug bounty hunters?\
-    <br>See who’s submitting the most reports, who’s got the highest validity rates, and who’s making a name for themselves.
-    """, unsafe_allow_html=True)
+    Analyze reporter activity, validity rates, and specialization across the platform.
+    """)
     
     # Filters with context
     st.subheader("🎛️ Analysis Filters")
@@ -404,11 +398,10 @@ def show_time_trends(time_trends):
 
 def show_insights_and_recommendations(vulnerability_summary, org_metrics, reporter_analytics):
     """Display insights and recommendations"""
-    st.header("💡 Insights & Friendly Recommendations")
+    st.header("Insights & Recommendations")
     st.markdown("""
-    Here’s where we pull it all together.\
-    <br>Get quick takeaways, see what’s working, and find ideas for making the platform even better.
-    """, unsafe_allow_html=True)
+    Key findings and actionable recommendations based on the data analysis.
+    """)
     
     # Key insights with expandable sections
     st.subheader("🔍 Key Insights")
@@ -643,11 +636,10 @@ def show_insights_and_recommendations(vulnerability_summary, org_metrics, report
 
 def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analytics, time_trends):
     """Display trends analysis with narrative storytelling"""
-    st.header("📈 The Story Over Time: Trends & Narrative")
+    st.header("Time Trends")
     st.markdown("""
-    Let’s zoom out and see how things have changed over the years.\
-    <br>Spot spikes, dips, and long-term trends in the world of bug bounties.
-    """, unsafe_allow_html=True)
+    Visualize how key metrics and patterns have evolved over time on the platform.
+    """)
     
 
     
