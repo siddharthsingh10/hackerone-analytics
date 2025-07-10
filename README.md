@@ -1,4 +1,6 @@
-# 🕵️‍♂️ HackerOne Analytics: Explore, Discover, and Visualize!
+# HackerOne Analytics: Explore, Discover, and Visualize!
+
+**[🌐 View the Live Dashboard](https://sid-hackerone-take-home.streamlit.app/)**
 
 Welcome! This project is all about making sense of real-world vulnerability reports from HackerOne. Whether you're a data nerd, a security enthusiast, or just curious about bug bounty trends, you'll find something cool here.
 
