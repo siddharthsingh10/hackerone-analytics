@@ -968,3 +968,7 @@ def show_glossary():
         **Specialization**
         - Definition: Primary vulnerability focus area
         - Calculation: `MODE(weakness_name) BY reporter_username`
+        """)
+
+if __name__ == "__main__":
+    main()
