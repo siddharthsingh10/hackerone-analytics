@@ -1,54 +1,50 @@
 # HackerOne Analytics Engineer Assignment
 
-## Project Structure
+## 🎯 Project Overview
+Interactive analytics dashboard for HackerOne vulnerability reports with data democratization and strategic insights.
 
-- `data/raw/` - Original dataset
-- `data/processed/` - Source of truth tables (CSV)
-- `notebooks/` - Jupyter notebooks for analysis
-- `dashboards/` - Streamlit dashboard app
-- `presentation/` - Slides and screenshots
+## 📊 Deliverables
+- **Source of Truth Tables**: 4 CSV files for data democratization
+- **Interactive Dashboard**: Streamlit app with real-time filtering
+- **Strategic Insights**: Business recommendations and trend analysis
+- **Documentation**: Complete setup and usage guides
 
-## Setup Instructions
+## 🚀 Quick Start
 
 1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Download the dataset:**
-   - Download the HackerOne Disclosed Reports dataset from HuggingFace: [Hacker0x01/hackerone_disclosed_reports](https://huggingface.co/datasets/Hacker0x01/hackerone_disclosed_reports)
-   - Place the raw data files in `data/raw/`
-
-3. **Run Jupyter Notebooks:**
+2. **Process data:**
    ```bash
-   jupyter lab
-   # or
-   jupyter notebook
+   python process_data.py
    ```
 
-4. **Run the Streamlit Dashboard:**
+3. **Run dashboard:**
    ```bash
-   streamlit run dashboards/streamlit_app.py
+   python -m streamlit run dashboards/streamlit_app.py
    ```
 
-## Deliverables
-- Jupyter notebooks (analysis workflow)
-- Source of truth tables (CSV)
-- Streamlit dashboard
-- Presentation slides
-- Comprehensive documentation
+## 📁 Project Structure
+```
+hackerone_assignment/
+├── data/
+│   ├── raw/                    # Original dataset (10,094 reports)
+│   └── processed/              # Source of truth tables
+├── dashboards/                 # Streamlit application
+├── notebooks/                  # Jupyter analysis notebooks
+├── process_data.py            # Data processing pipeline
+└── README.md                  # This file
+```
 
-## Documentation
+## 📈 Key Insights
+- **Information Disclosure** dominates vulnerability types (1,010 reports)
+- **Top organizations** achieve 90%+ bounty rates
+- **Elite reporters** maintain >96% validity rates
+- **Platform maturity** shows stabilized growth patterns
 
-### Core Documentation
-- **README.md** - Project overview and setup instructions
-- **PROJECT_SUMMARY.md** - Complete project status and deliverables
-- **DATA_SCHEMA.md** - Source of truth tables structure and schema
-- **METRICS_DICTIONARY.md** - Detailed metric definitions and calculations
-- **DATA_QUALITY_ANALYSIS.md** - Data quality assessment and null handling
-
-### Technical Files
-- **process_data.py** - Data processing pipeline
-- **generate_insights.py** - Insights generation script
-- **requirements.txt** - Python dependencies
-- **dashboards/streamlit_app.py** - Interactive dashboard application 
+## 📖 Documentation
+- **DATA_SCHEMA.md** - Source tables structure
+- **DATA_QUALITY_ANALYSIS.md** - Data quality assessment
+- **Glossary** - Available in dashboard for metric definitions 
