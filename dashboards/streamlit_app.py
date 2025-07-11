@@ -96,7 +96,7 @@ def main():
         "Choose a section:",
         ["📊 Overview", "🔍 Vulnerability Analysis", "🏢 Organization Metrics", 
          "👥 Reporter Analytics", "📈 Trends & Narrative", 
-         "💡 Insights & Recommendations", "📘 Glossary"]
+         "💡 Insights & Recommendations", "📘 Glossary", "🗂️ Raw Data Explorer"]
     )
     
     # Overview Page
@@ -126,6 +126,9 @@ def main():
     # Glossary Page
     elif page == "📘 Glossary":
         show_glossary()
+    # Raw Data Explorer
+    elif page == "🗂️ Raw Data Explorer":
+        show_raw_data_explorer()
 
 def show_overview(vulnerability_summary, org_metrics, reporter_analytics, key_insights):
     """Display overview dashboard with key metrics"""
@@ -786,6 +789,21 @@ def show_glossary():
         - Definition: Primary vulnerability focus area
         - Calculation: `MODE(weakness_name) BY reporter_username`
         """)
+
+def show_raw_data_explorer():
+    st.header("Raw Data Explorer")
+    try:
+        df = pd.read_csv('data/processed/cleaned_reports.csv')
+        vuln_types = sorted(df['weakness_name'].dropna().unique())
+        selected_vuln = st.selectbox("Filter by Vulnerability Type (optional):", ["All"] + vuln_types)
+        if selected_vuln != "All":
+            filtered_df = df[df['weakness_name'] == selected_vuln]
+        else:
+            filtered_df = df
+        st.dataframe(filtered_df, use_container_width=True, height=500)
+        st.caption(f"Showing {len(filtered_df):,} of {len(df):,} reports.")
+    except Exception as e:
+        st.error(f"Could not load raw data: {e}")
 
 if __name__ == "__main__":
     main()
