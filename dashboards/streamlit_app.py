@@ -531,10 +531,10 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
         st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("""
-        **💡 Quality Evolution:**
-        - **Early Days**: High bounty rates due to low report volume
-        - **Growth Phase**: Declining rates as volume increased
-        - **Maturity**: Stabilized rates around 50-60%
+        **Quality Evolution:**
+        - **Early Days:** High bounty rates due to low report volume.
+        - **Growth Phase:** Bounty rates declined as report volume increased.
+        - **Maturity:** Bounty rates have fluctuated but generally stabilized between 50-60% since 2016.
         """)
     
     with col2:
@@ -546,10 +546,9 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
         st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("""
-        **📊 Rate Analysis:**
-        - **Average Rate**: ~53% across all time periods
-        - **Consistency**: Rates have stabilized over time
-        - **Quality Focus**: Platform emphasizes report quality over quantity
+        **Rate Analysis:**
+        - **Average Rate:** ~53% across all time periods.
+        - **Consistency:** Bounty rates have remained within a stable band since 2016.
         """)
     
     # Vulnerability Type Evolution
@@ -567,11 +566,10 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
     st.plotly_chart(fig, use_container_width=True)
     
     st.markdown("""
-    **🎯 Vulnerability Insights:**
-    - **Information Disclosure**: Consistently dominant, indicating ongoing data protection challenges
-    - **XSS Variants**: Persistent threat despite security education
-    - **Authentication Issues**: Growing concern as systems become more complex
-    - **Business Logic**: Emerging category showing sophisticated attack vectors
+    **Vulnerability Insights:**
+    - **Information Disclosure:** Most reported vulnerability type over time.
+    - **XSS Variants:** Remain a persistent threat.
+    - **Authentication Issues & Business Logic:** Frequently reported, but no clear upward trend in recent years.
     """)
     
     # Organization Engagement Trends
@@ -590,10 +588,10 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
         st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("""
-        **📈 Engagement Growth:**
-        - **Early Adoption**: Limited organization participation
-        - **Market Expansion**: Growing enterprise adoption
-        - **Platform Maturity**: Diverse organization base
+        **Engagement Growth:**
+        - **Early Adoption:** Limited organization participation, increased through 2016-2018.
+        - **Peak & Decline:** Number of active organizations peaked around 2018 and has declined since.
+        - **Platform Maturity:** Diverse organization base, but recent participation is lower than peak years.
         """)
     
     with col2:
@@ -606,10 +604,8 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
         st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("""
-        **🌍 Market Diversity:**
-        - **Increasing Diversity**: More organizations participating
-        - **Geographic Spread**: Global adoption patterns
-        - **Industry Variety**: Multiple sectors represented
+        **Market Diversity:**
+        - **Diversity:** Multiple organizations from different sectors have participated over the years.
         """)
     
     # Strategic Implications
@@ -619,17 +615,9 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
     
     with col1:
         st.markdown("""
-        **🚀 Platform Optimization Opportunities:**
-        
-        **1. Quality Focus**
-        - Bounty rates have stabilized, indicating maturity
-        - Focus on report quality over quantity
-        - Implement AI-powered report validation
-        
-        **2. Vulnerability Prioritization**
-        - Information Disclosure remains top concern
-        - Develop automated detection for common patterns
-        - Create specialized training for emerging threats
+        **Quality Focus:** Maintain stable bounty rates and continue to monitor for shifts in vulnerability types.
+        - **Vulnerability Prioritization:** Information Disclosure and XSS should remain top priorities for detection and prevention.
+        - **Organization Engagement:** Consider outreach to re-engage organizations as participation has declined since 2018.
         """)
     
     with col2:
@@ -651,16 +639,10 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
     st.subheader("🔮 Future Outlook & Predictions")
     
     st.markdown("""
-    **📈 Growth Projections:**
-    - **Sustainable Growth**: Expect 5-10% annual growth in report volume
-    - **Quality Emphasis**: Bounty rates will remain stable around 50-60%
-    - **Market Expansion**: Continued geographic and industry diversification
-    
-    **🎯 Strategic Focus Areas:**
-    - **AI Integration**: Automated vulnerability detection and validation
-    - **Global Expansion**: Emerging markets and regional programs
-    - **Industry Specialization**: Sector-specific security frameworks
-    - **Community Development**: Enhanced training and certification programs
+    **Future Outlook:**
+    - **Report Volume:** Recent years show a decline in report volume; future trends should be monitored.
+    - **Bounty Rate:** Expect continued stability in bounty rates unless platform or program changes occur.
+    - **Vulnerability Landscape:** Continue tracking for any emerging or shifting vulnerability types.
     """)
 
 def show_glossary():
