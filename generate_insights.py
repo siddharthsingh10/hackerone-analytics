@@ -14,7 +14,14 @@ total_bounties = int(vulnerability_summary['bounty_reports'].sum())
 overall_bounty_rate = round((total_bounties / total_reports * 100), 2)
 
 # Get top performers
-top_vuln = str(vulnerability_summary.iloc[0]['weakness_name'])
+# Fix: Select the most-reported, non-null vulnerability type
+vuln_summary_sorted = vulnerability_summary[~vulnerability_summary['weakness_name'].isna() & (vulnerability_summary['weakness_name'] != '')]
+vuln_summary_sorted = vuln_summary_sorted.sort_values('total_reports', ascending=False)
+if not vuln_summary_sorted.empty:
+    top_vuln = str(vuln_summary_sorted.iloc[0]['weakness_name'])
+else:
+    top_vuln = "N/A"
+
 top_org = str(org_metrics.iloc[0]['team_name'])
 top_reporter = str(reporter_analytics.iloc[0]['username'])
 

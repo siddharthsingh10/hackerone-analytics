@@ -5,7 +5,7 @@
   "unique_organizations": 328,
   "active_reporters": 3896,
   "vulnerability_types": 152,
-  "top_vulnerability": "nan",
+  "top_vulnerability": "Information Disclosure",
   "top_organization": "Mail.ru",
   "top_reporter": "bobrov"
 }
