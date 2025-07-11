@@ -489,9 +489,9 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
         
         st.markdown("""
         **📈 Key Insights:**
-        - **Growth Pattern**: Report volume shows consistent growth with seasonal fluctuations
-        - **Peak Periods**: Q4 typically shows highest activity (holiday season)
-        - **Market Maturity**: Platform has reached steady-state with 10K+ reports annually
+        - **Growth Pattern:** Report volume grew rapidly in the early years, peaked between 2016 and 2020, and has declined since then.
+        - **Peak Periods:** Q4 often shows higher activity, but overall volume has dropped after 2020.
+        - **Market Maturity:** The platform reached a peak of ~1,500 reports per year, with total reports exceeding 10,000 across all years.
         """)
     
     with col2:
@@ -507,9 +507,9 @@ def show_trends_and_narrative(vulnerability_summary, org_metrics, reporter_analy
         
         st.markdown("""
         **🚀 Growth Analysis:**
-        - **Early Years**: Explosive growth as platform gained traction
-        - **Maturity Phase**: Stabilized growth with focus on quality
-        - **Future Outlook**: Sustainable growth with quality emphasis
+        - **Early Years:** Explosive growth as the platform gained traction.
+        - **Maturity Phase:** Growth stabilized and peaked between 2016 and 2020.
+        - **Recent Trend:** Report volume has declined since 2020, indicating a possible market shift or saturation.
         """)
     
     # Bounty Rate Trends
